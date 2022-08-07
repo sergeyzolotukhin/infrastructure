@@ -27,6 +27,12 @@ hs_err_pid*
 build/
 
 ### ide
+#
+# How to manage projects under Version Control Systems
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)
+#
+# Share IDE settings
+# https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html
 .idea/
 out/
 
@@ -50,4 +56,6 @@ library/lib-drool/lib/
 #### Antlr
 
 library/lib-antlr/src/main/gen/
+
+
 
