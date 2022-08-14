@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+    config.vm.define "docker-engine-1" do |d|
+        # Ubuntu 20.04.3 LTS - Focal Fossa
+        d.vm.box = "ubuntu/focal64"
+
+        d.vm.provider "virtualbox" do |vb|
+            vb.name = "docker-engine-shell-1"
+            vb.memory = "4048"
+            vb.gui = true
+        end
+
+        d.vm.provision "shell", path: "root-login-enable.sh"
+        d.vm.provision "shell", path: "docker-repository.sh"
+        d.vm.provision "shell", path: "docker-engine.sh"
+    end
+end
