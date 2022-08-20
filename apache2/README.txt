@@ -1,15 +1,10 @@
 ### Create SSL certificate (correct command)
-
-sudo openssl req -addext "subjectAltName=DNS:ubuntu-focal" -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache-selfsigned.key -out apache-selfsigned.crt -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=ubuntu-focal"
-
+    sudo openssl req -addext "subjectAltName=DNS:localhost" -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache-selfsigned.key -out apache-selfsigned.crt -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=localhost"
 ### Install SSL certificate to the "Trusted Root Certificate Authority"
-
 ### Chrome exit (restart)
 
-### Update windows host file with name ubuntu-focal
-
 ### Access to site via the following url
-https://ubuntu-focal
+https://localhost
 
 =======================================================================================================================
 Open questions:
@@ -18,24 +13,6 @@ Open questions:
 
 certmgr.msc - Certificate Manager tool (windows)
 https://adamtheautomator.com/windows-certificate-manager/
-
-### Example of not working command
-
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache-selfsigned.key -out apache-selfsigned.crt -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=ubuntu-focal"
-sudo openssl req -addext basicConstraints=critical,CA:TRUE,pathlen:1 -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache-selfsigned.key -out apache-selfsigned.crt -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=ubuntu-focal"
-
-openssl
-    req
-    -addext
-        basicConstraints=critical,CA:TRUE,pathlen:1
-    -x509
-    -nodes
-    -days 365
-    -newkey rsa:2048
-    -keyout apache-selfsigned.key
-    -out apache-selfsigned.crt
-    -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=ubuntu-focal"
 
 =======================================================================================================================
 private key
