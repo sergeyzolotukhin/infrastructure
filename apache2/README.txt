@@ -12,6 +12,12 @@ sudo openssl req -addext "subjectAltName=DNS:ubuntu-focal" -x509 -nodes -days 36
 https://ubuntu-focal
 
 =======================================================================================================================
+Open questions:
+    How to create certificate for VM with nat (access via localhost, port forwarding) ?
+=======================================================================================================================
+
+certmgr.msc - Certificate Manager tool (windows)
+https://adamtheautomator.com/windows-certificate-manager/
 
 ### Example of not working command
 
