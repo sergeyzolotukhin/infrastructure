@@ -47,6 +47,7 @@ certificate signing request (CSR)
     information about you
         Common Name (e.g., server FQDN)
 
+critical extension
 private key file contains
     private key
     public key
