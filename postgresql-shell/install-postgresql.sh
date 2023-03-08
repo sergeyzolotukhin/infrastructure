@@ -22,3 +22,6 @@ sudo su postgres -c "psql -a -f /vagrant/alter-postgres-password.sql"
 
 echo 'Restart postgresql'
 sudo systemctl restart postgresql
+
+echo 'Enable postgres login'
+echo -e "postgres\npostgres" | passwd postgres

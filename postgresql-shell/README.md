@@ -5,3 +5,8 @@
     5 save end line linux
     6 remove warning 
     7 reduce the output
+
+#### database user/password
+
+postgres
+postgres
