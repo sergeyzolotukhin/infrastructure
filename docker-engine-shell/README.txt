@@ -22,3 +22,7 @@ docker run localhost:5000/szolotukhin/hello-world
 docker container ls -a
 docker rm registry-1
 docker container rm mystifying_euclid
+=======================================================================================================================
+How to Run Docker in Verbose Mode?
+
+https://linuxhint.com/run-docker-verbose-mode/
