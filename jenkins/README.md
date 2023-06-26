@@ -5,3 +5,4 @@ https://www.popularowl.com/jenkins/automating-jenkins-install-docker-terraform/
 https://www.jenkins.io/doc/book/installing/offline/
 https://serverspace.ru/support/help/kak-avtomatizirovat-nastrojku-jenkins-s-pomoshhyu-docker-i-konfiguraczii-jenkins-kak-koda/
 https://verifa.io/blog/getting-started-with-jenkins-config-as-code/index.html
+https://www.jenkins.io/doc/book/system-administration/systemd-services/
