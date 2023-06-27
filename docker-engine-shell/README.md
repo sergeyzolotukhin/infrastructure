@@ -26,3 +26,15 @@ docker container rm mystifying_euclid
 How to Run Docker in Verbose Mode?
 
 https://linuxhint.com/run-docker-verbose-mode/
+
+dictionary
+=======================================================================================================================
+
+### Docker Image Name
+Docker Image actually does not have a name per se. 
+It has an ID, Repository and a Tag (which, according to Docker docs, stands by the way for Target Image, not the English word tag). 
+So, each time we refer to Docker Image name (either creating, running, removing, pulling it or etc.) 
+we actually refer to the Image Repository:Tag (target image).
+We just quite often happen to omit the tag part (by just writing the repository name, which we consider as an Image name), 
+and that’s when docker assumes default tag which is :latest (i.e. Target image latest)
+
