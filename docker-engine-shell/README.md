@@ -43,3 +43,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 #### How to add aliases to bashrc
 https://askubuntu.com/questions/211716/add-environment-variable-to-bashrc-through-script
 https://www.cyberciti.biz/faq/create-permanent-bash-alias-linux-unix/
+
+#### How to run nginix in docker
+docker run -it --rm -p 8081:80 --name web nginx
