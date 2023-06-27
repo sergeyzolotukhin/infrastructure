@@ -5,6 +5,8 @@ Vagrant.configure("2") do |config|
     config.vm.define "docker-engine-1" do |d|
         # Ubuntu 20.04.3 LTS - Focal Fossa
         d.vm.box = "ubuntu/focal64"
+        # Ubuntu 22.04.2 LTS - Jammy Jellyfish
+        # d.vm.box = "ubuntu/jammy64"
 
         d.vm.provider "virtualbox" do |vb|
             vb.name = "docker-engine-shell-1"
