@@ -39,3 +39,7 @@ We just quite often happen to omit the tag part (by just writing the repository 
 and that’s when docker assumes default tag which is :latest (i.e. Target image latest)
 
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+#### How to add aliases to bashrc
+https://askubuntu.com/questions/211716/add-environment-variable-to-bashrc-through-script
+https://www.cyberciti.biz/faq/create-permanent-bash-alias-linux-unix/
