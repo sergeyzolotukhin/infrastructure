@@ -38,3 +38,4 @@ we actually refer to the Image Repository:Tag (target image).
 We just quite often happen to omit the tag part (by just writing the repository name, which we consider as an Image name), 
 and that’s when docker assumes default tag which is :latest (i.e. Target image latest)
 
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
