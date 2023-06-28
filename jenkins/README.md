@@ -69,3 +69,4 @@ https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-job-con
 #### Create job
 
 https://verifa.io/blog/getting-started-with-jenkins-config-as-code/index.html
+https://github.com/jenkinsci/job-dsl-plugin/blob/master/docs/JCasC.md
