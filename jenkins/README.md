@@ -30,6 +30,10 @@ manually
     Yes, you can. Download the plugin (*.hpi file) and put it in the following directory:
     <jenkinsHome>/plugins/
 
+### How to create a jobs
+
+https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md
+
 ### Shell tee command
 
 The [tee] reads from standard input and writes to standard output and one or more files
