@@ -11,6 +11,25 @@ https://verifa.io/blog/getting-started-with-jenkins-config-as-code/index.html
 
 https://www.cinqict.nl/blog/building-a-jenkins-development-docker-image
 
+### How to install plugin
+Jenkins CLI
+    Using the CLI over SSH
+    Using the CLI client
+
+java -jar jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin <name>
+
+https://www.jenkins.io/doc/book/managing/cli/
+
+Plugin Installation Manager Tool.
+    https://github.com/jenkinsci/plugin-installation-manager-tool
+
+Groovy init script
+    https://stackoverflow.com/questions/34761047/how-to-install-jenkins-plugins-from-command-line
+
+manually
+    Yes, you can. Download the plugin (*.hpi file) and put it in the following directory:
+    <jenkinsHome>/plugins/
+
 ### Shell tee command
 
 The [tee] reads from standard input and writes to standard output and one or more files

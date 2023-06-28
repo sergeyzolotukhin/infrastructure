@@ -1,0 +1,6 @@
+jenkins:
+  numExecutors: 4
+unclassified:
+  locale:
+    ignoreAcceptLanguage: true
+    systemLocale: "en_US"
