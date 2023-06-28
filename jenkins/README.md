@@ -65,3 +65,7 @@ https://www.jenkins.io/blog/2017/02/07/declarative-maven-project/
 
 https://plugins.jenkins.io/job-dsl/
 https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-job-configuration-using-job-dsl
+
+#### Create job
+
+https://verifa.io/blog/getting-started-with-jenkins-config-as-code/index.html
