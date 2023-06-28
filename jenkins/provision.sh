@@ -24,6 +24,11 @@ sudo apt-get -y install jenkins > /dev/null 2>&1
 echo "Disabling Jenkins Setup Wizard"
 sudo cp -r /vagrant/lib/systemd/system/* /lib/systemd/system
 sudo systemctl daemon-reload
+
+echo "Remove Credentials Jenkins"
+sudo cp -r /vagrant/var/lib/jenkins/* /var/lib/jenkins
+sudo chown -R jenkins:jenkins /var/lib/jenkins/init.groovy.d
+
 sudo systemctl restart jenkins
 
 echo "Success"
