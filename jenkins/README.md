@@ -47,6 +47,7 @@ The file is opened before sudo is even run, by the shell, which is running as yo
 
 #### How to Create Personal Access Token on GitHub
 https://docs.github.com/ru/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+https://github.com/settings/tokens
 
 #### How to access form Jenkins to GitNub
 https://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@github.com/szolotukhin-java/maven.git
