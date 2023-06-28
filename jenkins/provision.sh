@@ -12,10 +12,18 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 echo "Updating the package lists"
 sudo apt-get update > /dev/null 2>&1
 
+echo "Installing Midnight Commander"
+sudo apt-get -y install mc > /dev/null 2>&1
+
 echo "Installing Java"
 sudo apt-get -y install default-jdk > /dev/null 2>&1
 
 echo "Installing Jenkins"
 sudo apt-get -y install jenkins > /dev/null 2>&1
+
+echo "Disabling Jenkins Setup Wizard"
+sudo cp -r /vagrant/lib/systemd/system/* /lib/systemd/system
+sudo systemctl daemon-reload
+sudo systemctl restart jenkins
 
 echo "Success"
