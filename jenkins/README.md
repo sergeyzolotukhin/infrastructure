@@ -44,3 +44,23 @@ sudo echo line >> /etc/apt/sources.list
 
 but the problem is, the file is not opened by sudo.
 The file is opened before sudo is even run, by the shell, which is running as your own user.
+
+#### How to Create Personal Access Token on GitHub
+https://docs.github.com/ru/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+#### How to access form Jenkins to GitNub
+https://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@github.com/szolotukhin-java/maven.git
+
+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
+
+https://stackoverflow.com/questions/61105368/how-to-use-github-personal-access-token-in-jenkins
+
+#### How to install maven and java on jenkins
+
+https://stackoverflow.com/questions/70681276/jenkins-pipeline-error-tool-type-maven-does-not-have-an-install
+https://www.jenkins.io/blog/2017/02/07/declarative-maven-project/
+
+### What is Job DSL in Jenkins
+
+https://plugins.jenkins.io/job-dsl/
+https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-job-configuration-using-job-dsl
