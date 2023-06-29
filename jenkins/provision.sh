@@ -21,6 +21,9 @@ sudo apt-get -y install default-jdk > /dev/null 2>&1
 echo "Installing Jenkins"
 sudo apt-get -y install jenkins > /dev/null 2>&1
 
+echo "Downloading Plugin Installation Manager Tool for Jenkins"
+wget --quiet https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.11/jenkins-plugin-manager-2.12.11.jar
+
 echo "Stopping Jenkins"
 sudo systemctl stop jenkins
 
@@ -30,15 +33,19 @@ sudo systemctl daemon-reload
 
 echo "Remove Credentials Jenkins"
 sudo cp -r /vagrant/var/lib/jenkins/* /var/lib/jenkins
-sudo chown -R jenkins:jenkins /var/lib/jenkins/init.groovy.d
+#sudo chown -R jenkins:jenkins /var/lib/jenkins/init.groovy.d
 
 echo "Installing Jenkins plugins"
-sudo cp -r /vagrant/var/lib/jenkins/plugins/* /var/lib/jenkins/plugins
-sudo chown -R jenkins:jenkins /var/lib/jenkins/plugins
+sudo java -jar jenkins-plugin-manager-2.12.11.jar \
+  --war /usr/share/java/jenkins.war \
+  --plugin-download-directory /var/lib/jenkins/plugins \
+  --plugin-file /vagrant/plugins.txt
 
 echo "Installing Configuration as Code"
 sudo cp -r /vagrant/var/lib/jenkins/jenkins.yaml /var/lib/jenkins/jenkins.yaml
-sudo chown jenkins:jenkins /var/lib/jenkins/jenkins.yaml
+
+echo "Setting Jenkins ownership "
+sudo chown -R jenkins:jenkins /var/lib/jenkins
 
 echo "Starting Jenkins"
 sudo systemctl start jenkins

@@ -1,0 +1,3 @@
+git
+locale
+configuration-as-code

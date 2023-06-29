@@ -92,6 +92,14 @@ https://github.com/alminium/alminium/blob/4db87a5ca456b74c53fdb078492d27dd6bfda1
 #### jenkins-plugin-manager NOT WORKING
 
 java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --plugin-file /your/path/to/plugins.txt --plugins delivery-pipeline-plugin:1.3.2 deployit-plugin
-java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --list --verbose
+java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --plugin-download-directory /var/lib/jenkins/plugins --list --verbose
+java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --plugin-download-directory /var/lib/jenkins/plugins --plugins git
+java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --plugin-download-directory /var/lib/jenkins/plugins --plugin-file ./plugins.txt 
 
 https://github.com/jenkinsci/jenkins/blob/master/core/src/main/resources/jenkins/install/platform-plugins.json
+
+sudo systemctl restart jenkins
+sudo systemctl start jenkins
+sudo systemctl stop jenkins
+
+wget https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.11/jenkins-plugin-manager-2.12.11.jar
