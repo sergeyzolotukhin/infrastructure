@@ -70,3 +70,13 @@ https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-job-con
 
 https://verifa.io/blog/getting-started-with-jenkins-config-as-code/index.html
 https://github.com/jenkinsci/job-dsl-plugin/blob/master/docs/JCasC.md
+
+#### How to install plugin in Jenkins
+
+Plugin Installation Manager Tool for Jenkins
+https://github.com/jenkinsci/plugin-installation-manager-tool
+
+#### systemd.unit — Unit configuration
+
+https://www.freedesktop.org/software/systemd/man/systemd.unit.html
+https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
