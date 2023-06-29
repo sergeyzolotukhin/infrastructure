@@ -33,7 +33,6 @@ sudo systemctl daemon-reload
 
 echo "Remove Credentials Jenkins"
 sudo cp -r /vagrant/var/lib/jenkins/* /var/lib/jenkins
-#sudo chown -R jenkins:jenkins /var/lib/jenkins/init.groovy.d
 
 echo "Installing Jenkins plugins"
 sudo java -jar jenkins-plugin-manager-2.12.11.jar \
