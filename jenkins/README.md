@@ -33,6 +33,9 @@ manually
 ### How to create a jobs
 
 https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md
+https://stackoverflow.com/questions/75603862/build-jenkins-using-jenkins-as-code-configuration-and-configure-jobs-in-the-code
+https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md
+https://stackoverflow.com/questions/54434162/how-to-create-a-jenkins-pipelinejob-via-configuration-as-code
 
 ### Shell tee command
 
