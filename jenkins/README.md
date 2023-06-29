@@ -80,3 +80,15 @@ https://github.com/jenkinsci/plugin-installation-manager-tool
 
 https://www.freedesktop.org/software/systemd/man/systemd.unit.html
 https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+
+#### How to use jenkins-cli to install plugin
+
+http://localhost:8080/jnlpJars/jenkins-cli.jar
+java -jar jenkins-cli.jar -s http://127.0.0.1:8080/ -auth admin:admin list-plugins
+java -jar jenkins-cli.jar -s http://127.0.0.1:8080/ -auth admin:admin list-plugins > plugins-cli.txt
+
+
+#### jenkins-plugin-manager NOT WORKING
+
+java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --plugin-file /your/path/to/plugins.txt --plugins delivery-pipeline-plugin:1.3.2 deployit-plugin
+java -jar jenkins-plugin-manager-2.12.11.jar --war /usr/share/java/jenkins.war --list --verbose
