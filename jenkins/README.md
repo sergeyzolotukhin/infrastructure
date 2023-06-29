@@ -103,3 +103,8 @@ sudo systemctl start jenkins
 sudo systemctl stop jenkins
 
 wget https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.11/jenkins-plugin-manager-2.12.11.jar
+
+
+#### How to install agent 
+
+https://devopscube.com/setup-slaves-on-jenkins-2/
