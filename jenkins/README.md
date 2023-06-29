@@ -87,6 +87,7 @@ http://localhost:8080/jnlpJars/jenkins-cli.jar
 java -jar jenkins-cli.jar -s http://127.0.0.1:8080/ -auth admin:admin list-plugins
 java -jar jenkins-cli.jar -s http://127.0.0.1:8080/ -auth admin:admin list-plugins > plugins-cli.txt
 
+https://github.com/alminium/alminium/blob/4db87a5ca456b74c53fdb078492d27dd6bfda1d3/inst-script/rhel6/jenkins-install
 
 #### jenkins-plugin-manager NOT WORKING
 
