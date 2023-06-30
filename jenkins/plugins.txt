@@ -19,3 +19,4 @@ email-ext
 mailer
 locale
 configuration-as-code
+blueocean
