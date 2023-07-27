@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+    config.vm.define "ubuntu-lunar-desktop-1" do |d|
+        # Ubuntu 23.04 (Lunar Lobster) - Desktop, Mot LTS
+        d.vm.box = "ubuntu/lunar64"
+
+        d.vm.network "public_network"
+
+        d.vm.provider "virtualbox" do |vb|
+            vb.name = "ubuntu-lunar-desktop"
+            vb.memory = "8096"
+            vb.gui = true
+        end
+
+        # d.vm.provision "shell", path: "root-login-enable.sh"
+    end
+end
