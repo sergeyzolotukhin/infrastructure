@@ -46,3 +46,8 @@ https://www.cyberciti.biz/faq/create-permanent-bash-alias-linux-unix/
 
 #### How to run nginx in docker
 docker run -it --rm -p 8081:80 --name web nginx
+
+### How to restart docker demon
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
