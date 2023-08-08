@@ -1,0 +1,29 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+disk = './.vagrant/persistence-disk-01.vdi'
+
+Vagrant.configure("2") do |config|
+  # Ubuntu 20.04.3 LTS - Focal Fossa
+  # config.vm.box = "ubuntu/focal64"
+  # Ubuntu 22.04.2 LTS - Jammy Jellyfish
+  config.vm.box = "ubuntu/jammy64"
+
+  config.vm.provider :virtualbox do |vb|
+    vb.name = "multiple-disks-1"
+    vb.memory = "2048"
+    vb.cpus = 2
+    vb.gui = true
+
+    unless File.exist?(disk)
+      vb.customize ['createhd', '--filename', disk, '--variant', 'Standard', '--size', 10 * 1024]
+    end
+    vb.customize ['storageattach', :id,  '--storagectl', 'SCSI', '--port', 2, '--device', 0, '--type', 'hdd', '--medium', disk]
+  end
+
+  # config.vm.network :forwarded_port, guest: 5432, host: 5432
+  config.vm.synced_folder ".", "/vagrant"
+  config.vm.provision "shell", path: "provision/root-login-enable.sh"
+  config.vm.provision "shell", path: "provision/partitions.sh"
+  # config.vm.provision "shell", path: "provision/install-postgresql.sh"
+end
