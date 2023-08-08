@@ -1,26 +1,27 @@
 #!/bin/bash
 
 sudo apt-get -y update
-echo 'Install parted ================================================================================================='
-sudo apt-get -y install parted
+echo '================================================================================================================'
 
-#sudo lshw -class disk -short
-
-sudo parted /dev/sdc mklabel msdos
-sudo parted /dev/sdc mkpart primary ext4 0% 100%
-
-sudo sleep 3
-
-echo 'Make file system ==============================================================================================='
-#-m swith tells mkfs to only reserve 1% of the blocks for the super block
-sudo mkfs.ext4 /dev/sdc1
-
-sudo e2label /dev/sdc1 "mnt"
-
-sudo chmod 777 /mnt
-
-sudo mount /dev/sdc1 /mnt
-sudo chmod 777 /mnt
+echo 'Install parted'
+sudo apt-get -y -q install parted
 
 echo 'Install tools'
-sudo apt-get -y install mc
+sudo apt-get -y -q install mc
+
+echo '================================================================================================================'
+
+echo "Create a partition table"
+sudo parted -s /dev/sdc mklabel msdos
+echo "Create a partition"
+sudo parted -s /dev/sdc mkpart primary ext4 0% 100%
+
+echo 'Make file system'
+sudo mkfs.ext4 -q /dev/sdc1
+
+echo 'Set the volume label for the second extended file system'
+sudo e2label /dev/sdc1 "mnt"
+echo 'mount a filesystem'
+sudo mount /dev/sdc1 /mnt
+
+echo '================================================================================================================'
