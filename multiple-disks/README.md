@@ -9,3 +9,13 @@ H/W path           Device     Class          Description
 /0/100/14/0.0.0    /dev/sda   disk           42GB HARDDISK
 /0/100/14/0.1.0    /dev/sdb   disk           10MB HARDDISK
 /0/100/14/0.2.0    /dev/sdc   disk           10GB HARDDISK
+
+### Action hooks
+
+https://developer.hashicorp.com/vagrant/docs/plugins/action-hooks
+
+### Vagrant Triggers
+
+https://developer.hashicorp.com/vagrant/docs/triggers/configuration
+
+### 
