@@ -18,38 +18,19 @@ Vagrant.configure("2") do |config|
     unless File.exist?(disk)
       vb.customize ['createhd', '--filename', disk, '--variant', 'Standard', '--size', 10 * 1024]
     end
-    vb.customize ['storageattach', :id,  '--storagectl', 'SCSI', '--port', 2, '--device', 0, '--type', 'hdd', '--medium', disk]
+    vb.customize ['storageattach', :id, '--storagectl', 'SCSI', '--port', 2, '--device', 0, '--type', 'hdd', '--medium', disk]
   end
 
-  # puts "====================== > " + config.trigger.class.name
-
   config.trigger.after :halt do |trigger|
-    trigger.info = "More information with ruby magic"
-    trigger.ruby do |env,machine|
-      # puts "======================" + machine.provider.class.name
-      # for m in machine.provider.methods
-      #   puts m
-      # end
-      puts "======================"
-      machine.provider.driver.execute('storageattach', machine.id,  '--storagectl', 'SCSI', '--port', '2', '--device', '0', '--type', 'hdd', '--medium', 'none', retryable: true)
-      # puts machine.provider.driver.execute('showvminfo', machine.id, '--machinereadable', retryable: true)
-      puts "======================"
-      # puts `VBoxManage showvminfo #{machine.id} --machinereadable | grep ostype`
+    trigger.info = "Detache storage"
+    trigger.ruby do |env, machine|
+      machine.provider.driver.execute('storageattach', machine.id, '--storagectl', 'SCSI', '--port', '2', '--device', '0', '--type', 'hdd', '--medium', 'none', retryable: true)
     end
   end
 
-  # config.vm.network :forwarded_port, guest: 5432, host: 5432
   config.vm.synced_folder ".", "/vagrant"
   config.vm.provision "shell", path: "provision/root-login-enable.sh"
   # config.vm.provision "shell", path: "provision/partitions.sh"
   # config.vm.provision "shell", path: "provision/install-postgresql.sh"
-
-  # config.trigger.before :destroy do |trigger|
-  #   trigger.warn = "Dumping database to /vagrant/outfile"
-  #   trigger.run_remote = {inline: "pg_dump dbname > /vagrant/outfile"}
-    # machine_id = :id
-    # trigger.run = {inline: "VBoxManage showvminfo #{machine_id} --machinereadable"}
-  # end
-
 
 end
