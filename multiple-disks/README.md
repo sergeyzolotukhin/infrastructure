@@ -18,4 +18,6 @@ https://developer.hashicorp.com/vagrant/docs/plugins/action-hooks
 
 https://developer.hashicorp.com/vagrant/docs/triggers/configuration
 
-### 
+### vagrant-persistent-storage
+
+https://github.com/kusnier/vagrant-persistent-storage/blob/master/lib/vagrant-persistent-storage/providers/virtualbox/driver/base.rb
