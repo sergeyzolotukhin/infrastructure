@@ -21,3 +21,8 @@ https://developer.hashicorp.com/vagrant/docs/triggers/configuration
 ### vagrant-persistent-storage
 
 https://github.com/kusnier/vagrant-persistent-storage/blob/master/lib/vagrant-persistent-storage/providers/virtualbox/driver/base.rb
+
+### Uninstall plugin
+vagrant plugin list
+vagrant plugin install vagrant-persistent-storage
+vagrant plugin uninstall vagrant-persistent-storage
