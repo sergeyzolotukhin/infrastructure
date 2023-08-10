@@ -26,3 +26,8 @@ https://github.com/kusnier/vagrant-persistent-storage/blob/master/lib/vagrant-pe
 vagrant plugin list
 vagrant plugin install vagrant-persistent-storage
 vagrant plugin uninstall vagrant-persistent-storage
+
+### vagrant create base box
+https://www.engineyard.com/blog/building-a-vagrant-box-from-start-to-finish/
+https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/boxes
+https://developer.hashicorp.com/vagrant/docs/boxes/base
