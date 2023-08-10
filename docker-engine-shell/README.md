@@ -51,3 +51,7 @@ docker run -it --rm -p 8081:80 --name web nginx
 
 sudo systemctl daemon-reload
 sudo systemctl restart docker
+
+docker volume create
+=======================================================================================================================
+https://docs.docker.com/engine/reference/commandline/volume_create/
