@@ -31,3 +31,4 @@ vagrant plugin uninstall vagrant-persistent-storage
 https://www.engineyard.com/blog/building-a-vagrant-box-from-start-to-finish/
 https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/boxes
 https://developer.hashicorp.com/vagrant/docs/boxes/base
+https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
