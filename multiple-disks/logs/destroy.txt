@@ -535,9 +535,11 @@ gin.rb:30>, :configure_disks=>#<Proc:0x077141a0 C:/vagrant/embedded/gems/2.3.2/g
 grant::Registry:0x085dc7c0 @items={:forwarded_ports=>#<Proc:0x06707358 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x06707328 C:/vagrant/embedded/gems/2
 .3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x067072e0 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:37>, :configure_disks=>#<Proc:0x06707
 148 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:42>, :cleanup_disks=>#<Proc:0x06707130 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:47>, :va
-lidate_disk_ext=>#<Proc:0x06707100 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:52>, :default_disk_exts=>#<Proc:0x067070b8 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/prov
-iders/virtualbox/plugin.rb:57>, :set_default_disk_ext=>#<Proc:0x06706f50 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:62>, :snapshot_list=>#<Proc:0x06706e60 C:/vagrant/embedded/gems/2.3
-.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:67>}, @results_cache={}>}>)
+lidate_disk_ext=>#<Proc:0x06707100 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:52>,
+:default_disk_exts=>#<Proc:0x067070b8 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:57>,
+:set_default_disk_ext=>#<Proc:0x06706f50 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:62>,
+:snapshot_list=>#<Proc:0x06706e60 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/plugins/providers/virtualbox/plugin.rb:67>
+}, @results_cache={}>}>)
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "27d23e40-f4a0-4833-a185-918fb6bef7cb", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
@@ -557,6 +559,7 @@ DEBUG environment: Attempting to acquire process-lock: dotlock
  INFO environment: Released process lock: dotlock
  INFO environment: Acquired process lock: machine-action-84bf83c043fa9980c36b72b18ac2c16c
  INFO interface: Machine: action ["destroy", "start", {:target=>:default}]
+
  INFO runner: Running action: machine_action_destroy #<Vagrant::Action::Builder:0x08640930>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::CheckVirtualbox:0x083ab9d0>
 DEBUG base: Windows, checking for VBoxManage on PATH first
@@ -574,14 +577,12 @@ DEBUG base: VBOX_INSTALL_PATH value: C:\soft\oraclevm-6.1\
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$(Get-WindowsOptionalFeature -FeatureN
-ame Microsoft-Hyper-V-Hypervisor).State"]
+ INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$(Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-Hypervisor).State"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$(Get-WindowsFeature -FeatureName Micr
-osoft-Hyper-V-Hypervisor).State"]
+ INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$(Get-WindowsFeature -FeatureName Microsoft-Hyper-V-Hypervisor).State"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
@@ -680,6 +681,7 @@ DEBUG subprocess: Exit status: 0
  INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::GracefulHalt:0x08dfd3b0>
  INFO runner: Running action: machine_action_destroy #<Vagrant::Action::Warden:0x08cdbd78>
  INFO warden: Calling IN action: #<Proc:0x08c15310 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/lib/vagrant/action/warden.rb:126 (lambda)>
+
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::ForcedHalt:0x08cdbd18>
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "27d23e40-f4a0-4833-a185-918fb6bef7cb", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
@@ -697,9 +699,11 @@ DEBUG subprocess: Exit status: 0
  INFO warden: Calling IN action: #<Proc:0x08cdbce8 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/lib/vagrant/action/warden.rb:126 (lambda)>
  INFO warden: Calling IN action: #<Proc:0x08f194e0 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/lib/vagrant/action/warden.rb:126 (lambda)>
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ConfigValidate:0x08510880>
+
  INFO interface: info: Using D:/projects-java/infrastructure/multiple-disks/.vagrant/persistence-disk-01.vdi for persistent storage.
  INFO interface: info: ==> default: Using D:/projects-java/infrastructure/multiple-disks/.vagrant/persistence-disk-01.vdi for persistent storage.
 ==> default: Using D:/projects-java/infrastructure/multiple-disks/.vagrant/persistence-disk-01.vdi for persistent storage.
+
  INFO warden: Calling IN action: #<VagrantPlugins::PersistentStorage::Action::DetachStorage:0x08510868>
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "27d23e40-f4a0-4833-a185-918fb6bef7cb", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...

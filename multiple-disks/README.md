@@ -16,6 +16,8 @@ https://developer.hashicorp.com/vagrant/docs/plugins/action-hooks
 ### Vagrant Triggers
 https://developer.hashicorp.com/vagrant/docs/triggers/configuration
 
+Experimental typed_triggers
+
 ### vagrant-persistent-storage
 https://github.com/kusnier/vagrant-persistent-storage/blob/master/lib/vagrant-persistent-storage/providers/virtualbox/driver/base.rb
 https://github.com/jtyr/vagrantfile_config/blob/master/Vagrantfile

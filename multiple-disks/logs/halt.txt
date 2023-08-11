@@ -559,7 +559,10 @@ DEBUG subprocess: Exit status: 0
  INFO warden: Calling IN action: #<Proc:0x061cb9c0 C:/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/lib/vagrant/action/warden.rb:126 (lambda)>
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x07d58768>
  INFO runner: Running action: machine_action_halt #<Vagrant::Action::Builder:0x07b6e088>
+
+
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::GracefulHalt:0x0732b880>
+
  INFO graceful_halt: Verifying source state of machine: :running
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "e2605d67-f834-418d-8fed-cf4a23411f05", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...

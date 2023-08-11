@@ -14,13 +14,13 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/jammy64"
 
   # second disk
-  config.persistent_storage.enabled = true
-  config.persistent_storage.location = disk
-  config.persistent_storage.size = 5000
-  config.persistent_storage.mountname = 'mysql'
-  config.persistent_storage.filesystem = 'ext4'
-  config.persistent_storage.mountpoint = '/var/lib/mysql'
-  config.persistent_storage.diskdevice = '/dev/sdc'
+  # config.persistent_storage.enabled = true
+  # config.persistent_storage.location = disk
+  # config.persistent_storage.size = 5000
+  # config.persistent_storage.mountname = 'mysql'
+  # config.persistent_storage.filesystem = 'ext4'
+  # config.persistent_storage.mountpoint = '/var/lib/mysql'
+  # config.persistent_storage.diskdevice = '/dev/sdc'
 
   config.vm.provider :virtualbox do |vb|
     vb.name = "multiple-disks-1"
@@ -35,11 +35,18 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "shell", path: "provision/install-postgresql.sh"
   config.vm.provision "shell", path: "provision/install-tools.sh"
 
-  puts '== >>> ' + config.class.name
-  puts '== >>> ' + config.vm.class.name
+  # config.trigger.after :halt do |trigger|
+  #   trigger.info = "Detache storage"
+  #   trigger.ruby do |env, machine|
+  #     machine.provider.driver.execute('storageattach', machine.id, '--storagectl', 'SCSI', '--port', '2', '--device', '0', '--type', 'hdd', '--medium', 'none', retryable: true)
+  #   end
+  # end
 
-  puts '>>> ' + ENV["VBOX_INSTALL_PATH"].to_s
-  puts '>>> ' + ENV["VBOX_MSI_INSTALL_PATH"].to_s
-
-  puts '=== >>> ...'
+  config.trigger.before :machine_action_halt, type: :hook do |t|
+    t.warn = "After action class!"
+    puts "SZ ===>"
+    t.ruby do |env, machine|
+      puts "DO SZ ===>"
+    end
+  end
 end
