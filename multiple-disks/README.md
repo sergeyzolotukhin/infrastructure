@@ -11,16 +11,15 @@ H/W path           Device     Class          Description
 /0/100/14/0.2.0    /dev/sdc   disk           10GB HARDDISK
 
 ### Action hooks
-
 https://developer.hashicorp.com/vagrant/docs/plugins/action-hooks
 
 ### Vagrant Triggers
-
 https://developer.hashicorp.com/vagrant/docs/triggers/configuration
 
 ### vagrant-persistent-storage
-
 https://github.com/kusnier/vagrant-persistent-storage/blob/master/lib/vagrant-persistent-storage/providers/virtualbox/driver/base.rb
+https://github.com/jtyr/vagrantfile_config/blob/master/Vagrantfile
+https://github.com/whamcloud/Vagrantfiles/blob/master/Vagrantfile
 
 ### Uninstall plugin
 vagrant plugin list
