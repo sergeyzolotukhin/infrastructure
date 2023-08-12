@@ -34,6 +34,7 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "shell", path: "provision/partitions.sh"
   # config.vm.provision "shell", path: "provision/install-postgresql.sh"
   config.vm.provision "shell", path: "provision/install-tools.sh"
+  # config.vm.provision :szshell, args: "Hello Serhij Zolotukhin"
 
   # config.trigger.after :halt do |trigger|
   #   trigger.info = "Detache storage"

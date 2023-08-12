@@ -28,6 +28,9 @@ vagrant plugin list
 vagrant plugin install vagrant-persistent-storage
 vagrant plugin uninstall vagrant-persistent-storage
 
+vagrant plugin install D:/projects-java/vagrant-sz-shell/pkg/vagrant-sz-shell-0.1.0.gem
+vagrant plugin uninstall vagrant-sz-shell
+
 set VAGRANT_EXPERIMENTAL="typed_triggers"
 
 ### vagrant create base box
@@ -44,3 +47,4 @@ https://guides.rubygems.org/make-your-own-gem/
 
 ### Ruby remote debug
 https://www.jetbrains.com/help/ruby/remote-debugging-with-product.html#configure_remote_interpreter
+
