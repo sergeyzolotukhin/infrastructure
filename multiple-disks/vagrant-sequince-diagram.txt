@@ -22,9 +22,15 @@ plugins/commands/up/command.rb  (Command -> execute)
 
 lib/vagrant/machine.rb (Machine -> action)
     1. receive actions ()
+    2. Call provider to get list of actions
+    3. Run list of action via Runner
 
 plugins/providers/virtualbox/provider.rb (ProviderVirtualBox -> Provider)
+    1. Build list of actions for command
 
 plugins/providers/virtualbox/action.rb (action_up)
     1. create a new builder
     3. add actions list to the builder
+
+lib/vagrant/action/runner.rb (Runner)
+    1 run actions
