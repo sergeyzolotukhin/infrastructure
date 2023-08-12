@@ -700,22 +700,26 @@ DEBUG subprocess: Exit status: 0
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x074d2e28>
  INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x0759bbd4>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::IsSaved:0x075f19a8>
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling OUT action: #<VagrantPlugins::ProviderVirtualBox::Action::IsSaved:0x075f19a8>
  INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x0770bd34>
  INFO warden: Calling IN action: #<Proc:0x064db290 C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x0770bc94>
  INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x065a02ac>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::IsPaused:0x06e62264>
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling OUT action: #<VagrantPlugins::ProviderVirtualBox::Action::IsPaused:0x06e62264>
  INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x074a183c>
  INFO warden: Calling IN action: #<Proc:0x0766af4c C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
@@ -1002,11 +1006,13 @@ DEBUG subprocess: Exit status: 0
  INFO interface: info: Booting VM...
  INFO interface: info: ==> default: Booting VM...
 ==> default: Booting VM...
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "startvm", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--type", "gui"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31994
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::Customize:0x07463a64>
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::WaitForCommunicator:0x074639d8>
  INFO interface: output: Waiting for machine to boot. This may take a few minutes...
@@ -1353,6 +1359,7 @@ VirtualBox Version: 7.0
  INFO warden: Calling IN action: #<Proc:0x074d2dec C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
  INFO warden: Calling IN action: #<VagrantPlugins::CommandUp::StoreBoxMetadata:0x0694bd84>
 DEBUG storeboxmetadata: Writing box metadata file to D:/projects-java/infrastructure/multiple-disks/.vagrant/machines/default/virtualbox/box_meta
+
  INFO warden: Calling OUT action: #<VagrantPlugins::CommandUp::StoreBoxMetadata:0x0694bd84>
  INFO warden: Calling OUT action: #<Proc:0x074d2dec C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
  INFO warden: Calling OUT action: #<Proc:0x0770bc58 C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
@@ -1388,29 +1395,35 @@ DEBUG subprocess: Exit status: 0
  INFO warden: Calling OUT action: #<VagrantPlugins::ProviderVirtualBox::Action::SetDefaultNICType:0x07731ac0>
  INFO warden: Calling OUT action: #<VagrantPlugins::ProviderVirtualBox::Action::PrepareNFSSettings:0x078fb48c>
  INFO synced_folders: Invoking synced folder enable: virtualbox
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "guestproperty", "get", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "/VirtualBox/GuestInfo/OS/Product"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO interface: output: Mounting shared folders...
  INFO interface: output: ==> default: Mounting shared folders...
 ==> default: Mounting shared folders...
  INFO interface: detail: /vagrant => D:/projects-java/infrastructure/multiple-disks
  INFO interface: detail:     default: /vagrant => D:/projects-java/infrastructure/multiple-disks
     default: /vagrant => D:/projects-java/infrastructure/multiple-disks
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: Searching for SSH port: 22
 DEBUG virtualbox_7_0: read_forward_ports: uuid=fb98de9b-8359-4f2b-b50c-0829261a26a7 active_only=false
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0:   - [1, "ssh", 2222, 22, "127.0.0.1"]
 DEBUG ssh: Checking whether SSH is ready...
 DEBUG ssh: Re-using SSH connection.
@@ -1766,6 +1779,7 @@ vagrant /vagrant vboxsf uid=1000,gid=1000,_netdev 0 0
 #VAGRANT-END' >> /etc/fstab (sudo=true)
 DEBUG ssh: stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
 DEBUG ssh: Exit status: 0
+
  INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::SyncedFolders:0x0770b76c>
  INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::Delayed:0x0770b8ac>
  INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::SyncedFolderCleanup:0x07639ec4>
