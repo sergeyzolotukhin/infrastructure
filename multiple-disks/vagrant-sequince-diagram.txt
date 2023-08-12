@@ -4,3 +4,27 @@ Runner ->
 Builder
 Warden
 Call
+
+lib/vagrant/environment.rb (Environment -> cli)
+    1. new CLI -> execute
+
+lib/vagrant/cli.rb (CLI)
+    0. parse parameter
+    1. find command class by name, new command class
+    2. run command via "execute"
+
+plugins/commands/up/plugin.rb  (Plugin)
+    1. define command "up"
+    2. add action_hook -> middleware -> store_box_metadata
+
+plugins/commands/up/command.rb  (Command -> execute)
+    ?
+
+lib/vagrant/machine.rb (Machine -> action)
+    1. receive actions ()
+
+plugins/providers/virtualbox/provider.rb (ProviderVirtualBox -> Provider)
+
+plugins/providers/virtualbox/action.rb (action_up)
+    1. create a new builder
+    3. add actions list to the builder
