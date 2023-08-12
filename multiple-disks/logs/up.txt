@@ -289,30 +289,31 @@ DEBUG config: Trigger defined for: environment_load
 DEBUG loader: Configuration loaded successfully, finalizing and returning
 DEBUG push: finalizing
  INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
- INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "Write-Output $PSVersionTable.PSVersion
-.Major"]
+
+ INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "Write-Output $PSVersionTable.PSVersion.Major"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 30
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "(new-object System.Security.Principal.
-WindowsPrincipal([System.Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)"]
+
+ INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "(new-object System.Security.Principal.WindowsPrincipal([System.Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "Write-Output ([System.Security.Princip
-al.WindowsIdentity]::GetCurrent().Groups | Select-Object Value | ConvertTo-JSON)"]
+
+ INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "Write-Output ([System.Security.Principal.WindowsIdentity]::GetCurrent().Groups | Select-Object Value | ConvertTo-JSON)"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$x = (Get-VMHost).Name; if($x -eq [Sys
-tem.Net.Dns]::GetHostName()){ Write-Output 'true'}"]
+
+ INFO subprocess: Starting process: ["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$x = (Get-VMHost).Name; if($x -eq [System.Net.Dns]::GetHostName()){ Write-Output 'true'}"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 1
+
 DEBUG base: Windows, checking for VBoxManage on PATH first
 DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
 DEBUG base: VBOX_INSTALL_PATH value: C:\soft\oraclevm-6.1\
@@ -443,34 +444,41 @@ DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
 DEBUG base: VBOX_INSTALL_PATH value: C:\soft\oraclevm-6.1\
  INFO base: VBoxManage path: C:\soft\oraclevm-6.1\VBoxManage.exe
 DEBUG virtualbox_7_0: validating LANG value for virtualbox cli commands
+
  INFO subprocess: Starting process: ["C:\\soft\\Vagrant\\embedded\\usr\\bin/locale.EXE", "-a"]
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: list of available C locales: ["C", "C.utf8", "POSIX", "en_US.utf8"]
 DEBUG virtualbox_7_0: valid variation found for LANG value: C.utf8
 DEBUG virtualbox_7_0: LANG value set: "C.utf8"
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
 DEBUG subprocess: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO interface: Machine: metadata ["provider", :virtualbox, {:target=>:default}]
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO command: With machine: default (#<VagrantPlugins::ProviderVirtualBox::Provider:0x0704b4a4 @logger=#<Log4r::Logger:0x0704b454 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @pa
 th="vagrant::provider", @parent=#<VagrantLogger:0x060aded4 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x062167e4 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x0501d8d0 @formatter=#<Log4r
 ::BasicFormatter:0x06232b38 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x060adb50 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machin
@@ -498,11 +506,13 @@ Vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:
 in.rb:47>, :validate_disk_ext=>#<Proc:0x0664967c C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:52>, :default_disk_exts=>#<Proc:0x06649640 C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/
 plugins/providers/virtualbox/plugin.rb:57>, :set_default_disk_ext=>#<Proc:0x06649618 C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:62>, :snapshot_list=>#<Proc:0x066495f0 C:/soft/Vagrant/e
 mbedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:67>}, @results_cache={}>}>)
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG command: Getting target VMs for command. Arguments:
 DEBUG command:  -- names: ["default"]
 DEBUG command:  -- options: {:provider=>nil}
@@ -510,16 +520,19 @@ DEBUG command: Finding machine that match name: default
  INFO command: Active machine found with name default. Using provider: virtualbox
  INFO environment: Getting machine: default (virtualbox)
  INFO environment: Returning cached machine: default (virtualbox)
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO command: With machine: default (#<VagrantPlugins::ProviderVirtualBox::Provider:0x0704b4a4 @logger=#<Log4r::Logger:0x0704b454 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @pa
 th="vagrant::provider", @parent=#<VagrantLogger:0x060aded4 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x062167e4 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x0501d8d0 @formatter=#<Log4r
 ::BasicFormatter:0x06232b38 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x060adb50 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machin
@@ -547,13 +560,16 @@ Vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:
 in.rb:47>, :validate_disk_ext=>#<Proc:0x0664967c C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:52>, :default_disk_exts=>#<Proc:0x06649640 C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/
 plugins/providers/virtualbox/plugin.rb:57>, :set_default_disk_ext=>#<Proc:0x06649618 C:/soft/Vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:62>, :snapshot_list=>#<Proc:0x066495f0 C:/soft/Vagrant/e
 mbedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:67>}, @results_cache={}>}>)
+
  INFO interface: info: Bringing machine 'default' up with 'virtualbox' provider...
 Bringing machine 'default' up with 'virtualbox' provider...
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO batch_action: Enabling parallelization by default.
  INFO batch_action: Disabling parallelization because provider doesn't support it: virtualbox
  INFO batch_action: Batch action will parallelize: false
@@ -760,53 +776,62 @@ DEBUG subprocess: Exit status: 0
  INFO provision: Sentinel found! Not provisioning.
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::EnvSet:0x074bbb9c>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::PrepareForwardedPortCollisionParams:0x074bbb4c>
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "list", "vms"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=de324964-ee62-40f9-9753-010d93076caf active_only=true
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "de324964-ee62-40f9-9753-010d93076caf", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=b59a300c-e8a1-4062-8509-8a0cbaa3603e active_only=true
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "b59a300c-e8a1-4062-8509-8a0cbaa3603e", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=eb310292-3d74-4a68-96ca-55a01f7433be active_only=true
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "eb310292-3d74-4a68-96ca-55a01f7433be", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=db3a2f8c-1ec3-4849-a7b2-d02c11ba426a active_only=true
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "db3a2f8c-1ec3-4849-a7b2-d02c11ba426a", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=063ac78f-b1d3-48cc-8e9c-524ecdd04b51 active_only=true
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "063ac78f-b1d3-48cc-8e9c-524ecdd04b51", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=846a9ce6-3d7d-4435-9d40-319746f46a09 active_only=true
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "846a9ce6-3d7d-4435-9d40-319746f46a09", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: read_forward_ports: uuid=fb98de9b-8359-4f2b-b50c-0829261a26a7 active_only=false
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::HandleForwardedPortCollisions:0x074bbad4>
 DEBUG environment: Attempting to acquire process-lock: fpcollision
 DEBUG environment: Attempting to acquire process-lock: dotlock
@@ -843,12 +868,14 @@ DEBUG subprocess: Exit status: 0
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Delayed:0x0770b8ac>
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::SyncedFolders:0x0770b76c>
  INFO synced_folders: SyncedFolders loading from cache: false
  INFO synced_folders: Synced Folder Implementation: virtualbox
  INFO synced_folders:   - /vagrant: . => /vagrant
  INFO synced_folders: Invoking synced folder prepare for: virtualbox
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "guestproperty", "get", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "/VirtualBox/GuestInfo/OS/Product"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
@@ -859,12 +886,12 @@ DEBUG subprocess: Exit status: 0
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "sharedfolder", "add", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--name", "vagrant", "--hostpath", "\\\\?\\D:\\projects-java\\infrastructure\\multiple-
-disks"]
+ INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "sharedfolder", "add", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--name", "vagrant", "--hostpath", "\\\\?\\D:\\projects-java\\infrastructure\\multiple-disks"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::PrepareNFSSettings:0x078fb48c>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::SetDefaultNICType:0x07731ac0>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::ClearNetworkInterfaces:0x0692c650>
@@ -909,24 +936,29 @@ DEBUG subprocess: Exit status: 0
  INFO interface: detail: 22 (guest) => 2222 (host) (adapter 1)
  INFO interface: detail:     default: 22 (guest) => 2222 (host) (adapter 1)
     default: 22 (guest) => 2222 (host) (adapter 1)
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "modifyvm", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--natpf1", "ssh,tcp,127.0.0.1,2222,,22"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::SetHostname:0x06926160>
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::SaneDefaults:0x06e283ac>
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "modifyvm", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--rtcuseutc", "on"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO sanedefaults: Automatically figuring out whether to enable/disable NAT DNS proxy...
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "modifyvm", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--natdnsproxy1", "on"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x06f21164>
  INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x07974f30>
  INFO warden: Calling IN action: #<Vagrant::Action::Builtin::IsEnvSet:0x07c019ec>
@@ -944,6 +976,7 @@ DEBUG is_env_set:  - Result: true
  INFO interface: info: Running 'pre-boot' VM customizations...
  INFO interface: info: ==> default: Running 'pre-boot' VM customizations...
 ==> default: Running 'pre-boot' VM customizations...
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "modifyvm", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--uart1", "0x3F8", "4"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
@@ -964,6 +997,7 @@ DEBUG subprocess: Exit status: 0
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::Boot:0x07463b2c>
  INFO interface: info: Booting VM...
  INFO interface: info: ==> default: Booting VM...
@@ -978,23 +1012,28 @@ DEBUG subprocess: Exit status: 0
  INFO interface: output: Waiting for machine to boot. This may take a few minutes...
  INFO interface: output: ==> default: Waiting for machine to boot. This may take a few minutes...
 ==> default: Waiting for machine to boot. This may take a few minutes...
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: Searching for SSH port: 22
 DEBUG virtualbox_7_0: read_forward_ports: uuid=fb98de9b-8359-4f2b-b50c-0829261a26a7 active_only=false
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0:   - [1, "ssh", 2222, 22, "127.0.0.1"]
  INFO interface: detail: SSH address: 127.0.0.1:2222
  INFO interface: detail:     default: SSH address: 127.0.0.1:2222
@@ -1005,18 +1044,22 @@ DEBUG virtualbox_7_0:   - [1, "ssh", 2222, 22, "127.0.0.1"]
  INFO interface: detail: SSH auth method: private key
  INFO interface: detail:     default: SSH auth method: private key
     default: SSH auth method: private key
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: Searching for SSH port: 22
 DEBUG virtualbox_7_0: read_forward_ports: uuid=fb98de9b-8359-4f2b-b50c-0829261a26a7 active_only=false
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0:   - [1, "ssh", 2222, 22, "127.0.0.1"]
  INFO ssh: Attempting SSH connection...
  INFO ssh: Attempting to connect to SSH...
@@ -1029,6 +1072,25 @@ DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"],
 r_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x07f3dde0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x07f3dd90 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x07f3dd18 @shif
 t_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x07f3de30>, @binmode=false, @mon_data=#<Monitor:0x07f3dcdc>, @mon_data_owner_object_id=25530>>, :keys=>["D:/projects-java/infrastructure/multip
 le-disks/.vagrant/machines/default/virtualbox/private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+
+ INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+
+ INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+
+ INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
@@ -1084,21 +1146,7 @@ DEBUG subprocess: Exit status: 0
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
- INFO subprocess: Command not in installer, restoring original environment...
-DEBUG subprocess: Selecting on IO
-DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
-DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
- INFO subprocess: Command not in installer, restoring original environment...
-DEBUG subprocess: Selecting on IO
-DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
-DEBUG subprocess: Exit status: 0
- INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
- INFO subprocess: Command not in installer, restoring original environment...
-DEBUG subprocess: Selecting on IO
-DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
-DEBUG subprocess: Exit status: 0
+
 DEBUG ssh: == Net-SSH connection debug-level log START ==
 DEBUG ssh: D, [2023-08-12T19:56:53.367512 #8512] DEBUG -- net.ssh.transport.session[63c4]: establishing connection to 127.0.0.1:2222
 D, [2023-08-12T19:56:53.368255 #8512] DEBUG -- net.ssh.transport.session[63c4]: connection established
@@ -1114,18 +1162,22 @@ agent or removing some keys and try again.
 If the problem persists, please report a bug to the net-ssh project.
 
 timeout during server version negotiating>
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0: Searching for SSH port: 22
 DEBUG virtualbox_7_0: read_forward_ports: uuid=fb98de9b-8359-4f2b-b50c-0829261a26a7 active_only=false
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
 DEBUG virtualbox_7_0:   - [1, "ssh", 2222, 22, "127.0.0.1"]
  INFO ssh: Attempting SSH connection...
  INFO ssh: Attempting to connect to SSH...
@@ -1218,6 +1270,7 @@ DEBUG ssh: Re-using SSH connection.
  INFO ssh: Execute:  (sudo=false)
 DEBUG ssh: stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
 DEBUG ssh: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
@@ -1236,6 +1289,7 @@ DEBUG virtualbox_7_0:   - [1, "ssh", 2222, 22, "127.0.0.1"]
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO interface: output: Machine booted and ready!
  INFO interface: output: ==> default: Machine booted and ready!
 ==> default: Machine booted and ready!
@@ -1254,16 +1308,19 @@ DEBUG is_env_set:  - Result: true
  INFO interface: output: Checking for guest additions in VM...
  INFO interface: output: ==> default: Checking for guest additions in VM...
 ==> default: Checking for guest additions in VM...
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "guestproperty", "get", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "/VirtualBox/GuestAdd/Version"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO subprocess: Starting process: ["C:\\soft\\oraclevm-6.1\\VBoxManage.exe", "showvminfo", "fb98de9b-8359-4f2b-b50c-0829261a26a7", "--machinereadable"]
  INFO subprocess: Command not in installer, restoring original environment...
 DEBUG subprocess: Selecting on IO
 DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
 DEBUG subprocess: Exit status: 0
+
  INFO interface: detail: The guest additions on this VM do not match the installed version of
 VirtualBox! In most cases this is fine, but in rare cases it can
 prevent things such as shared folders from working properly. If you see
