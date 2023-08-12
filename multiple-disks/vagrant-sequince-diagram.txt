@@ -18,7 +18,9 @@ plugins/commands/up/plugin.rb  (Plugin)
     2. add action_hook -> middleware -> store_box_metadata
 
 plugins/commands/up/command.rb  (Command -> execute)
-    ? parse command options
+    1 parse command options
+    2. Crate batch of actions
+    3. Ruu batch of actions
 
 lib/vagrant/batch_action.rb (BatchAction)
 
