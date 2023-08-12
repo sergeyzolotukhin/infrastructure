@@ -39,5 +39,8 @@ https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
 ### Developing custom plugin
 https://docs.w3cub.com/vagrant/plugins/provisioners
 
+### Creating and publishing your own gem (Ruby)
+https://guides.rubygems.org/make-your-own-gem/
+
 ### Ruby remote debug
 https://www.jetbrains.com/help/ruby/remote-debugging-with-product.html#configure_remote_interpreter
