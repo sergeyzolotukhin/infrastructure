@@ -1,11 +1,11 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-unless Vagrant.has_plugin?("vagrant-persistent-storage")
-  abort 'The Vagrant vagrant-persistent-storage plugin must be install prior to building this VM (vagrant plugin install vagrant-persistent-storage)'
-end
+# unless Vagrant.has_plugin?("vagrant-persistent-storage")
+#   abort 'The Vagrant vagrant-persistent-storage plugin must be install prior to building this VM (vagrant plugin install vagrant-persistent-storage)'
+# end
 
-disk = './.vagrant/persistence-disk-01.vdi'
+# disk = './.vagrant/persistence-disk-01.vdi'
 
 Vagrant.configure("2") do |config|
   # Ubuntu 20.04.3 LTS - Focal Fossa
@@ -42,11 +42,14 @@ Vagrant.configure("2") do |config|
   #   end
   # end
 
-  config.trigger.before :machine_action_halt, type: :hook do |t|
-    t.warn = "After action class!"
-    puts "SZ ===>"
+  config.trigger.before :environment_load, type: :hook do |t|
+    t.info = 'NEVER CALLED'
     t.ruby do |env, machine|
-      puts "DO SZ ===>"
+      raise 'NEVER RAISED'
     end
   end
+
+  # config.hostmanager.enabled = true
+  # config.hostmanager.manage_host = true
+  # config.hostmanager.manage_guest = true
 end
