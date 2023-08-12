@@ -14,11 +14,13 @@ lib/vagrant/cli.rb (CLI)
     2. run command via "execute"
 
 plugins/commands/up/plugin.rb  (Plugin)
-    1. define command "up"
+    1. registrate command "up"
     2. add action_hook -> middleware -> store_box_metadata
 
 plugins/commands/up/command.rb  (Command -> execute)
-    ?
+    ? parse command options
+
+lib/vagrant/batch_action.rb (BatchAction)
 
 lib/vagrant/machine.rb (Machine -> action)
     1. receive actions ()
