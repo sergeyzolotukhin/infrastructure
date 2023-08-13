@@ -24,6 +24,7 @@ https://github.com/jtyr/vagrantfile_config/blob/master/Vagrantfile
 https://github.com/whamcloud/Vagrantfiles/blob/master/Vagrantfile
 
 ### Uninstall plugin
+https://github.com/arnaud-dezandee/vagrant-box-gcs
 vagrant plugin list
 vagrant plugin install vagrant-persistent-storage
 vagrant plugin uninstall vagrant-persistent-storage
