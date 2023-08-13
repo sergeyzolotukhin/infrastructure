@@ -1,12 +1,19 @@
 Boot [Action]
 
+Environment
+Vagrantfile
+Loader          - This class is responsible for loading Vagrant configuration. vagrantfile -> config
+
 Runner ->
 Builder
 Warden
 Call
 
+
+
 lib/vagrant/environment.rb (Environment -> cli)
     1. new CLI -> execute
+    2. config_loader
 
 lib/vagrant/cli.rb (CLI)
     0. parse parameter

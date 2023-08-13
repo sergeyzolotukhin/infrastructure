@@ -22,11 +22,21 @@ Vagrant.configure("2") do |config|
   # config.persistent_storage.mountpoint = '/var/lib/mysql'
   # config.persistent_storage.diskdevice = '/dev/sdc'
 
-  config.vm.provider :virtualbox do |vb|
-    vb.name = "multiple-disks-1"
-    vb.memory = "2048"
-    vb.cpus = 2
-    vb.gui = true
+  # config = Vagrant::Config::V2::Root
+  # config.vm = VagrantPlugins::Kernel_V2::VMConfig
+
+  config.vm.define "m1" do |d|
+    # d.class.name = Vagrant::Config::V2::Root
+    d.store args: "123"
+
+    d.vm.provider :virtualbox do |vb|
+      # vb = VagrantPlugins::ProviderVirtualBox::Config
+
+      vb.name = "multiple-disks-1"
+      vb.memory = "2048"
+      vb.cpus = 2
+      vb.gui = true
+    end
   end
 
   config.vm.synced_folder ".", "/vagrant"
@@ -35,8 +45,8 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "shell", path: "provision/partitions.sh"
   # config.vm.provision "shell", path: "provision/install-postgresql.sh"
   # config.vm.provision "shell", path: "provision/install-tools.sh"
-  config.vm.provision :szshell, args: "Hello Serhij Zolotukhin 1"
-  config.vm.provision :szshell_1, args: "Hello Serhij Zolotukhin 2"
+  # config.vm.provision :szshell, args: "Hello Serhij Zolotukhin 1"
+  # config.vm.provision :szshell_1, args: "Hello Serhij Zolotukhin 2"
 
   # config.trigger.after :halt do |trigger|
   #   trigger.info = "Detache storage"
@@ -45,12 +55,12 @@ Vagrant.configure("2") do |config|
   #   end
   # end
 
-  config.trigger.before :environment_load, type: :hook do |t|
-    t.info = 'NEVER CALLED'
-    t.ruby do |env, machine|
-      raise 'NEVER RAISED'
-    end
-  end
+  # config.trigger.before :environment_load, type: :hook do |t|
+  #   t.info = 'NEVER CALLED'
+  #   t.ruby do |env, machine|
+  #     raise 'NEVER RAISED'
+  #   end
+  # end
 
   # config.hostmanager.enabled = true
   # config.hostmanager.manage_host = true
