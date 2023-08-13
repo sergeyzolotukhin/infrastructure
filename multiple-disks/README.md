@@ -48,3 +48,5 @@ https://guides.rubygems.org/make-your-own-gem/
 ### Ruby remote debug
 https://www.jetbrains.com/help/ruby/remote-debugging-with-product.html#configure_remote_interpreter
 
+gem install ruby-debug-ide --pre
+rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- vagrant provision
