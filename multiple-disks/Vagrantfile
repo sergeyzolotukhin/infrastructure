@@ -27,7 +27,11 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "m1" do |d|
     # d.class.name = Vagrant::Config::V2::Root
-    d.store args: "123"
+    # d.store args: "123-1"
+    d.store.args = "123-1"
+    d.store.args = "123-2"
+    d.store.provision :persist_1, a1: "Name A", a2: "Name B", a3: "Name C"
+    d.store.provision :persist_2, b1: "Name D", b2: "Name E", b3: "Name F"
 
     d.vm.provider :virtualbox do |vb|
       # vb = VagrantPlugins::ProviderVirtualBox::Config
