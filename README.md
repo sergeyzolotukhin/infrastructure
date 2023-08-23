@@ -121,3 +121,17 @@ user    0m 0.321s
 sys     0m 0.029s
 
 real    0m 8.884s
+
+### How to start stop database server
+
+time systemctl stop postgresql
+
+real    0m 0.007s
+user    0m 0.003s
+sys     0m 0.000s
+
+time systemctl start postgresql
+
+real    0m 2.229s
+user    0m 0.006s
+sys     0m 0.000s
