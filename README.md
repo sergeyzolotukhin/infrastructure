@@ -88,6 +88,8 @@ real    0m 1.553s
 user    0m 0.138s
 sys     0m 0.148s
 
+real    0m 1.939s
+
 -rw-rw-r-- 1 postgres postgres 110M Aug 23 20:45 demo.dump
 
 time pg_dump -Fc --file=demo.dump demo
@@ -117,3 +119,5 @@ time pg_restore -d demo demo.dump
 real    0m 9.231s
 user    0m 0.321s
 sys     0m 0.029s
+
+real    0m 8.884s
