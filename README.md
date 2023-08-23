@@ -35,3 +35,31 @@ order by pg_database_size(t1.datname) desc;
 |demo         |281 MB |
 +-------------+-------+
 
+### Where does PostgreSQL store the database?
+
+show data_directory;
+
++---------------------------+
+|data_directory             |
++---------------------------+
+|/var/lib/postgresql/14/main|
++---------------------------+
+
+### How to create tablespace
+su postgres
+cd /var/lib/postgresql/14
+mkdir demo_tablespace
+
+CREATE TABLESPACE demo_tablespace
+OWNER postgres
+LOCATION '/var/lib/postgresql/14/demo_tablespace';
+
+### How to move database to another tablespace
+
+ALTER DATABASE demo SET TABLESPACE demo_tablespace
+
+### Getting the Size of a Directory
+
+du -sh /var/lib/postgresql/14/demo_tablespace
+
+281M    /var/lib/postgresql/14/demo_tablespace
