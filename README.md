@@ -155,6 +155,7 @@ sys     0m 0.000s
 TODO: Non-Durable Settings
 https://www.postgresql.org/docs/current/non-durability.html
 https://stackoverflow.com/questions/9407442/optimise-postgresql-for-fast-testing
+ALTER TABLE table_test SET LOGGED;
 =======================================================================================================================
 visiobud 
 1 - 09 - 2023
