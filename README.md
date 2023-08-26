@@ -152,6 +152,9 @@ real    0m 2.229s
 user    0m 0.006s
 sys     0m 0.000s
 
+TODO: Non-Durable Settings
+https://www.postgresql.org/docs/current/non-durability.html
+https://stackoverflow.com/questions/9407442/optimise-postgresql-for-fast-testing
 =======================================================================================================================
 visiobud 
 1 - 09 - 2023
