@@ -8,7 +8,7 @@ echo '==========================================================================
 echo 'Install docker engine'
 echo '================================================================================================================'
 sudo apt-get update
-sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 #sudo apt-get -y install docker-compose-plugin
 
 echo 'Enable remote access to docker'
