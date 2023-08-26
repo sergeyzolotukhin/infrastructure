@@ -35,6 +35,10 @@ order by pg_database_size(t1.datname) desc;
 |demo         |281 MB |
 +-------------+-------+
 
+### How to check disk usage
+
+du -h .
+
 ### Where does PostgreSQL store the database?
 
 show data_directory;
