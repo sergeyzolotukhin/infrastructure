@@ -53,15 +53,27 @@ show data_directory;
 su postgres
 cd /var/lib/postgresql/14
 mkdir demo_tablespace
+mkdir demo_tablespace_01
 
 CREATE TABLESPACE demo_tablespace
 OWNER postgres
 LOCATION '/var/lib/postgresql/14/demo_tablespace';
 
+CREATE TABLESPACE demo_tablespace_01
+OWNER postgres
+LOCATION '/var/lib/postgresql/14/demo_tablespace_01';
+
 ### How to drop database
 
 DROP DATABASE demo
 create DATABASE demo TABLESPACE demo_tablespace
+
+### How to create a template database
+* https://www.postgresql.org/docs/current/sql-createdatabase.html
+
+CREATE DATABASE demo_01
+WITH TEMPLATE demo
+TABLESPACE demo_tablespace_01;
 
 ### How to show list of database
 
