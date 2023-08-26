@@ -58,5 +58,7 @@ library/lib-drool/lib/
 
 library/lib-antlr/src/main/gen/
 
+#### Databse dump
+*.dump
 
 
