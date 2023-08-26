@@ -16,8 +16,9 @@ Vagrant.configure("2") do |config|
 
         d.vm.network :private_network, ip: "192.168.56.2"
 
-        d.vm.provision "shell", path: "root-login-enable.sh"
+        # d.vm.provision "shell", path: "root-login-enable.sh"
 #         d.vm.provision "shell", path: "docker-repository.sh"
-        d.vm.provision "shell", path: "docker-engine.sh"
+#         d.vm.provision "shell", path: "docker-engine.sh"
+        d.vm.provision "shell", path: "docker-compose.sh"
     end
 end
