@@ -106,7 +106,7 @@ sys     0m0.032s
 
 ### How to restore database
 
-pg_restore -Fc -f demo.dump
+pg_restore -d demo demo.dump
 
 pg_dump -Fc --file=demo.dump demo
 dropdb demo
