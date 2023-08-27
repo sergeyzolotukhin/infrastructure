@@ -24,8 +24,8 @@ then
 fi
 
 echo "Create folder for tablespace"
-sudo -u postgres mkdir /var/lib/postgresql/14/demo_tablespace
-sudo -u postgres mkdir /var/lib/postgresql/14/demo_tablespace_01
+sudo -u postgres mkdir $DATA_HOME/demo_tablespace
+sudo -u postgres mkdir $DATA_HOME/demo_tablespace_01
 
 echo "Create tablespace"
 sudo -u postgres psql -c "CREATE TABLESPACE demo_tablespace    OWNER postgres LOCATION '${DATA_HOME}/demo_tablespace'"
