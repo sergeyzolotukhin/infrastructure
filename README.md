@@ -80,6 +80,12 @@ TABLESPACE demo_tablespace_01;
 SELECT datname FROM pg_database;
 SELECT * FROM pg_tablespace;
 
+SELECT datname
+FROM pg_database;
+
+SELECT spcname, pg_tablespace_location(oid)
+FROM pg_tablespace;
+
 ### How to move database to another tablespace
 
 ALTER DATABASE demo SET TABLESPACE demo_tablespace
