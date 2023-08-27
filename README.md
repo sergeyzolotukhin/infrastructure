@@ -162,6 +162,11 @@ TODO: Non-Durable Settings
 https://www.postgresql.org/docs/current/non-durability.html
 https://stackoverflow.com/questions/9407442/optimise-postgresql-for-fast-testing
 ALTER TABLE table_test SET LOGGED;
+
+
+### How to Create a Ramdisk in Linux
+https://linuxhint.com/create-ramdisk-linux/
+
 =======================================================================================================================
 visiobud 
 1 - 09 - 2023
