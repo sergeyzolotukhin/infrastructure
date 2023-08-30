@@ -167,6 +167,31 @@ ALTER TABLE table_test SET LOGGED;
 ### How to Create a Ramdisk in Linux
 https://linuxhint.com/create-ramdisk-linux/
 
+Vagrant to do 
+=======================================================================================================================
+proxy:
+    use env variable
+        VAGRANT_HTTP_PROXY
+        VAGRANT_HTTPS_PROXY
+        VAGRANT_FTP_PROXY
+        VAGRANT_NO_PROXY
+    Current Open Command Prompt
+        set http_proxy=http://yourproxyserver:port
+        set https_proxy=https://yourproxyserver:port
+    Permantly Set
+        setx http_proxy=http://yourproxyserver:port
+        setx https_proxy=https://yourproxyserver:port
+    Docker
+        https://dev.to/shriharshmishra/behind-the-corporate-proxy-2jd8
+    Other
+        gem install vagrant-proxy
+        vagrant-proxyconf plugin
+        
+ssl certificate:
+    vagrant-certificates
+        https://medium.com/@bcoste/vagrant-provision-microk8s-with-hyper-v-behind-a-corporate-proxy-55507fedd9d3
+vagrant host management plugin (install SSL proxy/certificate)
+
 =======================================================================================================================
 visiobud 
 1 - 09 - 2023
