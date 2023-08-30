@@ -186,11 +186,19 @@ proxy:
     Other
         gem install vagrant-proxy
         vagrant-proxyconf plugin
+    
         
+    
 ssl certificate:
     vagrant-certificates
         https://medium.com/@bcoste/vagrant-provision-microk8s-with-hyper-v-behind-a-corporate-proxy-55507fedd9d3
-vagrant host management plugin (install SSL proxy/certificate)
+
+Dns
+    vagrant-hostmanager
+
+Host Interaction
+    vagrant-host-shell - https://github.com/hashicorp/vagrant/wiki/Available-Vagrant-Plugins
+        
 
 =======================================================================================================================
 visiobud 
