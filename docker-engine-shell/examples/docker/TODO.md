@@ -3,6 +3,7 @@ https://docs.docker.com/build/building/opentelemetry/
 
 #### Build cache
 https://docs.docker.com/build/cache/backends/
+https://iximiuz.com/en/posts/you-need-containers-to-build-an-image/
 * How to look in build cache
 https://stackoverflow.com/questions/62834806/docker-buildkit-cache-location-size-and-id
 
