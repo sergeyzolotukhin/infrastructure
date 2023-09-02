@@ -16,3 +16,9 @@ do
     sleep 0.05
 done
 echo
+
+# [[ $a == 25 ]] && res="yes" || res="no"
+
+# mystring="I would like to generate a meaningful output, please. "
+# mystring+="Not a chance, friend!"
+# echo "$mystring"
