@@ -25,3 +25,5 @@ RUN echo "running DEV post-install commands"
 
 FROM ${APP_ENV}-postinstall as final
 RUN echo "running final commands"
+
+CMD ["echo", "Hello StackOverflow second!"]
