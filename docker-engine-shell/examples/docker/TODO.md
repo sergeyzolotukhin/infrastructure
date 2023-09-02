@@ -13,6 +13,9 @@ https://stackoverflow.com/questions/62834806/docker-buildkit-cache-location-size
 
 ### Open questions:
 * What is a buildx vs buildkit?
+  BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and repeatable manner.
+  buildx is a Docker CLI plugin for extended build capabilities with BuildKit.
+
 * Difference between --cache-to/from and --mount type=cache in docker buildx build ?
   https://stackoverflow.com/questions/76351391/difference-between-cache-to-from-and-mount-type-cache-in-docker-buildx-build
 * 
