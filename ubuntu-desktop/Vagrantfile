@@ -3,8 +3,10 @@
 
 Vagrant.configure("2") do |config|
     config.vm.define "ubuntu-lunar-desktop-1" do |d|
-        # Ubuntu 23.04 (Lunar Lobster) - Desktop, Mot LTS
-        d.vm.box = "ubuntu/lunar64"
+        # Ubuntu 20.04.3 LTS - Focal Fossa
+        d.vm.box = "ubuntu/focal64"
+        # UUbuntu 23.10 (Mantic Minotaur)
+        # d.vm.box = "ubuntu/mantic64"
 
         d.vm.network "public_network"
 
@@ -14,6 +16,8 @@ Vagrant.configure("2") do |config|
             vb.gui = true
         end
 
-        # d.vm.provision "shell", path: "root-login-enable.sh"
+        d.vm.network :private_network, ip: "192.168.56.2"
+
+        d.vm.provision "shell", path: "root-login-enable.sh"
     end
 end
