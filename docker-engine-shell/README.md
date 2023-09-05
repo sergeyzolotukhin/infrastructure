@@ -55,3 +55,9 @@ sudo systemctl restart docker
 docker volume create
 =======================================================================================================================
 https://docs.docker.com/engine/reference/commandline/volume_create/
+
+#### How to profile a docker demon
+https://www.simplybusiness.co.uk/about-us/tech/2020/09/docker-build-observability/
+
+docker run -e JAEGER_DISABLED=true -d -p6831:6831/udp -p16686:16686 jaegertracing/all-in-one:latest export JAEGER_TRACE=0.0.0.0:6831
+http://192.168.56.2:16686/
