@@ -2,4 +2,5 @@
 2. maven assign plugin to phase none from command line
 3. try export docker image as tar archive
 4. What is impact on cache missing in Docker RUN command do.sh -> ENV variable, ARG, file content, another file content
+    docker image history
 5. How to look list of cache content in the buildkit

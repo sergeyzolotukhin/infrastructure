@@ -25,4 +25,8 @@ https://stackoverflow.com/questions/62834806/docker-buildkit-cache-location-size
 
 * Difference between --cache-to/from and --mount type=cache in docker buildx build ?
   https://stackoverflow.com/questions/76351391/difference-between-cache-to-from-and-mount-type-cache-in-docker-buildx-build
-* 
+
+
+docker image history --no-trunc ${docker images --filter=reference="*:*"}
+
+docker system prune --all --volumes
