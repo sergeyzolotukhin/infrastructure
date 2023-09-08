@@ -1,0 +1,154 @@
+ID:		grtsv62lixxgkzp1frvvx6ct9
+Created at:	2023-09-08 20:04:53.071854456 +0000 UTC
+Mutable:	true
+Reclaimable:	true
+Shared:		false
+Size:		1.436kB
+Description:	local source for context
+Usage count:	1
+Last used:	16 seconds ago
+Type:		source.local
+
+=======================================================================================================================
+
+ID:		ugrunsxc7p53utbboyazzh4co
+Created at:	2023-09-08 20:04:51.189137377 +0000 UTC
+Mutable:	true
+Reclaimable:	true
+Shared:		false
+Size:		0B
+Description:	local source for context
+Usage count:	1
+Last used:	16 seconds ago
+Type:		source.local
+
+=======================================================================================================================
+
+ID:		xz86q08qbdmjb1w5qd9s7sgso
+Created at:	2023-09-08 20:04:51.188549367 +0000 UTC
+Mutable:	true
+Reclaimable:	true
+Shared:		false
+Size:		684B
+Description:	local source for dockerfile
+Usage count:	1
+Last used:	16 seconds ago
+Type:		source.local
+
+
+=======================================================================================================================
+
+ID:		m2pbjhop9pbuy3dynsor5jl2x
+Created at:	2023-09-08 20:04:53.086812374 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		0B
+Description:	pulled from docker.io/library/alpine@sha256:7144f7bab3d4c2648d7e59409f15ec52a18006a128c733fcff20d3a4a54ba44a
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+=======================================================================================================================
+=======================================================================================================================
+
+ID:		n8sy37iww3mtkwg9ft4cr4g1v
+Created at:	2023-09-08 20:04:53.12886197 +0000 UTC
+Mutable:	true
+Reclaimable:	true
+Shared:		false
+Size:		48B
+Description:	cached mount /mnt from exec /bin/sh -c ./execute-01.sh
+Usage count:	3
+Last used:	16 seconds ago
+Type:		exec.cachemoun
+
+=======================================================================================================================
+=======================================================================================================================
+
+ID:		k0ujb0nypej8k8gg7tw5ocaqo
+Parent:		m2pbjhop9pbuy3dynsor5jl2x
+Created at:	2023-09-08 20:04:53.123343257 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		493B
+Description:	[base 2/3] COPY ./execute-01.sh ./execute-01.sh
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+
+ID:		m1rfprpub3irzuiro3ng90ou1
+Parent:		oc88crr2rkow7zsdcvais2xbb
+Created at:	2023-09-08 20:04:58.548046554 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		472B
+Description:	[child 2/4] COPY ./execute-03.sh ./execute-03.sh
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+
+ID:		oc88crr2rkow7zsdcvais2xbb
+Parent:		khbuui5gp2fboyrssahtw75kf
+Created at:	2023-09-08 20:04:58.534817821 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		471B
+Description:	[child 1/4] COPY ./execute-02.sh ./execute-02.sh
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+
+
+=======================================================================================================================t
+
+ID:		zclwmorwvu4k77lwx2huw2oqx
+Parent:		wb7d3q0g2vmj3tcmvzr0l1av1
+Created at:	2023-09-08 20:05:09.414330546 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		0B
+Description:	mount / from exec /bin/sh -c ./execute-03.sh
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+
+ID:		wb7d3q0g2vmj3tcmvzr0l1av1
+Parent:		m1rfprpub3irzuiro3ng90ou1
+Created at:	2023-09-08 20:05:04.182648419 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		0B
+Description:	mount / from exec /bin/sh -c ./execute-02.sh
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+
+ID:		khbuui5gp2fboyrssahtw75kf
+Parent:		k0ujb0nypej8k8gg7tw5ocaqo
+Created at:	2023-09-08 20:04:58.500340733 +0000 UTC
+Mutable:	false
+Reclaimable:	true
+Shared:		true
+Size:		0B
+Description:	mount / from exec /bin/sh -c ./execute-01.sh
+Usage count:	1
+Last used:	16 seconds ago
+Type:		regular
+
+=======================================================================================================================
+
+Shared:		1.436kB
+Private:	2.168kB
+Reclaimable:	3.604kB
+Total:		3.604kB
