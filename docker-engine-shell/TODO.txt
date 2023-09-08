@@ -1,4 +1,6 @@
-1. maven dependency go offline for different profiles
+1. Docker RUN --mount=private (multi stage build)
+2. find pom in separate stage and depend form the result poms
+
 2. maven assign plugin to phase none from command line
 3. try export docker image as tar archive
 4. What is impact on cache missing in Docker RUN command do.sh -> ENV variable, ARG, file content, another file content
