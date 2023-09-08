@@ -4,28 +4,18 @@ clear
 
 export DOCKER_BUILDKIT=1
 
-#date_val=$( date '+%F_%H:%M:%S' )
-date_val=static
+date_val=$( date '+%F_%H:%M:%S' )
 
 echo  "${date_val}"
 
-#  docker system prune --all --volumes -f
+echo "================================================================================================================"
+echo "Run all"
+echo "================================================================================================================"
 
 docker build \
-  --build-arg UBUNTU_VERSION=1 \
-  --build-arg CUDA_VERSION=$date_val \
-  --progress=plain \
-  --no-cache \
-  --tag=test-cache \
-  .
-
-docker build \
-  --build-arg UBUNTU_VERSION=1 \
   --build-arg CUDA_VERSION=$date_val \
   --progress=plain \
   --tag=test-cache \
-  --no-cache \
-  --file=local.Dockerfile \
   .
 
 #  --no-cache \
@@ -40,4 +30,4 @@ docker build \
 #echo "================================================================================================================"
 #docker image list --all
 
-# docker system prune --all --volumes
+# docker system prune --all --volumes -f
