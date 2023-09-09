@@ -5,7 +5,6 @@
 3. try export docker image as tar archive
 4. What is impact on cache missing in Docker RUN command do.sh -> ENV variable, ARG, file content, another file content
     docker image history
-    docker buildx du --verbose
     BUILDKIT_INLINE_CACHE
     https://serverfault.com/questions/747807/how-to-debug-docker-cache-invalidation
     https://subscription.packtpub.com/book/cloud-and-networking/9781788626866/10/ch10lvl1sec98/starting-docker-in-debug-mode
@@ -13,3 +12,4 @@
 
     https://github.com/moby/buildkit#export-cache
 5. How to look list of cache content in the buildkit
+    docker buildx du --verbose
