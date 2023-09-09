@@ -6,7 +6,6 @@ clear
 
 docker build \
   --progress=plain \
-  --no-cache \
   .
 
 #  --no-cache \
