@@ -1,5 +1,5 @@
 FROM alpine as base
-COPY ./data/ /data/
+COPY data /data/
 RUN apk add --no-interactive tree
 #RUN tree ./data
 
