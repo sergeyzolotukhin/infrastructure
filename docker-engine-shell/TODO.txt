@@ -13,3 +13,11 @@
     https://github.com/moby/buildkit#export-cache
 5. How to look list of cache content in the buildkit
     docker buildx du --verbose
+
+6 How to import/export cache
+
+from alpine as cache-import
+run --mount=type=cache,target=/cache tar xvf https://mycache.tar -C /cache
+
+from alpine cache-export
+run --mount=type=cache,target=/cache tar cvf /cache.tar /cache
