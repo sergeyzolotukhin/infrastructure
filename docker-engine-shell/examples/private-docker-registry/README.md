@@ -12,3 +12,4 @@ docker container ls
 docker container ls -a
 
 docker container rm 5918138a92c7
+docker stop 36956703fa4b
