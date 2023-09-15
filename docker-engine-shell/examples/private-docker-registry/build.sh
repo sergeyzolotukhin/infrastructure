@@ -11,17 +11,3 @@ docker build \
   --progress=plain \
   --tag=localhost:5000/test-image \
   .
-
-#  --no-cache \
-#  docker system prune --all --volumes -f
-#echo "================================================================================================================"
-#echo "image history"
-#echo "================================================================================================================"
-#docker image history --no-trunc=false $(docker images --quiet --filter=reference="test-cache:*")
-
-#echo "================================================================================================================"
-#echo "image"
-#echo "================================================================================================================"
-#docker image list --all
-
-# docker system prune --all --volumes
