@@ -21,3 +21,10 @@ INFO interface: detail: Get:2 https://jfrog.bintray.com/artifactory-debs focal/m
 INFO interface: detail:     default: Get:2 https://jfrog.bintray.com/artifactory-debs focal/main amd64 jfrog-artifactory-oss amd64 7.39.4 [517 MB]
 default: Get:2 https://jfrog.bintray.com/artifactory-debs focal/main amd64 jfrog-artifactory-oss amd64 7.39.4 [517 MB]
 DEBUG ssh: Sending SSH keep-alive...
+
+
+# To determine your distribution, run lsb_release -c or cat /etc/os-release
+# Example:echo "deb https://releases.jfrog.io/artifactory/artifactory-pro-debs xenial main" | sudo tee -a /etc/apt/sources.list;
+wget -qO - https://releases.jfrog.io/artifactory/api/gpg/key/public | sudo apt-key add -;
+echo "deb https://releases.jfrog.io/artifactory/artifactory-debs $(lsb_release -c) main" | sudo tee -a /etc/apt/sources.list;
+sudo apt-get update && sudo apt-get install jfrog-artifactory-oss
