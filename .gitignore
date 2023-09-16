@@ -62,3 +62,4 @@ library/lib-antlr/src/main/gen/
 *.dump
 
 
+/jfrog-artifactory-shell/log/
