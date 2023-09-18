@@ -1,3 +1,16 @@
+# How to connect
+
+http://192.168.56.2:8082/
+
+Default:
+    user: admin
+    password: password
+
+Current:
+    user: admin
+    password: Szolotukhin1
+
+
 # How to run
 
 cd /opt/jfrog-artifactory/artifactory/app/bin# 
@@ -28,3 +41,9 @@ DEBUG ssh: Sending SSH keep-alive...
 wget -qO - https://releases.jfrog.io/artifactory/api/gpg/key/public | sudo apt-key add -;
 echo "deb https://releases.jfrog.io/artifactory/artifactory-debs $(lsb_release -c) main" | sudo tee -a /etc/apt/sources.list;
 sudo apt-get update && sudo apt-get install jfrog-artifactory-oss
+
+# the artifactory not started  
+
+systemctl list-units --type=service
+
+artifactory.service
