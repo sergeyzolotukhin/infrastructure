@@ -47,3 +47,7 @@ sudo apt-get update && sudo apt-get install jfrog-artifactory-oss
 systemctl list-units --type=service
 
 artifactory.service
+
+# How connect to artifactory
+
+https://github.com/jfrog/artifactory-client-java
