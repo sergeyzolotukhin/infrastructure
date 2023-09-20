@@ -1,9 +1,6 @@
 FROM alpine
 
-ARG UBUNTU_VERSION="undefine-1"
-ARG CUDA_VERSION="undefine-2"
-
-#ENV ENV_CUDA_VERSION=${CUDA_VERSION}
+ARG CURRENT_DATE='No data'
 
 COPY execute.sh ./execute.sh
 
