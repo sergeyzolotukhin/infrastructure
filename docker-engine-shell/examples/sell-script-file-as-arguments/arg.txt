@@ -1,0 +1,2 @@
+-Dproperty_1=value_1
+-Dproperty_2=value_2
