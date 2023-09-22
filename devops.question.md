@@ -29,7 +29,7 @@ OS level:
     Chef
     Puppet
     SaltStack
-    (Push/Pull)
+    (Push/Pull, Independent)
 
 
 Linux
