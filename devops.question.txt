@@ -26,3 +26,5 @@ load average ???
 ls > a.txt 2>b.txt execution order ???
 set +e / set -e
 What is signal in linux ? SIGTERM, SIGKILL ???
+
+process zomby ? сирота ?
