@@ -18,3 +18,11 @@ What is Continue testing?
 Observability? Tracing vs Monitoring ?
 OpenTelemetry
 Docker compose, depend on ? Health check, Depends on condition, Service health
+
+Linux
+=======================================================================================================================
+
+load average ???
+ls > a.txt 2>b.txt execution order ???
+set +e / set -e
+What is signal in linux ? SIGTERM, SIGKILL ???
