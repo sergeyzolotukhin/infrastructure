@@ -9,7 +9,6 @@ Bug Budget
 podman rootless
 open shift red hat
 container security book
-kubernetes
 
 
 CI/CD - continue delivery vs continue deployment
@@ -33,6 +32,8 @@ OS level:
     SaltStack
     (Push/Pull, Independent)
 
+Container level:
+    kubernetes
 
 Linux
 =======================================================================================================================
