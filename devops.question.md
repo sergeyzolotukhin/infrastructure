@@ -3,6 +3,7 @@
 3. Dockerfile -> copy vs add ?
 
 DevOps vs SRE 
+SLA, SLO, SLI
 
 podman rootless
 open shift red hat
