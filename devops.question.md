@@ -8,7 +8,7 @@ podman rootless
 open shift red hat
 container security book
 kubernetes
-terraform
+
 
 CI/CD - continue delivery vs continue deployment
 Jenkins
@@ -21,6 +21,16 @@ OpenTelemetry
 Docker compose, depend on ? Health check, Depends on condition, Service health
 
 Infrastructure as a Code
+VM level:
+    Terraform (Cloud VM management)
+
+OS level:
+    Ansible
+    Chef
+    Puppet
+    SaltStack
+    (Push/Pull)
+
 
 Linux
 =======================================================================================================================
