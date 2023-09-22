@@ -8,3 +8,8 @@ open shift red hat
 container security book
 kubernetes
 terraform
+
+CI/CD - continue delivery vs continue deployment
+Jenkins
+TeamCity
+GitHub Action
