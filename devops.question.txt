@@ -15,3 +15,5 @@ TeamCity
 GitHub Action
 
 What is Continue testing?
+Observability? Tracing vs Monitoring ?
+OpenTelemetry
