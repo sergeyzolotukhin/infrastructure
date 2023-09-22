@@ -5,3 +5,6 @@
 
 podman rootless
 open shift red hat
+container security book
+kubernetes
+terraform
