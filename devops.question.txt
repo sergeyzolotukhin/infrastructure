@@ -13,3 +13,5 @@ CI/CD - continue delivery vs continue deployment
 Jenkins
 TeamCity
 GitHub Action
+
+What is Continue testing?
