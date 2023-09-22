@@ -4,6 +4,7 @@
 
 DevOps vs SRE 
 SLA, SLO, SLI
+Bug Budget
 
 podman rootless
 open shift red hat
