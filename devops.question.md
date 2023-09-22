@@ -25,7 +25,7 @@ VM level:
     Terraform (Cloud VM management)
 
 OS level:
-    Ansible
+    Ansible - How it work under hood ?
     Chef
     Puppet
     SaltStack
