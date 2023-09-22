@@ -2,6 +2,7 @@
 2. What is expose ?
 3. Dockerfile -> copy vs add ?
 
+DevOps vs SRE 
 
 podman rootless
 open shift red hat
@@ -28,3 +29,6 @@ set +e / set -e
 What is signal in linux ? SIGTERM, SIGKILL ???
 
 process zomby ? сирота ?
+
+
+=======================================================================================================================
