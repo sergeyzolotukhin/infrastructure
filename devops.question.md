@@ -10,33 +10,29 @@ podman rootless
 open shift red hat
 container security book
 
-
-CI/CD - continue delivery vs continue deployment
-Jenkins
-TeamCity
-GitHub Action
-
 What is Continue testing?
 Observability? Tracing vs Monitoring ?
 OpenTelemetry
 
+CI/CD - continue delivery vs continue deployment
+    Jenkins
+    TeamCity
+    GitHub Action
 
 Infrastructure as a Code
-VM level:
-    Terraform (Cloud VM management)
-
-OS level:
-    Ansible - How it work under hood ?
-    Chef
-    Puppet
-    SaltStack
-    (Push/Pull, Independent)
-
-Container level:
-    Docker
-    Podman - https://docs.podman.io/en/latest/ 
-    Docker compose
-    kubernetes
+    VM level:
+        Terraform (Cloud VM management)
+    OS level:
+        Ansible - How it work under hood ?
+        Chef
+        Puppet
+        SaltStack
+        (Push/Pull, Independent)
+    Container level:
+        Docker
+        Podman - https://docs.podman.io/en/latest/ 
+        Docker compose
+        kubernetes
 
 Docker
 =======================================================================================================================
