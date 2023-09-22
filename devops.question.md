@@ -19,7 +19,7 @@ GitHub Action
 What is Continue testing?
 Observability? Tracing vs Monitoring ?
 OpenTelemetry
-Docker compose
+
 
 Infrastructure as a Code
 VM level:
@@ -33,6 +33,9 @@ OS level:
     (Push/Pull, Independent)
 
 Container level:
+    Docker
+    Podman - https://docs.podman.io/en/latest/ 
+    Docker compose
     kubernetes
 
 Docker
