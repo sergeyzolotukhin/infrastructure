@@ -1,3 +1,6 @@
 1. linux remapping uid
 2. What is expose ?
 3. Dockerfile -> copy vs add ?
+
+
+podman rootless
