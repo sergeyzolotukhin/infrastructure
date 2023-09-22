@@ -20,6 +20,8 @@ Observability? Tracing vs Monitoring ?
 OpenTelemetry
 Docker compose, depend on ? Health check, Depends on condition, Service health
 
+Infrastructure as a Code
+
 Linux
 =======================================================================================================================
 
