@@ -1,5 +1,16 @@
 ### Create SSL certificate (correct command)
     sudo openssl req -addext "subjectAltName=DNS:localhost" -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache-selfsigned.key -out apache-selfsigned.crt -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=localhost"
+
+    sudo openssl req
+        -addext "subjectAltName=DNS:localhost"
+        -x509
+        -nodes
+        -days 365
+        -newkey rsa:2048
+        -keyout apache-selfsigned.key
+        -out apache-selfsigned.crt
+        -subj "/C=UA/ST=Kyiv/L=Kyiv/O=Home/CN=localhost"
+
 ### Install SSL certificate to the "Trusted Root Certificate Authority"
 ### Chrome exit (restart)
 
