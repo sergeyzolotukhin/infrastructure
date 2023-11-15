@@ -17,7 +17,8 @@
 
 VAGRANTFILE_API_VERSION = "2"
 
-BOX_URL = "https://oracle.github.io/vagrant-boxes/boxes"
+# BOX_URL = "https://oracle.github.io/vagrant-boxes/boxes"
+BOX_URL = "https://oracle.github.io/vagrant-projects/boxes"
 BOX_NAME = "oraclelinux/7"
 
 NAME = "oracle-12102-vagrant"
@@ -40,8 +41,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.hostname = NAME
 
-  config.vm.network "forwarded_port", guest: LISTENER_PORT, host: LISTENER_PORT
-  config.vm.network "forwarded_port", guest: EM_EXPRESS_PORT, host: EM_EXPRESS_PORT
+  config.vm.network :private_network, ip: "192.168.56.2"
+  # config.vm.network "forwarded_port", guest: LISTENER_PORT, host: LISTENER_PORT
+  # config.vm.network "forwarded_port", guest: EM_EXPRESS_PORT, host: EM_EXPRESS_PORT
 
   config.vm.provision "shell", path: "scripts/install.sh", env:
     {
