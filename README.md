@@ -204,3 +204,5 @@ Host Interaction
 visiobud 
 1 - 09 - 2023
 14:00 - 14:30
+
+https://github.com/mloskot/vagrant-sqlserver/tree/master
