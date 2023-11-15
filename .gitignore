@@ -61,5 +61,7 @@ library/lib-antlr/src/main/gen/
 #### Databse dump
 *.dump
 
+#### Linux install package
+*.rpm
 
 /jfrog-artifactory-shell/log/
