@@ -5,14 +5,8 @@ readonly MEDIA=/vagrant
 
 # load environment variables from .env
 set -a
-if [ -e "$SCRIPT_DIR"/.env ]; then
-  # shellcheck disable=SC1091
-  . "$SCRIPT_DIR"/.env
-else
-  echo 'Environment file .env not found. Therefore, dotenv.sample will be used.'
-  # shellcheck disable=SC1091
-  . "$SCRIPT_DIR"/dotenv.sample
-fi
+. "$SCRIPT_DIR"/.env
+
 set +a
 
 readonly FILE="$MEDIA/LINUX.X64_213000_db_home.zip"
@@ -38,7 +32,6 @@ export PATH=\$PATH:\$ORACLE_HOME/bin:\$ORACLE_HOME/jdk/bin
 EOT
 
 # Install rlwrap and set alias
-# shellcheck disable=SC1091
 OS_VERSION=$(. /etc/os-release && echo "$VERSION")
 readonly OS_VERSION
 case ${OS_VERSION%%.*} in
@@ -65,10 +58,9 @@ curl -sSL https://git.io/get-mo -o /usr/local/bin/mo
 chmod +x /usr/local/bin/mo
 
 # Install Oracle Database
-/usr/local/bin/mo "$SCRIPT_DIR"/db_install.rsp.mustache >"$TEMP_DIR"/db_install.rsp
+/usr/local/bin/mo "$SCRIPT_DIR"/db_install.rsp >"$TEMP_DIR"/db_install.rsp
 set +e +o pipefail
-su - oracle -c "cd $ORACLE_HOME && ./runInstaller -silent \
-  -ignorePrereq -waitforcompletion -responseFile $TEMP_DIR/db_install.rsp"
+su - oracle -c "cd $ORACLE_HOME && ./runInstaller -silent -ignorePrereq -waitforcompletion -responseFile $TEMP_DIR/db_install.rsp"
 set -e -o pipefail
 "$ORACLE_BASE"/../oraInventory/orainstRoot.sh
 "$ORACLE_HOME"/root.sh
@@ -77,18 +69,8 @@ set -e -o pipefail
 su - oracle -c "netca -silent -responseFile $ORACLE_HOME/assistants/netca/netca.rsp"
 
 # Create a database
-/usr/local/bin/mo "$SCRIPT_DIR"/dbca.rsp.mustache >"$TEMP_DIR"/dbca.rsp
+/usr/local/bin/mo "$SCRIPT_DIR"/dbca.rsp >"$TEMP_DIR"/dbca.rsp
 su - oracle -c "dbca -silent -createDatabase -responseFile $TEMP_DIR/dbca.rsp"
 
 rm -rf "$TEMP_DIR"
 
-# Install the Sample Schemas
-if [[ ${ORACLE_SAMPLESCHEMA^^} == TRUE ]]; then
-  SAMPLE_DIR=$(mktemp -d)
-  readonly SAMPLE_DIR
-  chmod 777 "$SAMPLE_DIR"
-  cp "$SCRIPT_DIR"/install_sample.sh "$SAMPLE_DIR"/install_sample.sh
-  su - oracle -c "$SAMPLE_DIR/install_sample.sh $ORACLE_PASSWORD localhost/$ORACLE_PDB"
-  su - oracle -c "rm -rf $SAMPLE_DIR/*"
-  rmdir "$SAMPLE_DIR"
-fi
