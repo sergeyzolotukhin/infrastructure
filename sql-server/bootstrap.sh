@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Part of Vagrant virtual environments for SQL Server 2017 on Ubuntu Linux
+# Part of Vagrant virtual environments for SQL Server 2022 on Ubuntu Linux
 
 # Setup environment configuration
 export ACCEPT_EULA="Y"
@@ -20,8 +20,8 @@ sudo apt-get -y -qq install curl software-properties-common
 ## Repository Microsoft SQL Server
 ## Repository SQL Server command-line tools
 curl -s -S --retry 3 https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-sudo add-apt-repository "$(curl -s -S --retry 3 https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list)"
-sudo add-apt-repository "$(curl -s -S --retry 3 https://packages.microsoft.com/config/ubuntu/16.04/prod.list)"
+sudo add-apt-repository "$(curl -s -S --retry 3 https://packages.microsoft.com/config/ubuntu/22.04/mssql-server-2022.list)"
+sudo add-apt-repository "$(curl -s -S --retry 3 https://packages.microsoft.com/config/ubuntu/22.04/prod.list)"
 
 # Install
 sudo apt-get -y -qq update

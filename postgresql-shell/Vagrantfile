@@ -2,8 +2,21 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-    # Ubuntu 20.04.3 LTS - Focal Fossa
+    # https://wiki.ubuntu.com/Releases
+
+    # Ubuntu 23.10 - Mantic Minotaur
+    # config.vm.box = "ubuntu/mantic64"
+
+    # Ubuntu 23.04 - Lunar Lobster
+    # config.vm.box = "ubuntu/lunar64"
+
+    # Ubuntu 22.04 LTS - Jammy Jellyfish
+    # config.vm.box = "ubuntu/jammy64"
+    # config.vm.box = "bento/ubuntu-22.04"
+
+    # Ubuntu 20.04 LTS - Focal Fossa
     config.vm.box = "ubuntu/focal64"
+    # config.vm.box = "bento/ubuntu-20.04"
 
     config.vm.provider :virtualbox do |vb|
         vb.name = "postgresql-1"
