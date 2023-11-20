@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+|Way-1|
+start
+
+|Way-2|
+:ClickServlet.handleRequest();
+
+|Way-1|
+:new page;
+if (Page.onSecurityCheck) then (true)
+  :Page.onInit();
+  if (isForward?) then (no)
+    :Process controls;
+    if (continue processing?) then (no)
+      stop
+    endif
+
+    if (isPost?) then (yes)
+      :Page.onPost();
+    else (no)
+      :Page.onGet();
+    endif
+
+    fork
+      :Действие 1;
+    fork again
+      :Действие 2;
+    end fork
+
+    :Page.onRender();
+  endif
+else (false)
+endif
+
+if (do redirect?) then (yes)
+  :redirect process;
+else
+  if (do forward?) then (yes)
+    :Forward request;
+  else (no)
+    :Render page template;
+  endif
+endif
+
+stop
+
+@enduml
