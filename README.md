@@ -206,3 +206,5 @@ visiobud
 14:00 - 14:30
 
 https://github.com/mloskot/vagrant-sqlserver/tree/master
+
+https://github.com/kyleprager/vagrant-kafka/tree/master
