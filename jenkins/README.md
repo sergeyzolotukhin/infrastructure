@@ -13,8 +13,14 @@ https://stackoverflow.com/questions/47455783/create-jenkins-job-from-dsl-without
 https://www.jenkins.io/doc/book/managing/casc/
 https://stackoverflow.com/questions/54434162/how-to-create-a-jenkins-pipelinejob-via-configuration-as-code
 
+#### Jenkins - Groovy Hook Scripts
+https://www.jenkins.io/doc/book/managing/groovy-hook-scripts/
+https://stackoverflow.com/questions/58616715/jenkins-execute-groovy-script-before-loading-plugins
+https://fishi.devtail.io/weblog/2019/01/06/jenkins-as-code-part-1/
+
 #### How I can create a Jenkins Job automatically ?
 
 * Configuration as Code plugin:
 * Jenkins CLI: 
 * the Job DSL plugins (seed job)
+* Groovy Hook Scripts
