@@ -11,6 +11,7 @@ https://stackoverflow.com/questions/47455783/create-jenkins-job-from-dsl-without
 
 #### Configuration as Code plugin
 https://www.jenkins.io/doc/book/managing/casc/
+https://stackoverflow.com/questions/54434162/how-to-create-a-jenkins-pipelinejob-via-configuration-as-code
 
 #### How I can create a Jenkins Job automatically ?
 
