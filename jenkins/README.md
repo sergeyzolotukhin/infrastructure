@@ -25,3 +25,4 @@ https://blog.thesparktree.com/you-dont-know-jenkins-part-2
 * Jenkins CLI: 
 * the Job DSL plugins (seed job)
 * Groovy Hook Scripts
+* Jenkins Job Builder
