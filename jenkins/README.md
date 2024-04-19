@@ -26,3 +26,21 @@ https://blog.thesparktree.com/you-dont-know-jenkins-part-2
 * the Job DSL plugins (seed job)
 * Groovy Hook Scripts
 * Jenkins Job Builder
+
+#### Multiple pipeline jobs versus single large pipeline job
+https://www.metamorphant.de/blog/posts/2019-03-11-jenkins-101-downstream-projects/
+https://wiki.jenkins.io/JENKINS/Splitting-a-big-job-into-smaller-jobs.html
+https://www.theknowledgeacademy.com/blog/types-of-jenkins-pipeline/
+
+##### large pipeline job
+disadvantage
+* you cannot easily execute the single stages
+  https://www.jenkins.io/doc/book/pipeline/running-pipelines/
+  https://stackoverflow.com/questions/38129745/jenkins-build-pipeline-restart-at-stage
+
+##### Multiple pipeline jobs
+disadvantage
+* shared variables cannot be used anymore 
+* shared code cannot be used anymore
+
+#### What is a matrix job
