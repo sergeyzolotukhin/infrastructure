@@ -208,3 +208,12 @@ visiobud
 https://github.com/mloskot/vagrant-sqlserver/tree/master
 
 https://github.com/kyleprager/vagrant-kafka/tree/master
+
+#### Introduction to the alternatives command in Linux
+
+* alternatives
+* update-alternatives
+
+https://www.redhat.com/sysadmin/alternatives-command
+
+Linux Standard Base ?
