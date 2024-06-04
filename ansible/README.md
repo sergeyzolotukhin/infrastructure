@@ -74,3 +74,7 @@ TODO:
 
     https://app.vagrantup.com/boxes/search
     https://vagrant-lists.github.io/plugins.html
+
+##### How to pass password to Ansible
+
+https://medium.com/opsops/how-to-pass-password-to-ansible-from-environment-variable-bd5c566bc8a1
