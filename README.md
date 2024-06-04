@@ -220,5 +220,6 @@ https://www.baeldung.com/linux/update-alternatives-command
 
 https://github.com/KAMI911/ansible-role-java-adopt-open-jdk11/tree/master
 https://github.com/frieder/ansible-role-oraclejdk/blob/master/tasks/04_installjdk.yml
+https://dev.to/thegroo/install-and-manage-multiple-java-versions-on-linux-using-alternatives-5e93
 
 Linux Standard Base ?
