@@ -219,5 +219,6 @@ https://www.redhat.com/sysadmin/alternatives-command
 https://www.baeldung.com/linux/update-alternatives-command
 
 https://github.com/KAMI911/ansible-role-java-adopt-open-jdk11/tree/master
+https://github.com/frieder/ansible-role-oraclejdk/blob/master/tasks/04_installjdk.yml
 
 Linux Standard Base ?
