@@ -215,5 +215,6 @@ https://github.com/kyleprager/vagrant-kafka/tree/master
 * update-alternatives
 
 https://www.redhat.com/sysadmin/alternatives-command
+https://www.baeldung.com/linux/update-alternatives-command
 
 Linux Standard Base ?
