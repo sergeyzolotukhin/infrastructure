@@ -218,4 +218,6 @@ https://github.com/kyleprager/vagrant-kafka/tree/master
 https://www.redhat.com/sysadmin/alternatives-command
 https://www.baeldung.com/linux/update-alternatives-command
 
+https://github.com/KAMI911/ansible-role-java-adopt-open-jdk11/tree/master
+
 Linux Standard Base ?
