@@ -213,6 +213,7 @@ https://github.com/kyleprager/vagrant-kafka/tree/master
 
 * alternatives
 * update-alternatives
+* update-java-alternatives
 
 https://www.redhat.com/sysadmin/alternatives-command
 https://www.baeldung.com/linux/update-alternatives-command
