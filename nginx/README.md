@@ -38,6 +38,9 @@ Syntax:	if_modified_since off | exact | before;
 Default:
 if_modified_since exact;
 
+###### If-Match
+
+https://javorszky.co.uk/2019/03/28/etag-if-match-nginx-and-you/
 
 ##### SCP
 
