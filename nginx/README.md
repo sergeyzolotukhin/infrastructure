@@ -24,6 +24,8 @@ By default, NGINX handles file transmission itself and copies the file into the 
 Enabling the sendfile directive eliminates the step of copying the data into the buffer 
 and enables direct copying data from one file descriptor to another
 
+https://ubiq.co/tech-blog/disable-nginx-cache/
+
 ##### NGINX Content Caching
 
 proxy_cache
