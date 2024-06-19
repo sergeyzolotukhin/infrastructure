@@ -5,3 +5,7 @@
 #### URLs
 
 https://www.digitalocean.com/community/tutorials/nginx-location-directive
+
+##### Install NGINX 
+https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
+
