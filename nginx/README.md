@@ -71,10 +71,17 @@ Notably, caches favor the Cache-Control header with the max-age directive over E
 ETag
 If-Match
 If-Modified-Since
+Last-Modified
 Cache-Control
-    max-age
-    public
-    s-maxage
+
+* public
+* no-store,
+* no-cache,
+
+* max-age
+* s-maxage
+* must-revalidate 
+* proxy-revalidate 
 
 # SCP
 =======================================================================================================================
