@@ -77,8 +77,9 @@ Last-Modified
 Cache-Control
 
 * public
-* no-store,
-* no-cache,
+* no-store
+* no-cache
+* immutable
 
 * max-age
 * s-maxage
