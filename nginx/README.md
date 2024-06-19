@@ -26,7 +26,7 @@ and enables direct copying data from one file descriptor to another
 
 ##### ETag
 
-Default: etag on;
+Default:    etag on;
 
 header('ETag: "' . sprintf('%x-%x', $lastModified, $length) . '"');
 
