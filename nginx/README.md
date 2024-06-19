@@ -63,7 +63,12 @@ Context:	http, server, location, if in location
 
 https://nginx.org/en/docs/http/ngx_http_headers_module.html
 
-# HTTP headers:
+# HTTP caching
+=======================================================================================================================
+Versioning -    This approach—including a dynamic value into the file name—is called versioning. 
+                Versioning is a common practice, and I recommend enabling it in your app. 
+
+# HTTP headers
 =======================================================================================================================
 
 Expires -   We can set the Expires header only in HTTP responses.
