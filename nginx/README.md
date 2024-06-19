@@ -24,6 +24,12 @@ By default, NGINX handles file transmission itself and copies the file into the 
 Enabling the sendfile directive eliminates the step of copying the data into the buffer 
 and enables direct copying data from one file descriptor to another
 
+##### NGINX Content Caching
+https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/
+
+proxy_cache
+https://medium.com/tech-it-out/massively-scalable-content-caching-with-nginx-d607ec4024af
+
 ##### ETag
 
 Default:    etag on;
@@ -65,6 +71,8 @@ If-Match
 If-Modified-Since
 Cache-Control
     max-age
+    public
+    s-maxage
 
 # SCP
 =======================================================================================================================
