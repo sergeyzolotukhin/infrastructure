@@ -71,14 +71,20 @@ Versioning -    This approach—including a dynamic value into the file name—i
 # HTTP headers
 =======================================================================================================================
 
-Expires -   We can set the Expires header only in HTTP responses.
+[Expires]  We can set the Expires header only in HTTP responses.
 The value of Expires is a timestamp that denotes the point in time
 after which a cache should consider the response stale.
 Notably, caches favor the Cache-Control header with the max-age directive over Expires.
-ETag
-If-Match
-If-Modified-Since
-Last-Modified
+
+[ETag] An entity tag (ETag) is a value that is included in a HTTP header response that represents the current state of a resource.
+
+The ETag mechanism supports both strong validation and weak validation
+"123456789"   – A strong ETag validator
+W/"123456789" – A weak ETag validator
+
+[Last-Modified] The Last-Modified response HTTP header contains a date and time when the origin server believes the resource was last modified. 
+It is used as a validator to determine if the resource is the same as the previously stored one.
+
 Cache-Control
 
 * public
@@ -90,6 +96,30 @@ Cache-Control
 * s-maxage
 * must-revalidate 
 * proxy-revalidate 
+
+# HTTP request conditional
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match
+
+[If-Modified-Since] The If-Modified-Since request HTTP header makes the request conditional: 
+the server sends back the requested resource, with a 200 status, 
+only if it has been last modified after the given date. 
+If the resource has not been modified since, the response is a 304 without any body
+
+[If-Unmodified-Since] The HyperText Transfer Protocol (HTTP) If-Unmodified-Since request header makes the request for the resource conditional: 
+the server will send the requested resource or accept it in the case of a POST or another non-safe method 
+only if the resource has not been modified after the date specified by this HTTP header
+
+[If-Match] The If-Match HTTP request header makes a request conditional.
+
+A server will only return requested resources for GET and HEAD methods, or upload resource for PUT and other non-safe methods,
+if the resource matches one of the listed ETag values.
+If the conditional does not match then the 412 (Precondition Failed) response is returned.
+
+[If-None-Match] The If-None-Match HTTP request header makes the request conditional.
+For GET and HEAD methods, the server will return the requested resource, with a 200 status,
+only if it doesn't have an ETag matching the given ones.
+For other methods, the request will be processed only if the eventually existing resource's ETag doesn't match any of the values liste
 
 # SCP
 =======================================================================================================================
