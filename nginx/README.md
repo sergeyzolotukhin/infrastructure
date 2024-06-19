@@ -16,6 +16,12 @@ https://stackoverflow.com/questions/38813399/cache-a-static-file-in-memory-forev
 ##### Install NGINX 
 https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
 
+##### NGINX
+sendfile
+By default, NGINX handles file transmission itself and copies the file into the buffer before sending it. 
+Enabling the sendfile directive eliminates the step of copying the data into the buffer 
+and enables direct copying data from one file descriptor to another
+
 ##### ETag
 
 header('ETag: "' . sprintf('%x-%x', $lastModified, $length) . '"');
