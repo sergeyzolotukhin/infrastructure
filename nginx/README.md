@@ -17,3 +17,11 @@ https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
 header('ETag: "' . sprintf('%x-%x', $lastModified, $length) . '"');
 
 https://serverfault.com/questions/690341/algorithm-behind-nginx-etag-generation
+
+##### SCP
+
+scp [options] [source] [destination]
+
+https://www.makeuseof.com/scp-command-in-linux/
+
+-p      Preserves modification times, access times, and file mode bits from the source file.
