@@ -68,6 +68,8 @@ https://nginx.org/en/docs/http/ngx_http_headers_module.html
 Versioning -    This approach—including a dynamic value into the file name—is called versioning. 
                 Versioning is a common practice, and I recommend enabling it in your app. 
 
+https://http.dev/headers#caching
+
 # HTTP headers
 =======================================================================================================================
 
@@ -85,7 +87,11 @@ W/"123456789" – A weak ETag validator
 [Last-Modified] The Last-Modified response HTTP header contains a date and time when the origin server believes the resource was last modified. 
 It is used as a validator to determine if the resource is the same as the previously stored one.
 
-Cache-Control
+[Age] The HTTP Age header is used to indicate the number of seconds that an object has been in a proxy cache.
+
+[Cache-Control] The HTTP Cache-Control header is used for both HTTP requests and HTTP responses. 
+It is responsible for holding directives related to controlling caches for clients and intermediaries.
+https://http.dev/cache-control
 
 * public
 * no-store
