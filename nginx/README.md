@@ -103,6 +103,9 @@ https://http.dev/cache-control
 * must-revalidate 
 * proxy-revalidate 
 
+[Pragma] The HTTP Pragma header has different effects that are implementation-specific and is not included in the HTTP specification. 
+However, it can be used for backward compatibility with HTTP/1.0 caches that do not have a HTTP Cache-Control HTTP/1.1 header.
+
 # HTTP request conditional
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match
