@@ -30,6 +30,15 @@ header('ETag: "' . sprintf('%x-%x', $lastModified, $length) . '"');
 
 https://serverfault.com/questions/690341/algorithm-behind-nginx-etag-generation
 
+##### If-Modified-Since
+
+https://nginx.org/en/docs/http/ngx_http_core_module.html#etag
+
+Syntax:	if_modified_since off | exact | before;
+Default:
+if_modified_since exact;
+
+
 ##### SCP
 
 scp [options] [source] [destination]
