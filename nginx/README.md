@@ -10,6 +10,9 @@ https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-
 https://nginx.org/en/docs/beginners_guide.html
 https://javorszky.co.uk/2019/03/28/etag-if-match-nginx-and-you/
 
+Nginx HTTP server cannot memory-cache files or pages.
+https://stackoverflow.com/questions/38813399/cache-a-static-file-in-memory-forever-on-nginx
+
 ##### Install NGINX 
 https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
 
