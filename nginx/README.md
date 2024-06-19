@@ -16,8 +16,10 @@ https://stackoverflow.com/questions/38813399/cache-a-static-file-in-memory-forev
 ##### Install NGINX 
 https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
 
-# NGINX
+# NGINX caching
 =======================================================================================================================
+
+https://iamakulov.com/notes/caching/
 
 sendfile
 By default, NGINX handles file transmission itself and copies the file into the buffer before sending it. 
