@@ -24,6 +24,8 @@ and enables direct copying data from one file descriptor to another
 
 ##### ETag
 
+Default: etag on;
+
 header('ETag: "' . sprintf('%x-%x', $lastModified, $length) . '"');
 
 https://serverfault.com/questions/690341/algorithm-behind-nginx-etag-generation
