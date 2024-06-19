@@ -12,3 +12,8 @@ https://nginx.org/en/docs/beginners_guide.html
 ##### Install NGINX 
 https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
 
+##### ETag
+
+header('ETag: "' . sprintf('%x-%x', $lastModified, $length) . '"');
+
+https://serverfault.com/questions/690341/algorithm-behind-nginx-etag-generation
