@@ -65,3 +65,4 @@ library/lib-antlr/src/main/gen/
 *.rpm
 
 /jfrog-artifactory-shell/log/
+/postgresql-shell/demo-20161013.pdf

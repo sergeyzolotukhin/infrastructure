@@ -1,0 +1,13 @@
+CREATE DATABASE DATABASE_01;
+CREATE DATABASE DATABASE_02;
+
+CREATE TABLE TABLE_01 (
+                          NAME_01 VARCHAR(255),
+                          NAME_02 VARCHAR(255)
+);
+
+insert into TABLE_01 (NAME_01) VALUES ('NAME_02');
+
+select *
+from TABLE_01
+;
