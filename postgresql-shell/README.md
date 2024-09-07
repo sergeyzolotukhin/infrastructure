@@ -17,3 +17,4 @@ https://gist.github.com/janjaali/6021580003bb175860be5c20cfb03a7e
 https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-compose-e1607f6f882f
 
 https://tute.io/3-ways-backup-restore-postgresql-database
+https://medium.com/moveax/how-postgresql-replication-works-6288b3e6000e
