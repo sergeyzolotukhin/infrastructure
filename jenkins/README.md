@@ -44,3 +44,6 @@ disadvantage
 * shared code cannot be used anymore
 
 #### What is a matrix job
+
+https://devopscube.com/setup-slaves-on-jenkins-2/
+https://devopscube.com/install-configure-jenkins-2-0/
