@@ -4,6 +4,7 @@ https://hub.docker.com/r/apache/activemq-artemis
 
 #### Java clint 
 https://activemq.apache.org/components/artemis/documentation/1.0.0/using-jms.html
+https://activemq.apache.org/components/artemis/documentation/1.0.0/configuring-transports.html
 https://activemq.apache.org/components/artemis/documentation/latest/examples.html
 https://github.com/apache/activemq-artemis-examples/blob/main/examples/features/standard/queue/pom.xml
 
