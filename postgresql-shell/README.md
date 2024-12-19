@@ -18,3 +18,9 @@ https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-
 
 https://tute.io/3-ways-backup-restore-postgresql-database
 https://medium.com/moveax/how-postgresql-replication-works-6288b3e6000e
+
+#### How to restore dump in SQL format ?
+
+psql -U postgres -d postgres -f demo-medium.sql
+psql -U your_user -d your_db -c 'drop owned by current_user' -f your_dump.sql
+
