@@ -26,3 +26,6 @@ psql -U your_user -d your_db -c 'drop owned by current_user' -f your_dump.sql
 
 #### How to create a database from a template in Postgres ?
 CREATE DATABASE demo_01 WITH TEMPLATE demo OWNER postgres;
+
+We use the demo medium with 650 Mb size.
+[2024-12-19 22:59:21] completed in 8 s 317 ms
