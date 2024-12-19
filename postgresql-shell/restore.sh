@@ -4,6 +4,7 @@
 echo 'Kill sessions'
 psql -f /vagrant/kill-sessions.sql > /dev/null
 
+#SECONDS=0
 
 echo 'Drop databases'
 dropdb -U postgres demo
@@ -14,4 +15,5 @@ createdb -U postgres -T template0 demo
 echo 'Restore databases 01'
 pg_restore -U postgres -w -d demo -1 demo_medium.tar
 
+#echo $SECONDS
 echo 'Successfully'
