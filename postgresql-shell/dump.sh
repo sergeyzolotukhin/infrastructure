@@ -1,3 +1,6 @@
+
+# https://www.postgresql.org/docs/current/app-pgdump.html
+
 if [ $USER != "postgres" ]; then
         echo "Script must be run as user: postgres. Please use: su postgres"
         exit 1

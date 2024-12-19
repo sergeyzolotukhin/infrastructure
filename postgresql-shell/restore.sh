@@ -1,3 +1,6 @@
+
+# https://www.postgresql.org/docs/current/app-pgrestore.html
+
 echo 'Kill sessions'
 psql -f /vagrant/kill-sessions.sql > /dev/null
 
