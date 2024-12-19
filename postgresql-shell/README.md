@@ -32,3 +32,5 @@ CREATE DATABASE demo_01 WITH TEMPLATE demo OWNER postgres;
 
 We use the demo medium with 650 Mb size.
 completed in 8 s 317 ms
+
+https://www.mojohaus.org/wagon-maven-plugin/usage.html
