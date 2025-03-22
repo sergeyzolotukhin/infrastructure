@@ -63,6 +63,8 @@ library/lib-antlr/src/main/gen/
 
 #### Linux install package
 *.rpm
+*.deb
+
 
 /jfrog-artifactory-shell/log/
 /postgresql-shell/demo-20161013.pdf
