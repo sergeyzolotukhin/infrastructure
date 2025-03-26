@@ -51,3 +51,5 @@ sqlplus pdbadmin/<your password>@//localhost:1521/XEPDB1
 
 docker container ls
 docker stop oracle-db
+
+https://medium.com/geekculture/run-oracle-database-21c-in-docker-351049344d0c
