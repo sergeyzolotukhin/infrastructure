@@ -1,2 +1,5 @@
 #### Oracle Database Server Release 21c (21.3.0.0) Docker Image Documentation
 https://container-registry.oracle.com/ords/f?p=113:4:102669084321828:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:9,9,Oracle%20Database%20Enterprise%20Edition,Oracle%20Database%20Enterprise%20Edition,1,0&cs=3ydyDEiwIF7gn9zlSVlJMG5FS7sXsifJJwlAfiaRwQ30wrJrWoBZX_EQpLFXlkjuAqNkLlR27pzh5pR8kjJnT-Q
+
+#### Oracle Database XE Release 21c (21.3.0.0) Docker Image Documentation
+https://container-registry.oracle.com/ords/f?p=113:4:106774159023573:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3YmzPLWrxKo2MH-fI66Qg9xlcGXNSrS9AzcPsbBd6-Rjp9RMXXiSfLVVxT4SuPCTKWMc_DrobOVZ1PqAwgaROsA
