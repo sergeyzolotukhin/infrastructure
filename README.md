@@ -223,3 +223,5 @@ https://github.com/frieder/ansible-role-oraclejdk/blob/master/tasks/04_installjd
 https://dev.to/thegroo/install-and-manage-multiple-java-versions-on-linux-using-alternatives-5e93
 
 Linux Standard Base ?
+
+https://stackoverflow.com/questions/42421229/how-to-programmatically-install-vagrant-plugins
