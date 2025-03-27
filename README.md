@@ -224,4 +224,6 @@ https://dev.to/thegroo/install-and-manage-multiple-java-versions-on-linux-using-
 
 Linux Standard Base ?
 
+#### Vagrant Secret Feature: Automatic Plugin Installation
 https://stackoverflow.com/questions/42421229/how-to-programmatically-install-vagrant-plugins
+https://dustingram.com/articles/2015/09/16/vagrant-secret-feature/
