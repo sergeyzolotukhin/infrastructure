@@ -8,3 +8,5 @@ https://aymalla.medium.com/development-containers-simplified-b8740566d396
 
 https://www.dataset.com/blog/create-docker-image/
 https://medium.com/@kavindumadushanka972/understanding-docker-volumes-anonymous-volumes-named-volumes-and-bind-mounts-bdae3af94330
+
+https://cadu.dev/creating-a-docker-image-with-database-preloaded/

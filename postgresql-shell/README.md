@@ -38,3 +38,6 @@ https://www.mojohaus.org/wagon-maven-plugin/usage.html
 #### How do I find PostgreSQL's data directory?
 SELECT current_setting('data_directory') AS pgdata_path;
 SHOW data_directory;
+
+####
+https://stackoverflow.com/questions/46349071/commit-content-of-mounted-volumes-as-well
