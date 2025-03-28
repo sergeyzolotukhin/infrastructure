@@ -34,3 +34,7 @@ We use the demo medium with 650 Mb size.
 completed in 8 s 317 ms
 
 https://www.mojohaus.org/wagon-maven-plugin/usage.html
+
+#### How do I find PostgreSQL's data directory?
+SELECT current_setting('data_directory') AS pgdata_path;
+SHOW data_directory;
