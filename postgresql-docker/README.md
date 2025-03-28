@@ -7,3 +7,4 @@ https://www.jetbrains.com/help/idea/2024.3/connect-to-devcontainer.html?services
 https://aymalla.medium.com/development-containers-simplified-b8740566d396
 
 https://www.dataset.com/blog/create-docker-image/
+https://medium.com/@kavindumadushanka972/understanding-docker-volumes-anonymous-volumes-named-volumes-and-bind-mounts-bdae3af94330
