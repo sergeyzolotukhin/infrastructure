@@ -51,3 +51,7 @@ https://devopscube.com/install-configure-jenkins-2-0/
 #### Jenkins - restrict which nodes can be selected by user when creating jobs
 https://devops.stackexchange.com/questions/12191/jenkins-restrict-which-nodes-can-be-selected-by-user-when-creating-jobs
 https://devops.supportsages.com/quick-guide-on-folder-authorisation-strategy-in-jenkins-b28b248c07be
+
+#### Jenkins Docker
+https://hub.docker.com/r/jenkins/jenkins
+https://github.com/jenkinsci/docker/blob/master/README.md
