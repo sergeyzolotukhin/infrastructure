@@ -82,4 +82,5 @@ You can't set options in daemon.json that have already been set on daemon startu
 On systems that use systemd to start the Docker daemon, -H is already set, 
 so you can't use the hosts key in daemon.json to add listening addresses
 
-
+#### --containerd=/run/containerd/containerd.sock
+https://medium.com/@aref.riant/talking-to-containerd-grpc-afa4b185e444
