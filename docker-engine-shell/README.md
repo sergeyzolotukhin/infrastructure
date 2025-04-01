@@ -72,3 +72,6 @@ https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and
 #### override.conf
 https://medium.com/@123rpv/optimizing-docker-with-systemd-a-comprehensive-approach-6a2b90c5d900
 https://carlosneto.dev/blog/2023/2023-11-19-systemd-override-parameters/
+https://makenotes.de/2021/03/override-systemd-unit-files/
+
+#### daemon.json
