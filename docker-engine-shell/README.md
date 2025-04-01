@@ -61,3 +61,10 @@ https://www.simplybusiness.co.uk/about-us/tech/2020/09/docker-build-observabilit
 
 docker run -e JAEGER_DISABLED=true -d -p6831:6831/udp -p16686:16686 jaegertracing/all-in-one:latest export JAEGER_TRACE=0.0.0.0:6831
 http://192.168.56.2:16686/
+
+#### What's the difference between /usr/lib/systemd/system and /etc/systemd/system?
+https://unix.stackexchange.com/questions/206315/whats-the-difference-between-usr-lib-systemd-system-and-etc-systemd-system
+https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
+https://medium.com/@maciej.galeja/transient-services-in-systemd-744ca9606b74
+https://www.freedesktop.org/software/systemd/man/latest/systemd-run.html
+https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
