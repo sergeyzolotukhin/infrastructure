@@ -68,3 +68,7 @@ https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-
 https://medium.com/@maciej.galeja/transient-services-in-systemd-744ca9606b74
 https://www.freedesktop.org/software/systemd/man/latest/systemd-run.html
 https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+
+#### override.conf
+https://medium.com/@123rpv/optimizing-docker-with-systemd-a-comprehensive-approach-6a2b90c5d900
+https://carlosneto.dev/blog/2023/2023-11-19-systemd-override-parameters/
