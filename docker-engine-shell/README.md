@@ -75,3 +75,11 @@ https://carlosneto.dev/blog/2023/2023-11-19-systemd-override-parameters/
 https://makenotes.de/2021/03/override-systemd-unit-files/
 
 #### daemon.json
+https://docs.docker.com/engine/daemon/
+https://docs.docker.com/reference/cli/dockerd/
+
+You can't set options in daemon.json that have already been set on daemon startup as a flag. 
+On systems that use systemd to start the Docker daemon, -H is already set, 
+so you can't use the hosts key in daemon.json to add listening addresses
+
+
