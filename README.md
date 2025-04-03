@@ -232,3 +232,4 @@ https://developer.hashicorp.com/vagrant/docs/vagrantfile/machine_settings
 
 #### How to Create Private Vagrant Cloud on Ubuntu 20.04
 https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
+https://medium.com/@gajbhiyedeepanshu/building-custom-vagrant-box-e6a846b6baca
