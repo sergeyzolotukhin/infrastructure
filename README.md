@@ -229,3 +229,6 @@ https://stackoverflow.com/questions/42421229/how-to-programmatically-install-vag
 https://dustingram.com/articles/2015/09/16/vagrant-secret-feature/
 
 https://developer.hashicorp.com/vagrant/docs/vagrantfile/machine_settings
+
+#### How to Create Private Vagrant Cloud on Ubuntu 20.04
+https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
