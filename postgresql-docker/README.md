@@ -10,3 +10,9 @@ https://www.dataset.com/blog/create-docker-image/
 https://medium.com/@kavindumadushanka972/understanding-docker-volumes-anonymous-volumes-named-volumes-and-bind-mounts-bdae3af94330
 
 https://cadu.dev/creating-a-docker-image-with-database-preloaded/
+
+#### Spin up PostgreSQL instances in seconds with preloaded data
+https://attilatoth.dev/posts/postgres-docker-samples/
+https://github.com/zseta/postgres-docker-samples
+
+https://stackoverflow.com/questions/55762687/slow-postgresql-startup-in-docker-container
