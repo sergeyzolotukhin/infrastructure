@@ -233,3 +233,6 @@ https://developer.hashicorp.com/vagrant/docs/vagrantfile/machine_settings
 #### How to Create Private Vagrant Cloud on Ubuntu 20.04
 https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
 https://medium.com/@gajbhiyedeepanshu/building-custom-vagrant-box-e6a846b6baca
+
+#### Docker/Alpine - Why you should avoid alpine linux
+https://dev.to/kakisoft/dockeralpine-why-you-should-avoid-alpine-linux-44he
