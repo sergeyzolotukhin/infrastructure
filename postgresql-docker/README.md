@@ -16,3 +16,6 @@ https://attilatoth.dev/posts/postgres-docker-samples/
 https://github.com/zseta/postgres-docker-samples
 
 https://stackoverflow.com/questions/55762687/slow-postgresql-startup-in-docker-container
+
+#### Building the perfect data container
+https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df
