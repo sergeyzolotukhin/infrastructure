@@ -55,3 +55,6 @@ https://devops.supportsages.com/quick-guide-on-folder-authorisation-strategy-in-
 #### Jenkins Docker
 https://hub.docker.com/r/jenkins/jenkins
 https://github.com/jenkinsci/docker/blob/master/README.md
+
+#### Start Docker containers on-demand with systemd socket activation
+https://medium.com/@kiankasad/start-docker-containers-on-demand-with-systemd-socket-activation-548f3b8d2514
