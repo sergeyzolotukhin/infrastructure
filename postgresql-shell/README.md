@@ -41,3 +41,6 @@ SHOW data_directory;
 
 ####
 https://stackoverflow.com/questions/46349071/commit-content-of-mounted-volumes-as-well
+
+#### Multi-tenancy implementation with PostgreSQL
+https://blog.logto.io/implement-multi-tenancy
