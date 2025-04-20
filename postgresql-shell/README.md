@@ -45,3 +45,8 @@ https://stackoverflow.com/questions/46349071/commit-content-of-mounted-volumes-a
 #### Multi-tenancy implementation with PostgreSQL
 https://blog.logto.io/implement-multi-tenancy
 https://iniakunhuda.medium.com/introduction-to-postgresql-schemas-a-practical-guide-8089b351b953
+https://www.educba.com/postgresql-synonyms/
+
+The best solution seems to be PgBouncer. 
+It allows you to pool and "redirect" connections from one database to another (even on a different host).
+https://www.cybertec-postgresql.com/en/connection-pooling-intro-pgbouncer-and-pgpool-ii/
