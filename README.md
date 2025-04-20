@@ -238,3 +238,5 @@ https://medium.com/@gajbhiyedeepanshu/building-custom-vagrant-box-e6a846b6baca
 https://dev.to/kakisoft/dockeralpine-why-you-should-avoid-alpine-linux-44he
 https://medium.com/@gaganarora_17523/base-image-for-java-alpine-openjdk8-or-amazon-corretto8-2af74a301cfa
 
+#### Vagrant
+https://github.com/scottslowe/learning-tools/tree/main/vagrant
