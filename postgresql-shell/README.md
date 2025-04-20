@@ -44,3 +44,4 @@ https://stackoverflow.com/questions/46349071/commit-content-of-mounted-volumes-a
 
 #### Multi-tenancy implementation with PostgreSQL
 https://blog.logto.io/implement-multi-tenancy
+https://iniakunhuda.medium.com/introduction-to-postgresql-schemas-a-practical-guide-8089b351b953
