@@ -50,3 +50,6 @@ https://www.educba.com/postgresql-synonyms/
 The best solution seems to be PgBouncer. 
 It allows you to pool and "redirect" connections from one database to another (even on a different host).
 https://www.cybertec-postgresql.com/en/connection-pooling-intro-pgbouncer-and-pgpool-ii/
+
+#### Point-In-Time Recovery (PITR) in PostgreSQL
+https://dzone.com/articles/point-in-time-recovery-pitr-in-postgresql
