@@ -12,11 +12,17 @@ postgres
 postgres
 
 #### Build Docker Image Postgres With Data Included
+
+#### Creating a Docker image with a preloaded database
+https://cadu.dev/creating-a-docker-image-with-database-preloaded/
+
+#### Create snapshot of dockerized postgres
 https://gist.github.com/janjaali/6021580003bb175860be5c20cfb03a7e
-
+#### Creating and filling a Postgres DB with Docker compose
 https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-compose-e1607f6f882f
-
+#### 3 Ways to Backup & Restore a PostgreSQL Database
 https://tute.io/3-ways-backup-restore-postgresql-database
+#### How PostgreSQL replication works
 https://medium.com/moveax/how-postgresql-replication-works-6288b3e6000e
 
 #### How to restore dump in SQL format ?
