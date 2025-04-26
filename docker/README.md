@@ -13,3 +13,6 @@ https://www.baeldung.com/openjdk-crac-hot-application-instances-scaling
 Liberica JDK - https://bell-sw.com/pages/downloads/?package=jdk-crac
     a free, supported, and 100% open-source distribution of OpenJDK
 Azul JDK - https://www.azul.com/downloads/?package=jdk-crac#zulu
+
+#### Portainer - GUI docker
+https://www.youtube.com/watch?v=ljDI5jykjE8&list=LL&index=2&t=523s&ab_channel=ChristianLempa
