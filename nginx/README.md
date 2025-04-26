@@ -139,6 +139,7 @@ https://www.makeuseof.com/scp-command-in-linux/
 
 -p      Preserves modification times, access times, and file mode bits from the source file.
 
-
+#### How to disable SSL verification for proxied host ?
+https://github.com/NginxProxyManager/nginx-proxy-manager/discussions/3332
 
 
