@@ -142,3 +142,5 @@ https://www.makeuseof.com/scp-command-in-linux/
 #### How to disable SSL verification for proxied host ?
 https://github.com/NginxProxyManager/nginx-proxy-manager/discussions/3332
 https://192.168.56.2/
+
+https://www.baeldung.com/ops/nginx-http-https-domains-redirection
