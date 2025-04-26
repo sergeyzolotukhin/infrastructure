@@ -6,3 +6,10 @@ https://surenraju.medium.com/migrate-running-containers-by-checkpoint-restoring-
 https://kimh.github.io/blog/experiment-to-suspend-and-resume-docker-container-with-criu-2/
 https://medium.com/@talhof8/introduction-to-criu-and-live-migration-cd4a6d11afb6
 https://www.infoq.com/articles/container-live-migration/
+
+https://www.baeldung.com/openjdk-crac-hot-application-instances-scaling
+
+#### JDK
+Liberica JDK - https://bell-sw.com/pages/downloads/?package=jdk-crac
+    a free, supported, and 100% open-source distribution of OpenJDK
+Azul JDK - https://www.azul.com/downloads/?package=jdk-crac#zulu
