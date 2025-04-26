@@ -3,3 +3,4 @@ https://technology.amis.nl/continuous-delivery/provisioning/vagrant-and-docker-n
 
 #### Checkpoint/Restore In Userspace
 https://surenraju.medium.com/migrate-running-containers-by-checkpoint-restoring-using-criu-6670dd26a822
+https://kimh.github.io/blog/experiment-to-suspend-and-resume-docker-container-with-criu-2/
