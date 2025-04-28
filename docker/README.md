@@ -16,5 +16,6 @@ Azul JDK - https://www.azul.com/downloads/?package=jdk-crac#zulu
 
 #### Portainer - GUI docker
 https://www.youtube.com/watch?v=ljDI5jykjE8&list=LL&index=2&t=523s&ab_channel=ChristianLempa
+https://docs.portainer.io/start/install-ce/server/docker/linux
 
 #### Yacht - GUI docker
