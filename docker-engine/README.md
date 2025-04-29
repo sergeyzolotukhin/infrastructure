@@ -9,3 +9,6 @@ TODO:
     
 https://github.com/leighmcculloch/vagrant-docker-compose
 https://docs.gitea.com/installation/install-with-docker
+
+#### Install Portainer CE with Docker on Linux
+https://docs.portainer.io/start/install-ce/server/docker/linux
