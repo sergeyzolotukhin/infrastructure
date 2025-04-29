@@ -1,3 +1,6 @@
+####
+http://192.168.56.2:8080/
+
 TODO:
     * automate install vagrant-docker-compose plugin
     * automate accept host certificate
