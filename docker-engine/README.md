@@ -3,3 +3,5 @@ TODO:
     * automate accept host certificate
     * enable root login without password
     * print Hot to login in IDEA console
+    
+https://github.com/leighmcculloch/vagrant-docker-compose
