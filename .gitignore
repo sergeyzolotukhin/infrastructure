@@ -69,3 +69,6 @@ library/lib-antlr/src/main/gen/
 /jfrog-artifactory-shell/log/
 /postgresql-shell/demo-20161013.pdf
 /postgresql-shell/*.tar
+
+#### Gitea
+/docker-engine/gitea/
