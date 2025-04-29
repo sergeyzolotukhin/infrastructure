@@ -5,3 +5,4 @@ TODO:
     * print Hot to login in IDEA console
     
 https://github.com/leighmcculloch/vagrant-docker-compose
+https://docs.gitea.com/installation/install-with-docker
