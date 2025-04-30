@@ -19,3 +19,7 @@ docker exec --user 1000 gitea gitea admin user create --admin --username root --
 https://forum.gitea.com/t/unattended-gitea-installation-from-the-cli/3373
 
 https://www.gunfus.com/gitea_missing_admin/
+
+#### How to Run a Script After a Docker Compose Container Starts
+https://www.baeldung.com/ops/docker-compose-run-script-on-start
+https://docs.docker.com/compose/how-tos/lifecycle/
