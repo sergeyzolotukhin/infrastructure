@@ -245,7 +245,7 @@ https://github.com/hashicorp/vagrant/issues/2292
 #### My boxes in the Vagrant Cloud
 https://medium.com/nerd-for-tech/my-boxes-in-the-vagrant-cloud-72dd58478fe3
 https://developer.hashicorp.com/packer/integrations/hashicorp/vagrant/latest/components/builder/vagrant
-
+https://developer.hashicorp.com/packer
 
 #### Drone CI 
 https://www.drone.io/
