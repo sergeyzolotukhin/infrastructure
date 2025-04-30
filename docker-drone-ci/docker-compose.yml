@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  drone:
+    image: drone/drone
+    environment:
+      - DRONE_GITHUB_CLIENT_ID= ...
+      - DRONE_GITHUB_CLIENT_SECRET= ...
+      - DRONE_RPC_SECRET=super-shared-secret
+      - DRONE_SERVER_HOST=192.168.56.2
+      - DRONE_SERVER_PROTO=http
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./drone:/data
+    restart: unless-stopped
