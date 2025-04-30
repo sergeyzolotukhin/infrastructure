@@ -17,3 +17,5 @@ docker run --name gitea -p 8080:3000 -e GITEA__security__INSTALL_LOCK=true -d gi
 https://forum.gitea.com/t/skipping-the-first-configuration-page-in-a-docker-container/4930
 docker exec --user 1000 gitea gitea admin user create --admin --username root --password admin1234 --email root@example.com
 https://forum.gitea.com/t/unattended-gitea-installation-from-the-cli/3373
+
+https://www.gunfus.com/gitea_missing_admin/
