@@ -12,3 +12,8 @@ https://docs.gitea.com/installation/install-with-docker
 
 #### Install Portainer CE with Docker on Linux
 https://docs.portainer.io/start/install-ce/server/docker/linux
+
+docker run --name gitea -p 8080:3000 -e GITEA__security__INSTALL_LOCK=true -d gitea/gitea:1.16.5
+https://forum.gitea.com/t/skipping-the-first-configuration-page-in-a-docker-container/4930
+docker exec --user 1000 gitea gitea admin user create --admin --username root --password admin1234 --email root@example.com
+https://forum.gitea.com/t/unattended-gitea-installation-from-the-cli/3373
