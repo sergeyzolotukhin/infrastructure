@@ -69,3 +69,5 @@ https://whatap.io/bbs/board.php?bo_table=blog_en&wr_id=51&page=2
 https://plugins.jenkins.io/parallel-test-executor/
 https://www.jenkins.io/doc/pipeline/steps/parallel-test-executor/
 https://github.com/jenkinsci/parallel-test-executor-plugin/tree/master
+https://www.jenkins.io/blog/2016/06/16/parallel-test-executor-plugin/
+https://www.baeldung.com/ops/jenkins-run-job-parallel
