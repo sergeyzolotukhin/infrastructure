@@ -58,3 +58,10 @@ https://github.com/jenkinsci/docker/blob/master/README.md
 
 #### Start Docker containers on-demand with systemd socket activation
 https://medium.com/@kiankasad/start-docker-containers-on-demand-with-systemd-socket-activation-548f3b8d2514
+
+#### Jenkins with Dynamic Docker Agents
+https://devopscube.com/docker-containers-as-build-slaves-jenkins/
+https://www.coachdevops.com/2022/08/jenkins-build-agent-setup-using-docker.html
+https://octopus.com/blog/jenkins-dynamic-build-agents
+https://whatap.io/bbs/board.php?bo_table=blog_en&wr_id=51&page=2
+
