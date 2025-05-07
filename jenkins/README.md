@@ -65,3 +65,6 @@ https://www.coachdevops.com/2022/08/jenkins-build-agent-setup-using-docker.html
 https://octopus.com/blog/jenkins-dynamic-build-agents
 https://whatap.io/bbs/board.php?bo_table=blog_en&wr_id=51&page=2
 
+#### Parallel Test Executor
+https://plugins.jenkins.io/parallel-test-executor/
+https://www.jenkins.io/doc/pipeline/steps/parallel-test-executor/
