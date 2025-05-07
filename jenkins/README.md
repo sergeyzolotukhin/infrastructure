@@ -71,3 +71,4 @@ https://www.jenkins.io/doc/pipeline/steps/parallel-test-executor/
 https://github.com/jenkinsci/parallel-test-executor-plugin/tree/master
 https://www.jenkins.io/blog/2016/06/16/parallel-test-executor-plugin/
 https://www.baeldung.com/ops/jenkins-run-job-parallel
+https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agents-optimize-your-test-execution-81c5c2297f7e
