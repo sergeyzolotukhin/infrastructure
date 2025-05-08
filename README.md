@@ -242,6 +242,7 @@ https://medium.com/@gaganarora_17523/base-image-for-java-alpine-openjdk8-or-amaz
 https://github.com/scottslowe/learning-tools/tree/main/vagrant
 https://github.com/hashicorp/vagrant/issues/2292
 https://www.techtarget.com/searchitoperations/tip/Tips-to-launch-VirtualBox-nested-virtualization
+https://github.com/acntech/vagrant-repository
 
 #### My boxes in the Vagrant Cloud
 https://medium.com/nerd-for-tech/my-boxes-in-the-vagrant-cloud-72dd58478fe3
