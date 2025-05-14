@@ -251,6 +251,8 @@ https://docs.xenserver.com/en-us/xencenter/current-release/vms-exportimport-ovf.
 https://www.postgresql.org/about/news/virtual-appliances-postgresql-server-585/
 https://bitnami.com/stack/postgresql/virtual-machine
 
+https://fabiogomezdiaz.com/posts/how-to-run-packer-pipelines-on-jenkins-part2-jenkins-in-docker/
+
 #### My boxes in the Vagrant Cloud
 https://medium.com/nerd-for-tech/my-boxes-in-the-vagrant-cloud-72dd58478fe3
 https://developer.hashicorp.com/packer/integrations/hashicorp/vagrant/latest/components/builder/vagrant
