@@ -249,6 +249,7 @@ https://serverfault.com/questions/596987/package-a-vm-built-with-vagrant-as-an-o
 https://developer.hashicorp.com/packer/integrations/hashicorp/virtualbox
 https://docs.xenserver.com/en-us/xencenter/current-release/vms-exportimport-ovf.html#:~:text=OVF%20packages%20contain%20a%20series,series%20of%20files%20like%20OVF.
 https://www.postgresql.org/about/news/virtual-appliances-postgresql-server-585/
+https://bitnami.com/stack/postgresql/virtual-machine
 
 #### My boxes in the Vagrant Cloud
 https://medium.com/nerd-for-tech/my-boxes-in-the-vagrant-cloud-72dd58478fe3
