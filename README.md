@@ -263,3 +263,6 @@ https://github.com/StephenSorriaux/vagrant-registry
 
 #### Drone CI 
 https://www.drone.io/
+
+#### VM Guest Control File Manager
+https://www.virtualbox.org/manual/ch04.html
