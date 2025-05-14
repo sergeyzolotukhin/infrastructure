@@ -244,6 +244,10 @@ https://github.com/hashicorp/vagrant/issues/2292
 https://www.techtarget.com/searchitoperations/tip/Tips-to-launch-VirtualBox-nested-virtualization
 https://github.com/acntech/vagrant-repository
 
+#### Package a VM built with Vagrant as an OVA appliance
+https://serverfault.com/questions/596987/package-a-vm-built-with-vagrant-as-an-ova-appliance
+https://developer.hashicorp.com/packer/integrations/hashicorp/virtualbox
+
 #### My boxes in the Vagrant Cloud
 https://medium.com/nerd-for-tech/my-boxes-in-the-vagrant-cloud-72dd58478fe3
 https://developer.hashicorp.com/packer/integrations/hashicorp/vagrant/latest/components/builder/vagrant
