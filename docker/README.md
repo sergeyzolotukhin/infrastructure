@@ -19,3 +19,6 @@ https://www.youtube.com/watch?v=ljDI5jykjE8&list=LL&index=2&t=523s&ab_channel=Ch
 https://docs.portainer.io/start/install-ce/server/docker/linux
 
 #### Yacht - GUI docker
+
+#### swarm
+https://medium.com/leniolabs/xdocker-part-2-swarm-and-docker-stack-8d7912d354b2
