@@ -26,3 +26,6 @@ https://medium.com/better-programming/how-to-differentiate-between-docker-images
 
 #### Docker Secrets
 https://spacelift.io/blog/docker-secrets
+https://betterstack.com/community/guides/scaling-docker/docker-secrets/
+https://medium.com/codex/how-to-handle-docker-secrets-in-the-right-way-ccb3a9e4b9fd
+
