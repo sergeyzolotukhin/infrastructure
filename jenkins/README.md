@@ -79,4 +79,7 @@ https://dev.to/logesh-sakthivel/adding-new-jenkins-nodeagent-3lij
 https://medium.com/@DevOpsfreak/how-to-configure-jenkins-slave-nodes-by-launching-agents-via-ssh-or-launch-agent-via-execution-of-a0cf6d6dd032
 
 #### Dynamically provisioned Docker agents
-"g:\_book\_devops\jenkins\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022.pdf" 
+"g:\_book\_devops\jenkins\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022.pdf"
+
+#### Other
+https://codefresh.io/learn/continuous-integration/continuous-integration-ci-why-how-and-differences-between-ci-and-cd/
