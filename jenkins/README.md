@@ -75,6 +75,7 @@ https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agent
 
 #### Create Jenkins Agent
 https://medium.com/@minaxijoshi3101/create-jenkins-agent-using-jnlp-java-web-start-protocol-and-start-jenkins-as-a-service-on-a-linux-de8ef1ba69cf
+https://dev.to/logesh-sakthivel/adding-new-jenkins-nodeagent-3lij
 
 #### Dynamically provisioned Docker agents
 "g:\_book\_devops\jenkins\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022.pdf" 
