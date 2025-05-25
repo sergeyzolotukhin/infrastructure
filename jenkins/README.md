@@ -72,3 +72,9 @@ https://github.com/jenkinsci/parallel-test-executor-plugin/tree/master
 https://www.jenkins.io/blog/2016/06/16/parallel-test-executor-plugin/
 https://www.baeldung.com/ops/jenkins-run-job-parallel
 https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agents-optimize-your-test-execution-81c5c2297f7e
+
+#### Create Jenkins Agent
+https://medium.com/@minaxijoshi3101/create-jenkins-agent-using-jnlp-java-web-start-protocol-and-start-jenkins-as-a-service-on-a-linux-de8ef1ba69cf
+
+#### Dynamically provisioned Docker agents
+"g:\_book\_devops\jenkins\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022\Leszko Rafal - Continuous Delivery with Docker and Jenkins, 3rd Edition - 2022.pdf" 
