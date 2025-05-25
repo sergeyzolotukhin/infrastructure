@@ -23,3 +23,6 @@ https://docs.portainer.io/start/install-ce/server/docker/linux
 #### swarm
 https://medium.com/leniolabs/xdocker-part-2-swarm-and-docker-stack-8d7912d354b2
 https://medium.com/better-programming/how-to-differentiate-between-docker-images-containers-stacks-machine-nodes-and-swarms-fd5f7e34eb9f
+
+#### Docker Secrets
+https://spacelift.io/blog/docker-secrets
