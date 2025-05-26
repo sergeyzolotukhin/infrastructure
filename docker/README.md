@@ -29,3 +29,6 @@ https://spacelift.io/blog/docker-secrets
 https://betterstack.com/community/guides/scaling-docker/docker-secrets/
 https://medium.com/codex/how-to-handle-docker-secrets-in-the-right-way-ccb3a9e4b9fd
 
+#### Docker Compose File - Configs top-level elements
+https://docs.docker.com/reference/compose-file/configs/
+https://dev.to/alexmercedcoder/a-deep-dive-into-docker-compose-27h5
