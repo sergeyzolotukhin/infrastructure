@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: true
+  vars:
+    prereqs_packages:
+      - htop
+      - tmux
+  tasks:
+    - name: Install required system packages
+      apt:
+        name: "{{ prereqs_packages }}"
+        state: present
+        update_cache: true
+        force: yes
+      become: true
