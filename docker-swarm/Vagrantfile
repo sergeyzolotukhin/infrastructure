@@ -1,32 +1,29 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-Vagrant.configure("2") do |config|
-    config.vm.define "m1" do |d|
-        d.vm.box = "ubuntu/focal64"
-        d.vm.hostname = "m1.szolotukhin.in.ua"
-        d.vm.network :private_network, ip: "192.168.56.2"
-        d.vm.provider "virtualbox" do |v|
-            v.name = "docker swarm node"
-            v.gui = true
-            v.memory = "1024"
-            v.customize ["modifyvm", :id, "--vram", "128"]
-        end
-        d.vm.synced_folder ".", "/vagrant", mount_options: ["dmode=770", "fmode=660"]
-        d.vm.provision "shell", path: "provision-ansible.sh"
-    end
+nodes = [
+  { :name => 'm1', :ip => '192.168.56.2'},
 
-    config.vm.define "s1" do |s|
-        s.vm.box = "ubuntu/focal64"
-        s.vm.hostname = "s1.szolotukhin.in.ua"
-        d.vm.network :private_network, ip: "192.168.56.3"
-        s.vm.provider "virtualbox" do |v|
-            v.name = "docker swarm node 1"
-            v.gui = true
-            v.memory = "1024"
-            v.customize ["modifyvm", :id, "--vram", "128"]
+  { :name => 's1', :ip => '192.168.56.3'},
+  { :name => 's2', :ip => '192.168.56.4'}
+]
+
+Vagrant.configure("2") do |config|
+
+    config.vm.box = "ubuntu/focal64"
+    config.vm.synced_folder '.', '/vagrant'
+
+    nodes.each do |node|
+        config.vm.define node[:name] do |d|
+            d.vm.hostname = "#{node[:name]}.szolotukhin.in.ua"
+            d.vm.network :private_network, ip: node[:ip]
+            d.vm.provider :virtualbox do |v|
+                v.name = "docker swarm #{node[:name]}"
+                v.gui = true
+                v.memory = "1024"
+                v.customize ["modifyvm", :id, "--vram", "128"]
+            end
         end
-        s.vm.provision "shell", path: "provision-node.sh"
     end
 end
 
