@@ -49,6 +49,11 @@
       notify:
         - restart sshd
 
+    - name: Set password for root
+      user:
+        name: root
+        password: "{{ 'root' | password_hash('sha512') }}"
+
   handlers:
     - name: restart sshd
       service:
