@@ -264,3 +264,6 @@ https://www.drone.io/
 
 #### VM Guest Control File Manager
 https://www.virtualbox.org/manual/ch04.html
+
+#### Creating Boxes via the Vagrant Cloud Web Interface
+https://developer.hashicorp.com/vagrant/vagrant-cloud/boxes/create#creating-boxes-via-the-vagrant-cloud-web-interface
