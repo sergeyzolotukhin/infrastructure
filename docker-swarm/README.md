@@ -20,3 +20,6 @@ https://developer.hashicorp.com/vagrant/docs/boxes/base
 #### Custom Vagrant command with a plugin
 https://stackoverflow.com/questions/28283099/custom-vagrant-command-with-a-plugin
 https://developer.hashicorp.com/vagrant/docs/plugins/commands
+
+#### Run script on host machine during vagrant up
+https://superuser.com/questions/701735/run-script-on-host-machine-during-vagrant-up
