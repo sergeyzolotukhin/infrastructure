@@ -16,3 +16,6 @@ You could also optionally be specific and say vagrant up web or vagrant up db.
 
 ### Creating a Base Box
 https://developer.hashicorp.com/vagrant/docs/boxes/base
+
+#### Custom Vagrant command with a plugin
+https://stackoverflow.com/questions/28283099/custom-vagrant-command-with-a-plugin
