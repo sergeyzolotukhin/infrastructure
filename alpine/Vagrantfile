@@ -9,6 +9,8 @@ Vagrant.configure("2") do |config|
             vb.name = "alpine-1"
             vb.memory = "4048"
             vb.gui = true
+            # vb.customize ['setextradata', :id, 'GUI/ScaleFactor', '3.00']
+            # vb.customize ['setextradata', :id, 'GUI/SuppressMessages', 'confirmGoingFullscreen,remindAboutMouseIntegration,remindAboutAutoCapture']
         end
 
         d.vm.network :private_network, ip: "192.168.56.2"
