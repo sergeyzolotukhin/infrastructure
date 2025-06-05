@@ -16,4 +16,6 @@ Vagrant.configure("2") do |config|
         # d.vm.provision "shell", path: "root-login-enable.sh"
         # d.vm.provision "shell", path: "provision.sh"
     end
+
+    config.vm.post_up_message = "The application is available at http://abc.example.lh:8765"
 end
