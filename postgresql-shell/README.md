@@ -62,3 +62,4 @@ https://dzone.com/articles/point-in-time-recovery-pitr-in-postgresql
 
 https://www.highgo.ca/2021/05/31/getting-started-with-pg_bulkload/
 https://ongres.com/blog/fastest_way_copy_data_between_postgres_tables/
+https://www.highgo.ca/2020/12/08/bulk-loading-into-postgresql-options-and-comparison/
