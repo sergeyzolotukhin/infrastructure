@@ -84,3 +84,4 @@ https://medium.com/@DevOpsfreak/how-to-configure-jenkins-slave-nodes-by-launchin
 #### Other
 https://codefresh.io/learn/continuous-integration/continuous-integration-ci-why-how-and-differences-between-ci-and-cd/
 https://www.ysoft.com/aiva/blog/what-is-continuous-integration
+https://github.com/jenkinsci/vagrant-plugin
