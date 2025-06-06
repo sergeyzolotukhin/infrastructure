@@ -59,3 +59,5 @@ https://www.cybertec-postgresql.com/en/connection-pooling-intro-pgbouncer-and-pg
 
 #### Point-In-Time Recovery (PITR) in PostgreSQL
 https://dzone.com/articles/point-in-time-recovery-pitr-in-postgresql
+
+https://www.highgo.ca/2021/05/31/getting-started-with-pg_bulkload/
