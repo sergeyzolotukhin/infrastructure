@@ -52,3 +52,4 @@ https://www.techtarget.com/searchitoperations/tutorial/How-to-successfully-debug
 
 https://draculatheme.com/powershell-ise
 https://www.youtube.com/watch?v=j_w0wowhbKQ&ab_channel=RuFrame
+https://www.youtube.com/watch?v=_13576fY7KU&list=PL1aqAoC4A0sXnzbnAvIa36s8P3Ogo8FR_&ab_channel=RuFrame
