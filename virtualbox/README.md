@@ -7,3 +7,27 @@ https://github.com/alexec/maven-vbox-plugin-example
 https://github.com/nicoulaj/vagrant-maven-plugin
 https://nicoulaj.github.io/vagrant-maven-plugin/examples/running-a-vm-during-integration-tests.html
 https://martincarstenbach.com/2020/05/05/versioning-for-your-local-vagrant-boxes-adding-a-new-box/
+
+VBoxManage list vms
+VBoxManage showvminfo "apache2-1" --machinereadable
+VBoxManage startvm "apache2-1"
+VBoxManage controlvm "apache2-1" poweroff
+
+VBoxManage snapshot <uuid|vmname> take <snapshot-name>
+VBoxManage snapshot <uuid|vmname> delete <snapshot-name>
+VBoxManage snapshot <uuid|vmname> restore <snapshot-name>
+VBoxManage snapshot <uuid|vmname> restorecurrent
+VBoxManage snapshot <uuid|vmname> edit <snapshot-name | --current>
+VBoxManage snapshot <uuid|vmname> list [[--details] | [--machinereadable]]
+
+--machinereadable
+C:\soft\oraclevm-6.1\VirtualBox.exe
+
+VBoxManage list 
+[--long] 
+[--sorted] 
+[bridgedifs | cloudnets | 
+cloudprofiles | cloudproviders | 
+cpu-profiles | dhcpservers | dvds | extpacks | floppies | groups | hddbackends | hdds | hostcpuids | hostdrives | hostdvds | hostfloppies | hostinfo | hostonlyifs |
+hostonlynets | intnets | natnets | ostypes | runningvms | screenshotformats | systemproperties | usbfilters | usbhost | 
+vms | webcams]
