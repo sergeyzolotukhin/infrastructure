@@ -13,12 +13,17 @@ VBoxManage showvminfo "apache2-1" --machinereadable
 VBoxManage startvm "apache2-1"
 VBoxManage controlvm "apache2-1" poweroff
 
-VBoxManage snapshot <uuid|vmname> take <snapshot-name>
-VBoxManage snapshot <uuid|vmname> delete <snapshot-name>
-VBoxManage snapshot <uuid|vmname> restore <snapshot-name>
-VBoxManage snapshot <uuid|vmname> restorecurrent
+VBoxManage snapshot "apache2-1" take "N-01"
+VBoxManage snapshot "apache2-1" take "N-02"
+VBoxManage snapshot "apache2-1" take "N-03"
+VBoxManage snapshot "apache2-1" take "N-04"
+VBoxManage snapshot "apache2-1" delete "N-03"
+VBoxManage snapshot "apache2-1" restore "N-02"
+VBoxManage snapshot "apache2-1" restorecurrent
 VBoxManage snapshot <uuid|vmname> edit <snapshot-name | --current>
-VBoxManage snapshot <uuid|vmname> list [[--details] | [--machinereadable]]
+VBoxManage snapshot "apache2-1" list
+VBoxManage snapshot "apache2-1" list --machinereadable
+VBoxManage snapshot "apache2-1" list --details
 
 --machinereadable
 C:\soft\oraclevm-6.1\VirtualBox.exe
