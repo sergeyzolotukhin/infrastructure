@@ -42,3 +42,13 @@ https://www.baeldung.com/run-shell-command-in-java
 https://sanaulla.info/2010/09/07/execute-external-process-from-within-jvm-using-apache-commons-exec-library-2/
 https://www.geeksforgeeks.org/java-runtime-exec-method/
 https://kazurayam.github.io/subprocessj/
+
+#### PowerShell
+
+https://plugins.jetbrains.com/plugin/10249-powershell
+https://blog.ironmansoftware.com/daily-powershell/powershell-debugging-terminal/
+https://medium.com/tomtalkspowershell/debugging-powershell-commands-tips-and-tricks-4f032ae3fdab
+https://www.techtarget.com/searchitoperations/tutorial/How-to-successfully-debug-PowerShell-scripts
+
+https://draculatheme.com/powershell-ise
+https://www.youtube.com/watch?v=j_w0wowhbKQ&ab_channel=RuFrame
