@@ -36,3 +36,6 @@ cloudprofiles | cloudproviders |
 cpu-profiles | dhcpservers | dvds | extpacks | floppies | groups | hddbackends | hdds | hostcpuids | hostdrives | hostdvds | hostfloppies | hostinfo | hostonlyifs |
 hostonlynets | intnets | natnets | ostypes | runningvms | screenshotformats | systemproperties | usbfilters | usbhost | 
 vms | webcams]
+
+https://commons.apache.org/proper/commons-exec/tutorial.html
+https://www.baeldung.com/run-shell-command-in-java
