@@ -39,3 +39,4 @@ vms | webcams]
 
 https://commons.apache.org/proper/commons-exec/tutorial.html
 https://www.baeldung.com/run-shell-command-in-java
+https://sanaulla.info/2010/09/07/execute-external-process-from-within-jvm-using-apache-commons-exec-library-2/
