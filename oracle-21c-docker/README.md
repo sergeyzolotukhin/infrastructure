@@ -4,6 +4,9 @@ https://container-registry.oracle.com/ords/f?p=113:4:102669084321828:::4:P4_REPO
 #### Oracle Database XE Release 21c (21.3.0.0) Docker Image Documentation
 https://container-registry.oracle.com/ords/f?p=113:4:106774159023573:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3YmzPLWrxKo2MH-fI66Qg9xlcGXNSrS9AzcPsbBd6-Rjp9RMXXiSfLVVxT4SuPCTKWMc_DrobOVZ1PqAwgaROsA
 
+https://container-registry.oracle.com/ords/f?p=113:4:4041445972571:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3xBZFJ_5KD3tZ-pakYgykWTZz81IbO_k-35davvF9XAlb6Dxs7Es7xjmrDXIit2I3OnqPg3Z1p7FOjq3YGRTImQ
+
+
 ##### Starting an Oracle Database Server Instance
 docker run -d --name oracle-db container-registry.oracle.com/database/express:21.3.0-xe
 
