@@ -32,3 +32,6 @@ https://medium.com/codex/how-to-handle-docker-secrets-in-the-right-way-ccb3a9e4b
 #### Docker Compose File - Configs top-level elements
 https://docs.docker.com/reference/compose-file/configs/
 https://dev.to/alexmercedcoder/a-deep-dive-into-docker-compose-27h5
+
+#### Docker ENTRYPOINT vs. CMD : Differences & Examples
+https://spacelift.io/blog/docker-entrypoint-vs-cmd
