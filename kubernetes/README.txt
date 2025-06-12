@@ -4,3 +4,4 @@ https://medium.com/@areesmoon/installing-minikube-on-ubuntu-20-04-lts-focal-foss
 https://phoenixnap.com/kb/install-kubernetes-on-ubuntu
 
 https://bell-sw.com/blog/how-to-deploy-spring-boot-application-on-kubernetes/
+https://www.bytebase.com/blog/top-open-source-kubernetes-dashboard/
