@@ -14,7 +14,7 @@ VBoxManage startvm "apache2-1"
 VBoxManage controlvm "apache2-1" poweroff
 
 VBoxManage snapshot "apache2-1" take "N-01"
-VBoxManage snapshot "apache2-1" take "N-02"
+VBoxManage snapshot "apache2-1" take "N-02-01"
 VBoxManage snapshot "apache2-1" take "N-03"
 VBoxManage snapshot "apache2-1" take "N-04"
 VBoxManage snapshot "apache2-1" delete "N-03"
@@ -42,6 +42,37 @@ https://www.baeldung.com/run-shell-command-in-java
 https://sanaulla.info/2010/09/07/execute-external-process-from-within-jvm-using-apache-commons-exec-library-2/
 https://www.geeksforgeeks.org/java-runtime-exec-method/
 https://kazurayam.github.io/subprocessj/
+
+####
+
+VBoxManage snapshot "apache2-1" list --details
+
+Name: N-01 (UUID: 7e522742-f06b-4007-b7c0-1ca7e6cf6e18)
+    Name: N-02 (UUID: 36814143-0ecb-42ba-b4a1-57f037089a65)
+        Name: N-02 (UUID: bc6ca7c2-8756-4b05-9b04-3b05f0a41191)
+            Name: N-04 (UUID: 667e020d-bdf0-40a3-9f4a-65cc89378cd7)
+        Name: N-02-01 (UUID: 0d332287-ca2c-470b-bb95-01077d69e334) *
+
+VBoxManage snapshot "apache2-1" list --machinereadable
+
+SnapshotName="N-01"
+SnapshotUUID="7e522742-f06b-4007-b7c0-1ca7e6cf6e18"
+
+SnapshotName-1="N-02"
+SnapshotUUID-1="36814143-0ecb-42ba-b4a1-57f037089a65"
+
+SnapshotName-1-1="N-02"
+SnapshotUUID-1-1="bc6ca7c2-8756-4b05-9b04-3b05f0a41191"
+
+SnapshotName-1-1-1="N-04"
+SnapshotUUID-1-1-1="667e020d-bdf0-40a3-9f4a-65cc89378cd7"
+
+SnapshotName-1-2="N-02-01"
+SnapshotUUID-1-2="0d332287-ca2c-470b-bb95-01077d69e334"
+
+CurrentSnapshotName="N-02-01"
+CurrentSnapshotUUID="0d332287-ca2c-470b-bb95-01077d69e334"
+CurrentSnapshotNode="SnapshotName-1-2"
 
 #### PowerShell
 
