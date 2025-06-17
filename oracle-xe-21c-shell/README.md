@@ -16,14 +16,17 @@ jdbc:oracle:thin:@192.168.56.2:1521:XE
 system
 oracle
 
-#### create user
-https://oracle-base.com/articles/12c/multitenant-manage-users-and-privileges-for-cdb-and-pdb-12cr1
-https://www.mirsayeedhassan.com/ora-65096-invalid-common-user-or-role-name-in-oracle-12c-db/
-https://dba.stackexchange.com/questions/159745/ora-00959-tablespace-does-not-exist-but-i-can-see-it-in-select
-
 #### Overview of Container Databases (CDB) and Pluggable Databases (PDB)
 https://oracle-base.com/articles/12c/multitenant-overview-container-database-cdb-12cr1
 https://docs.oracle.com/en/database/oracle/oracle-database/21/cncpt/CDBs-and-PDBs.html#GUID-FC2EB562-ED31-49EF-8707-C766B6FE66B8
 
 #### How To Create A PDB From Scratch
 https://dbaparadise.com/2021/01/pdbs/
+
+#### create user
+https://oracle-base.com/articles/12c/multitenant-manage-users-and-privileges-for-cdb-and-pdb-12cr1
+https://www.mirsayeedhassan.com/ora-65096-invalid-common-user-or-role-name-in-oracle-12c-db/
+https://dba.stackexchange.com/questions/159745/ora-00959-tablespace-does-not-exist-but-i-can-see-it-in-select
+
+#### Unit Testing with SQL Developer
+https://docs.oracle.com/cd/E15846_01/doc.21/e15222/unit_testing.htm
