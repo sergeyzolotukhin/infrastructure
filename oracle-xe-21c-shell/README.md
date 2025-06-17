@@ -19,3 +19,7 @@ oracle
 #### create user
 https://www.mirsayeedhassan.com/ora-65096-invalid-common-user-or-role-name-in-oracle-12c-db/
 https://dba.stackexchange.com/questions/159745/ora-00959-tablespace-does-not-exist-but-i-can-see-it-in-select
+
+#### Overview of Container Databases (CDB) and Pluggable Databases (PDB)
+https://oracle-base.com/articles/12c/multitenant-overview-container-database-cdb-12cr1
+https://docs.oracle.com/en/database/oracle/oracle-database/21/cncpt/CDBs-and-PDBs.html#GUID-FC2EB562-ED31-49EF-8707-C766B6FE66B8
