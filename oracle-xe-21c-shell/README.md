@@ -17,6 +17,7 @@ system
 oracle
 
 #### create user
+https://oracle-base.com/articles/12c/multitenant-manage-users-and-privileges-for-cdb-and-pdb-12cr1
 https://www.mirsayeedhassan.com/ora-65096-invalid-common-user-or-role-name-in-oracle-12c-db/
 https://dba.stackexchange.com/questions/159745/ora-00959-tablespace-does-not-exist-but-i-can-see-it-in-select
 
