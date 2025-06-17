@@ -15,3 +15,7 @@ https://docs.oracle.com/en/database/oracle/oracle-database/19/dwhsg/monitoring-m
 jdbc:oracle:thin:@192.168.56.2:1521:XE
 system
 oracle
+
+#### create user
+https://www.mirsayeedhassan.com/ora-65096-invalid-common-user-or-role-name-in-oracle-12c-db/
+https://dba.stackexchange.com/questions/159745/ora-00959-tablespace-does-not-exist-but-i-can-see-it-in-select
