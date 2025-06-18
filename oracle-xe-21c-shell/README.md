@@ -30,3 +30,12 @@ https://dba.stackexchange.com/questions/159745/ora-00959-tablespace-does-not-exi
 
 #### Unit Testing with SQL Developer
 https://docs.oracle.com/cd/E15846_01/doc.21/e15222/unit_testing.htm
+
+#### How to set password
+SELECT *
+FROM dba_users
+--WHERE ACCOUNT_STATUS LIKE '%EXPIRED%'
+;
+
+ALTER USER system IDENTIFIED BY system;
+ALTER USER PDBADMIN IDENTIFIED BY PDBADMIN;
