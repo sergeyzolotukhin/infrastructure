@@ -39,3 +39,9 @@ FROM dba_users
 
 ALTER USER system IDENTIFIED BY system;
 ALTER USER PDBADMIN IDENTIFIED BY PDBADMIN;
+
+#### Materialized Views in Oracle
+https://medium.com/@prasadyejarla/materialized-views-in-oracle-6ed8aa5a63ad
+https://www.linkedin.com/pulse/how-implement-oracle-materialized-view-fast-refresh-method-shaikh-xkqyc/
+
+https://danischnider.wordpress.com/2019/02/18/materialized-view-refresh-for-dummies/
