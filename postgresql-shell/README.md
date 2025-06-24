@@ -71,3 +71,6 @@ https://charleskorn.com/2016/03/30/faster-database-testing-with-snapshots/
 
 #### Use Stellar, it's like git for databases:
 https://github.com/fastmonkeys/stellar
+
+#### suspend HikariCP
+https://stackoverflow.com/questions/46076786/cannot-suspend-hikaricp
