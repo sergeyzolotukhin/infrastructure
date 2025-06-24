@@ -68,3 +68,6 @@ https://www.highgo.ca/2020/12/08/bulk-loading-into-postgresql-options-and-compar
 https://charleskorn.com/2016/03/30/faster-database-testing-with-snapshots/
 - snapshots
 - database pool
+
+#### Use Stellar, it's like git for databases:
+https://github.com/fastmonkeys/stellar
