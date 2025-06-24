@@ -66,3 +66,5 @@ https://www.highgo.ca/2020/12/08/bulk-loading-into-postgresql-options-and-compar
 
 #### Fast(er) database integration testing with snapshots
 https://charleskorn.com/2016/03/30/faster-database-testing-with-snapshots/
+- snapshots
+- database pool
