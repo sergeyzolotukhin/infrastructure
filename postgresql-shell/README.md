@@ -78,3 +78,8 @@ https://stackoverflow.com/questions/46076786/cannot-suspend-hikaricp
 #### Using Bash for templating configuration files in Docker containers 
 https://github.com/1it/docker-nginx/tree/master
 https://medium.com/swlh/using-bash-for-templating-configuration-files-in-docker-containers-8bb8e986f7e1
+
+`cat template.txt | sed -e "s/\${i}/1/" | sed -e "s/\${word}/dog/"`
+
+https://stackoverflow.com/questions/2914220/bash-templating-how-to-build-configuration-files-from-templates-with-bash
+https://www.tutorialspoint.com/sed/sed_loops.htm
