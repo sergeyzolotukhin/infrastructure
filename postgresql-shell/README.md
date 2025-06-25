@@ -74,3 +74,7 @@ https://github.com/fastmonkeys/stellar
 
 #### suspend HikariCP
 https://stackoverflow.com/questions/46076786/cannot-suspend-hikaricp
+
+#### Using Bash for templating configuration files in Docker containers 
+https://github.com/1it/docker-nginx/tree/master
+https://medium.com/swlh/using-bash-for-templating-configuration-files-in-docker-containers-8bb8e986f7e1
