@@ -38,3 +38,4 @@ https://spacelift.io/blog/docker-entrypoint-vs-cmd
 
 #### Docker Compose Lifecycle Hooks
 https://dev.to/idsulik/managing-container-lifecycles-with-docker-compose-lifecycle-hooks-mjg
+https://docs.docker.com/compose/how-tos/lifecycle/
