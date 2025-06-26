@@ -35,3 +35,6 @@ https://dev.to/alexmercedcoder/a-deep-dive-into-docker-compose-27h5
 
 #### Docker ENTRYPOINT vs. CMD : Differences & Examples
 https://spacelift.io/blog/docker-entrypoint-vs-cmd
+
+#### Docker Compose Lifecycle Hooks
+https://dev.to/idsulik/managing-container-lifecycles-with-docker-compose-lifecycle-hooks-mjg
