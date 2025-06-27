@@ -84,3 +84,8 @@ so you can't use the hosts key in daemon.json to add listening addresses
 
 #### --containerd=/run/containerd/containerd.sock
 https://medium.com/@aref.riant/talking-to-containerd-grpc-afa4b185e444
+
+#### docker login
+
+https://docs.docker.com/reference/cli/docker/login/
+https://stackoverflow.com/questions/55188020/how-to-force-docker-login-command-to-ignore-existing-credentials-helper
