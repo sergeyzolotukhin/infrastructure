@@ -93,3 +93,5 @@ https://stackoverflow.com/questions/55188020/how-to-force-docker-login-command-t
 #### Variables in Docker Compose
 https://serversforhackers.com/c/div-variables-in-docker-compose
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
+
+https://docs.docker.com/reference/compose-file/configs/
