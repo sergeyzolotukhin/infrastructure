@@ -100,3 +100,8 @@ https://vsupalov.com/docker-build-pass-environment-variables/
 
 https://stackoverflow.com/questions/4227994/how-do-i-use-the-lines-of-a-file-as-arguments-of-a-command
 https://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/
+
+#### bake is a high-level build command that allows you to build multiple images from a single file via BuildKit.
+
+https://depot.dev/blog/buildx-bake-with-depot
+https://docs.docker.com/build/bake/
