@@ -99,3 +99,4 @@ https://dev.to/darksmile92/set-docker-build-args-from-env-file-2p4a
 https://vsupalov.com/docker-build-pass-environment-variables/
 
 https://stackoverflow.com/questions/4227994/how-do-i-use-the-lines-of-a-file-as-arguments-of-a-command
+https://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/
