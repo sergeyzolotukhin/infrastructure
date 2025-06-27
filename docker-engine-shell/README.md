@@ -89,3 +89,7 @@ https://medium.com/@aref.riant/talking-to-containerd-grpc-afa4b185e444
 
 https://docs.docker.com/reference/cli/docker/login/
 https://stackoverflow.com/questions/55188020/how-to-force-docker-login-command-to-ignore-existing-credentials-helper
+
+#### Variables in Docker Compose
+https://serversforhackers.com/c/div-variables-in-docker-compose
+https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
