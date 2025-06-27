@@ -95,3 +95,7 @@ https://serversforhackers.com/c/div-variables-in-docker-compose
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 
 https://docs.docker.com/reference/compose-file/configs/
+https://dev.to/darksmile92/set-docker-build-args-from-env-file-2p4a
+https://vsupalov.com/docker-build-pass-environment-variables/
+
+https://stackoverflow.com/questions/4227994/how-do-i-use-the-lines-of-a-file-as-arguments-of-a-command
