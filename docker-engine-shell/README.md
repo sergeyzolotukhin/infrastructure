@@ -128,3 +128,6 @@ https://nschdr.medium.com/running-scheduled-python-tasks-in-a-docker-container-b
   }
   ```
 </details>
+
+#### Mirror the Docker Hub library
+https://docs.docker.com/docker-hub/image-library/mirror/#configure-the-docker-daemon
