@@ -108,3 +108,6 @@ https://docs.docker.com/build/bake/
 
 #### Liquibase Docker Images
 https://github.com/liquibase/docker/blob/main/examples/docker-compose/docker-compose.yml
+
+#### Running scheduled Python tasks in a Docker container
+https://nschdr.medium.com/running-scheduled-python-tasks-in-a-docker-container-bf9ea2e8a66c
