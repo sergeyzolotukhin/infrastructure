@@ -3,3 +3,6 @@ https://medium.com/vectoscalar/use-cloudfront-for-api-gateway-s3-both-cc0e30e096
 https://dev.to/evnz/single-cloudfront-distribution-for-s3-web-app-and-api-gateway-15c3
 
 https://aws.amazon.com/ru/blogs/networking-and-content-delivery/improve-single-page-application-spa-performance-with-a-same-domain-policy-using-amazon-cloudfront/
+
+#### microservices-nginx-gateway
+https://github.com/launchany/microservices-nginx-gateway/tree/master
