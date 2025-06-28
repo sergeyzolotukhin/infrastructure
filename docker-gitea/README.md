@@ -23,3 +23,5 @@ https://www.gunfus.com/gitea_missing_admin/
 #### How to Run a Script After a Docker Compose Container Starts
 https://www.baeldung.com/ops/docker-compose-run-script-on-start
 https://docs.docker.com/compose/how-tos/lifecycle/
+
+https://stackoverflow.com/questions/71482461/setup-gitea-initial-configuration
