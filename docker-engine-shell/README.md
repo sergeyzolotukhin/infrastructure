@@ -111,3 +111,20 @@ https://github.com/liquibase/docker/blob/main/examples/docker-compose/docker-com
 
 #### Running scheduled Python tasks in a Docker container
 https://nschdr.medium.com/running-scheduled-python-tasks-in-a-docker-container-bf9ea2e8a66c
+
+<details>
+  <summary>Example of:</summary>
+
+### Heading
+1. Foo
+2. Bar
+    * Baz
+    * Qux
+
+### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
