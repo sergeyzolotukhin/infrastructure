@@ -24,4 +24,6 @@ https://www.gunfus.com/gitea_missing_admin/
 https://www.baeldung.com/ops/docker-compose-run-script-on-start
 https://docs.docker.com/compose/how-tos/lifecycle/
 
+#### Configuration as a Code
 https://stackoverflow.com/questions/71482461/setup-gitea-initial-configuration
+https://docs.gitea.com/administration/command-line
