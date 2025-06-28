@@ -6,3 +6,4 @@ https://aws.amazon.com/ru/blogs/networking-and-content-delivery/improve-single-p
 
 #### microservices-nginx-gateway
 https://github.com/launchany/microservices-nginx-gateway/tree/master
+https://medium.com/@nirmalkumar30/a-simple-guide-to-configure-nginx-as-an-api-gateway-684924cd51d0
