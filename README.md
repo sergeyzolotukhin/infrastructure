@@ -277,3 +277,4 @@ https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/markdown/code-blocks
 https://forums.raspberrypi.com/viewtopic.php?t=372445
 raspberry pi 4 emulate mouse and keyboard
 https://randomnerdtutorials.com/raspberry-pi-zero-usb-keyboard-hid/
+https://mtlynch.io/key-mime-pi/
