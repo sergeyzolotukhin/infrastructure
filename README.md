@@ -272,3 +272,6 @@ https://medium.com/nerd-for-tech/my-boxes-in-the-vagrant-cloud-72dd58478fe3
 #### Multipass VM ???
 
 https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/markdown/code-blocks.html
+
+#### Using Raspberry Pi 4 for USB output - keyboard-proxy
+https://forums.raspberrypi.com/viewtopic.php?t=372445
