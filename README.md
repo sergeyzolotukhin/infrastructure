@@ -278,3 +278,4 @@ https://forums.raspberrypi.com/viewtopic.php?t=372445
 raspberry pi 4 emulate mouse and keyboard
 https://randomnerdtutorials.com/raspberry-pi-zero-usb-keyboard-hid/
 https://mtlynch.io/key-mime-pi/
+https://www.youtube.com/watch?v=DTJSREjWH7Y&t=14s&ab_channel=DavidZhang
