@@ -29,3 +29,4 @@ https://www.geuni.tech/en/nginx/nginx_ha_and_load_balancing_with_keepalived_hapr
 #### VRRP - High Availability with Keepalived - Virtual IP
 https://www.digitalocean.com/community/questions/navigating-high-availability-with-keepalived
 https://technotim.live/posts/keepalived-ha-loadbalancer/
+https://habr.com/ru/articles/452490/
