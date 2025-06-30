@@ -21,3 +21,10 @@ https://www.igvita.com/2008/02/11/nginx-and-memcached-a-400-boost/
 #### What is an f5?
 https://www.telecomhall.net/t/what-is-f5-simplified/31631
 https://www.australtech.net/what-is-an-f5/
+
+#### Nginx High Availability
+https://j3ffyang.medium.com/nginx-high-availability-and-load-balancing-with-keepalived-521d44798bff
+https://www.geuni.tech/en/nginx/nginx_ha_and_load_balancing_with_keepalived_haproxy
+
+#### VRRP - High Availability with Keepalived - Virtual IP
+https://www.digitalocean.com/community/questions/navigating-high-availability-with-keepalived
