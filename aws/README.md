@@ -14,3 +14,6 @@ https://medium.com/@nirmalkumar30/a-simple-guide-to-configure-nginx-as-an-api-ga
 #### CDN
 https://sebastiantuyu.medium.com/a-self-hosted-cdn-the-implementation-de53536b6141
 https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/
+
+#### Nginx and Memcached
+https://www.igvita.com/2008/02/11/nginx-and-memcached-a-400-boost/
