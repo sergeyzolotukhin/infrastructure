@@ -17,3 +17,7 @@ https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/
 
 #### Nginx and Memcached
 https://www.igvita.com/2008/02/11/nginx-and-memcached-a-400-boost/
+
+#### What is an f5?
+https://www.telecomhall.net/t/what-is-f5-simplified/31631
+https://www.australtech.net/what-is-an-f5/
