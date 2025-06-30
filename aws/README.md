@@ -10,3 +10,6 @@ https://medium.com/@servifyspheresolutions/what-is-aws-amplify-3d15a10fbc4a
 #### microservices-nginx-gateway
 https://github.com/launchany/microservices-nginx-gateway/tree/master
 https://medium.com/@nirmalkumar30/a-simple-guide-to-configure-nginx-as-an-api-gateway-684924cd51d0
+
+#### CDN
+https://sebastiantuyu.medium.com/a-self-hosted-cdn-the-implementation-de53536b6141
