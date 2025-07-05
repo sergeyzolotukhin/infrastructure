@@ -284,3 +284,4 @@ https://www.youtube.com/watch?v=DTJSREjWH7Y&t=14s&ab_channel=DavidZhang
 https://github.com/jusss/BluetoothConnect/tree/main
 https://github.com/Arian04/android-hid-client
 https://github.com/raghavk92/Kontroller
+https://github.com/pelya/android-keyboard-gadget
