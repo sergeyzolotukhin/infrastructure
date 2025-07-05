@@ -279,6 +279,7 @@ raspberry pi 4 emulate mouse and keyboard
 https://randomnerdtutorials.com/raspberry-pi-zero-usb-keyboard-hid/
 https://mtlynch.io/key-mime-pi/
 https://www.youtube.com/watch?v=DTJSREjWH7Y&t=14s&ab_channel=DavidZhang
+https://github.com/benjaminmetzler/OpenRemoteHub
 
 #### Use Android as A Bluetooth Keyboard
 https://github.com/jusss/BluetoothConnect/tree/main
