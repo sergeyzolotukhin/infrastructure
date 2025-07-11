@@ -85,3 +85,8 @@ https://medium.com/@DevOpsfreak/how-to-configure-jenkins-slave-nodes-by-launchin
 https://codefresh.io/learn/continuous-integration/continuous-integration-ci-why-how-and-differences-between-ci-and-cd/
 https://www.ysoft.com/aiva/blog/what-is-continuous-integration
 https://github.com/jenkinsci/vagrant-plugin
+
+#### Pre-Tested Commit 
+https://habr.com/ru/articles/182042/
+Patch Parameter Plugin.
+Jenkins Control Plugin
