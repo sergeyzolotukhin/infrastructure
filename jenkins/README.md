@@ -92,3 +92,6 @@ Patch Parameter Plugin.
 Jenkins Control Plugin
 
 https://medium.com/outbrain-engineering/git-mono-branch-workflow-pre-tested-commits-4b34949310ad
+
+#### Jenkins Plugin 0.13.21 for Jetbrains products
+https://github.com/mcmics/jenkins-control-plugin
