@@ -90,3 +90,5 @@ https://github.com/jenkinsci/vagrant-plugin
 https://habr.com/ru/articles/182042/
 Patch Parameter Plugin.
 Jenkins Control Plugin
+
+https://medium.com/outbrain-engineering/git-mono-branch-workflow-pre-tested-commits-4b34949310ad
