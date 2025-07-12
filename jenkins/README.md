@@ -104,3 +104,4 @@ https://medium.com/@harsz89/jenkins-pipeline-build-with-only-changed-component-u
 https://stackoverflow.com/questions/28311341/jenkins-and-git-how-to-grab-a-committers-name
 https://stackoverflow.com/questions/63063977/how-to-get-latest-git-commit-author-name-or-message-in-jenkins-multibranch-scrip
 https://devops.stackexchange.com/questions/1846/accessing-the-committers-name-as-a-jenkinsfile-environment-variable
+https://www.baeldung.com/ops/jenkins-last-successful-build-status
