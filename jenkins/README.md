@@ -98,6 +98,8 @@ https://github.com/mcmics/jenkins-control-plugin
 
 #### Is it possible not to trigger automatic build from Git if only Jenkinsfile is being modified?
 https://community.jenkins.io/t/is-it-possible-not-to-trigger-automatic-build-from-git-if-only-jenkinsfile-is-being-modified/978/5
+https://blog.devops.dev/jenkins-get-the-latest-changed-files-list-commit-id-authorname-and-commit-message-83c870fc8dbb
+
 https://stackoverflow.com/questions/28311341/jenkins-and-git-how-to-grab-a-committers-name
 https://stackoverflow.com/questions/63063977/how-to-get-latest-git-commit-author-name-or-message-in-jenkins-multibranch-scrip
 https://devops.stackexchange.com/questions/1846/accessing-the-committers-name-as-a-jenkinsfile-environment-variable
