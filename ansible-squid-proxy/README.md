@@ -6,3 +6,8 @@ https://fabianlee.org/2018/02/08/ubuntu-a-centralized-apt-package-cache-using-sq
 https://serverascode.com/2014/03/29/squid-cache-yum.html
 
 https://github.com/adscott/vagrant-squid/tree/master
+
+https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/networking
+
+https://www.nakivo.com/blog/virtualbox-network-setting-guide/
+https://www.virtualbox.org/manual/ch06.html
