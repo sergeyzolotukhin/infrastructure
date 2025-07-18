@@ -74,6 +74,8 @@ https://www.baeldung.com/ops/jenkins-run-job-parallel
 https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agents-optimize-your-test-execution-81c5c2297f7e
 
 #### Create Jenkins Agent
+https://github.com/jenkinsci/configuration-as-code-plugin/blob/a6983ff60e0cf198ce02d7992bcba927197174db/demos/build_agents/README.md?plain=1#L37
+
 https://github.com/chorrell/install-jenkins-agent/blob/main/install-jenkins-agent.sh
 https://medium.com/@rejani2906/day-28-jenkins-agents-2d17a883d29f
 https://medium.com/@minaxijoshi3101/create-jenkins-agent-using-jnlp-java-web-start-protocol-and-start-jenkins-as-a-service-on-a-linux-de8ef1ba69cf
