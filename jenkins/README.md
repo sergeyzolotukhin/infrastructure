@@ -106,3 +106,7 @@ https://stackoverflow.com/questions/28311341/jenkins-and-git-how-to-grab-a-commi
 https://stackoverflow.com/questions/63063977/how-to-get-latest-git-commit-author-name-or-message-in-jenkins-multibranch-scrip
 https://devops.stackexchange.com/questions/1846/accessing-the-committers-name-as-a-jenkinsfile-environment-variable
 https://www.baeldung.com/ops/jenkins-last-successful-build-status
+
+#### How To Run SSH Command On Remote Machine
+https://engineering.cerner.com/blog/ssh-steps-for-jenkins-pipeline/
+https://jhooq.com/jenkins-ssh-with-scp-sftp/
