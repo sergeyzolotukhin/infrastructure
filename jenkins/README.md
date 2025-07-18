@@ -75,6 +75,7 @@ https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agent
 
 #### Create Jenkins Agent
 https://github.com/chorrell/install-jenkins-agent/blob/main/install-jenkins-agent.sh
+https://medium.com/@rejani2906/day-28-jenkins-agents-2d17a883d29f
 https://medium.com/@minaxijoshi3101/create-jenkins-agent-using-jnlp-java-web-start-protocol-and-start-jenkins-as-a-service-on-a-linux-de8ef1ba69cf
 https://dev.to/logesh-sakthivel/adding-new-jenkins-nodeagent-3lij
 https://medium.com/@DevOpsfreak/how-to-configure-jenkins-slave-nodes-by-launching-agents-via-ssh-or-launch-agent-via-execution-of-a0cf6d6dd032
