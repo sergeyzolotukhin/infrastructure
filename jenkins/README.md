@@ -78,6 +78,7 @@ https://github.com/jenkinsci/configuration-as-code-plugin/blob/a6983ff60e0cf198c
 https://devopscube.com/setup-slaves-on-jenkins-2/
 https://buildkite.com/resources/blog/automating-jenkins-with-jcasc-configuration-as-code/
 https://www.hairizuan.com/connect-slaves-jenkins-configured-with-jcasc-docker/
+https://fishi.devtail.io/weblog/2019/01/12/jenkins-as-code-part-2/
 
 https://github.com/chorrell/install-jenkins-agent/blob/main/install-jenkins-agent.sh
 https://medium.com/@rejani2906/day-28-jenkins-agents-2d17a883d29f
