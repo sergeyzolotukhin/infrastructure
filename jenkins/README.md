@@ -110,3 +110,6 @@ https://www.baeldung.com/ops/jenkins-last-successful-build-status
 #### How To Run SSH Command On Remote Machine
 https://engineering.cerner.com/blog/ssh-steps-for-jenkins-pipeline/
 https://jhooq.com/jenkins-ssh-with-scp-sftp/
+
+#### Credentials Binding Plugin
+https://www.jenkins.io/doc/pipeline/steps/credentials-binding/
