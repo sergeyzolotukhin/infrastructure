@@ -76,6 +76,7 @@ https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agent
 #### Create Jenkins Agent
 https://github.com/jenkinsci/configuration-as-code-plugin/blob/a6983ff60e0cf198ce02d7992bcba927197174db/demos/build_agents/README.md?plain=1#L37
 https://devopscube.com/setup-slaves-on-jenkins-2/
+https://buildkite.com/resources/blog/automating-jenkins-with-jcasc-configuration-as-code/
 
 https://github.com/chorrell/install-jenkins-agent/blob/main/install-jenkins-agent.sh
 https://medium.com/@rejani2906/day-28-jenkins-agents-2d17a883d29f
