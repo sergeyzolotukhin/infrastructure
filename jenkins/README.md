@@ -113,3 +113,12 @@ https://jhooq.com/jenkins-ssh-with-scp-sftp/
 
 #### Credentials Binding Plugin
 https://www.jenkins.io/doc/pipeline/steps/credentials-binding/
+
+#### Plugin: workflow-aggregator
+https://docs.cloudbees.com/plugins/ci/workflow-aggregator
+
+#### Plugin: github-branch-source
+https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-admin-guide/github-branch-source-plugin
+
+#### Plugin: ssh-slaves
+https://github.com/jenkinsci/ssh-agents-plugin/blob/main/doc/CONFIGURE.md
