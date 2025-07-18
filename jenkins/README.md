@@ -19,7 +19,7 @@ https://stackoverflow.com/questions/58616715/jenkins-execute-groovy-script-befor
 https://fishi.devtail.io/weblog/2019/01/06/jenkins-as-code-part-1/
 https://blog.thesparktree.com/you-dont-know-jenkins-part-2
 
-#### How I can create a Jenkins Job automatically ?
+#### How can I create a Jenkins Job automatically ?
 
 * Configuration as Code plugin:
 * Jenkins CLI: 
@@ -74,6 +74,7 @@ https://www.baeldung.com/ops/jenkins-run-job-parallel
 https://medium.com/@mohamedsaidibrahim/load-balancing-tests-across-jenkins-agents-optimize-your-test-execution-81c5c2297f7e
 
 #### Create Jenkins Agent
+https://github.com/chorrell/install-jenkins-agent/blob/main/install-jenkins-agent.sh
 https://medium.com/@minaxijoshi3101/create-jenkins-agent-using-jnlp-java-web-start-protocol-and-start-jenkins-as-a-service-on-a-linux-de8ef1ba69cf
 https://dev.to/logesh-sakthivel/adding-new-jenkins-nodeagent-3lij
 https://medium.com/@DevOpsfreak/how-to-configure-jenkins-slave-nodes-by-launching-agents-via-ssh-or-launch-agent-via-execution-of-a0cf6d6dd032
