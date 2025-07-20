@@ -130,3 +130,7 @@ https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-admin-guide/github-bra
 
 #### Plugin: ssh-slaves
 https://github.com/jenkinsci/ssh-agents-plugin/blob/main/doc/CONFIGURE.md
+
+#### Plugins
+https://plugins.jenkins.io/pipeline-graph-view/
+https://plugins.jenkins.io/embeddable-build-status/
