@@ -102,7 +102,7 @@ Jenkins Control Plugin
 
 https://medium.com/outbrain-engineering/git-mono-branch-workflow-pre-tested-commits-4b34949310ad
 
-#### Jenkins Plugin 0.13.21 for Jetbrains products
+#### IDEA Jenkins Plugin 0.13.21 for Jetbrains products
 https://github.com/mcmics/jenkins-control-plugin
 
 #### Is it possible not to trigger automatic build from Git if only Jenkinsfile is being modified?
