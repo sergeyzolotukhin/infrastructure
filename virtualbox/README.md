@@ -8,6 +8,8 @@ https://github.com/nicoulaj/vagrant-maven-plugin
 https://nicoulaj.github.io/vagrant-maven-plugin/examples/running-a-vm-during-integration-tests.html
 https://martincarstenbach.com/2020/05/05/versioning-for-your-local-vagrant-boxes-adding-a-new-box/
 
+https://www.virtualbox.org/manual/ch06.html
+
 VBoxManage list vms
 VBoxManage showvminfo "apache2-1" --machinereadable
 VBoxManage startvm "apache2-1"
