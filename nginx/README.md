@@ -144,3 +144,7 @@ https://github.com/NginxProxyManager/nginx-proxy-manager/discussions/3332
 https://192.168.56.2/
 
 https://www.baeldung.com/ops/nginx-http-https-domains-redirection
+
+##### SSO
+https://gist.github.com/mjbnz/b402edf819a69e517b0c59710f291da9
+https://docs.nginx.com/nginx/deployment-guides/single-sign-on/keycloak/
