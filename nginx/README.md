@@ -148,3 +148,6 @@ https://www.baeldung.com/ops/nginx-http-https-domains-redirection
 ##### SSO
 https://gist.github.com/mjbnz/b402edf819a69e517b0c59710f291da9
 https://docs.nginx.com/nginx/deployment-guides/single-sign-on/keycloak/
+https://medium.com/@sergey.dudik/nginx-and-keycloak-a-perfect-pair-for-gateway-security-41a801e741f9
+https://github.com/flavienbwk/nginx-keycloak
+https://kevalnagda.github.io/configure-nginx-and-keycloak-to-enable-sso-for-proxied-applications
