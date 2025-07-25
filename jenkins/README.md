@@ -134,3 +134,4 @@ https://github.com/jenkinsci/ssh-agents-plugin/blob/main/doc/CONFIGURE.md
 #### Plugins
 https://plugins.jenkins.io/pipeline-graph-view/
 https://plugins.jenkins.io/embeddable-build-status/
+https://plugins.jenkins.io/depgraph-view/
