@@ -42,3 +42,6 @@ https://docs.docker.com/compose/how-tos/lifecycle/
 
 #### generic/rhel8
 https://portal.cloud.hashicorp.com/vagrant/discover/generic/rhel8
+
+#### docker exec
+https://github.com/docker-exec/bash
