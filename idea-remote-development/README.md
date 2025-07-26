@@ -10,10 +10,13 @@ sudo curl -L "https://download.jetbrains.com/product?code=PS&latest&distribution
 | sudo tar xvz -C /opt/phpstorm --strip 1 
 && /opt/phpstorm/bin/phpstorm.sh
 
+#### Read 
+
 https://github.com/ThallesP/idea-remote-oracle-deploy/tree/main
 https://pavel.pink/blog/jetbrains-gateway-corporate
 https://blog.cppse.nl/improve-performance-jetbrains-ide-remote-machine
 
+https://victoronsoftware.com/posts/remote-development-environment/
 https://aws.amazon.com/ru/blogs/dotnet/remote-development-on-aws-using-jetbrains-rider/
 
 #### Download IDE
