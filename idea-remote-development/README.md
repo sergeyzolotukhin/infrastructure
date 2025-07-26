@@ -10,3 +10,11 @@ sudo curl -L "https://download.jetbrains.com/product?code=PS&latest&distribution
 
 
 curl -L "https://download.jetbrains.com/idea/ideaIU-2025.1.4.1.tar.gz"
+
+#### TODO
+* fix root login
+* unpack IDEA
+* checkup project
+* run Remote backend
+
+* activate idea
