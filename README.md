@@ -229,6 +229,7 @@ https://stackoverflow.com/questions/42421229/how-to-programmatically-install-vag
 https://dustingram.com/articles/2015/09/16/vagrant-secret-feature/
 
 https://developer.hashicorp.com/vagrant/docs/vagrantfile/machine_settings
+https://dustingram.com/articles/2015/09/16/vagrant-secret-feature/
 
 #### How to Create Private Vagrant Cloud on Ubuntu 20.04
 https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
@@ -243,7 +244,12 @@ https://github.com/scottslowe/learning-tools/tree/main/vagrant
 https://github.com/hashicorp/vagrant/issues/2292
 https://www.techtarget.com/searchitoperations/tip/Tips-to-launch-VirtualBox-nested-virtualization
 https://github.com/acntech/vagrant-repository
+
+#### 
 https://github.com/gosuri/vagrant-env
+https://www.hashicorp.com/en/resources/5-best-practices-for-secrets-management
+vagrant-secret plugin
+https://github.com/tcnksm/vagrant-secret
 
 #### Vagrant Networking
 https://blog.jeffli.me/blog/2017/04/22/vagrant-networking-explained/
