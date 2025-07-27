@@ -10,5 +10,8 @@ echo "Installing Java"
 sudo apt-get -y install default-jdk > /dev/null 2>&1
 
 echo "Downloading IntelliJ IDEA"
-sudo curl -o ideaIU-2025.1.4.1.tar.gz -L "https://download.jetbrains.com/idea/ideaIU-2025.1.4.1.tar.gz"
-pwd
+sudo mkdir -p /vagrant/.curl-cache
+sudo curl --continue-at - --silent --output /vagrant/.curl-cache/ideaIU-2025.1.4.1.tar.gz -L "https://download.jetbrains.com/idea/ideaIU-2025.1.4.1.tar.gz"
+
+# pwd
+# /home/vagrant
