@@ -13,4 +13,7 @@ https://github.com/gosuri/vagrant-env/tree/master
 
 https://stackoverflow.com/questions/29394930/share-a-single-file-in-vagrant
     
-    config.vm.synced_folder "host/folder/", "box/folder/", type: "rsync", rsync__args: ["--include=file.conf"]    
+    config.vm.synced_folder "host/folder/", "box/folder/", type: "rsync", rsync__args: ["--include=file.conf"]
+
+#### Read only -> This sets directory permissions to 555 (r-xr-xr-x) and file permissions to 444 (r--r--r--).
+config.vm.synced_folder "src", "/vagrant_data", mount_options: { "dmode" => "555", "fmode" => "444" }
