@@ -26,8 +26,7 @@ curl -o ideaIU-2025.1.4.1.tar.gz -L "https://download.jetbrains.com/idea/ideaIU-
 https://www.jetbrains.com/help/idea/remote-development-a.html#use_local_ide
 
 #### TODO
-* fix root login
-* unpack IDEA
+-> * unpack IDEA
 * checkup project
 * run Remote backend
 
