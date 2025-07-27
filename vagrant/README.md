@@ -10,3 +10,7 @@ https://github.com/gosuri/vagrant-env/tree/master
 
     File.expand_path('~')
     config.vm.synced_folder File.expand_path('~/.vagrant.d'), "/secrets"
+
+https://stackoverflow.com/questions/29394930/share-a-single-file-in-vagrant
+    
+    config.vm.synced_folder "host/folder/", "box/folder/", type: "rsync", rsync__args: ["--include=file.conf"]    
