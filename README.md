@@ -245,11 +245,12 @@ https://github.com/hashicorp/vagrant/issues/2292
 https://www.techtarget.com/searchitoperations/tip/Tips-to-launch-VirtualBox-nested-virtualization
 https://github.com/acntech/vagrant-repository
 
-#### 
+#### Vagrant secret
 https://github.com/gosuri/vagrant-env
 https://www.hashicorp.com/en/resources/5-best-practices-for-secrets-management
 vagrant-secret plugin
 https://github.com/tcnksm/vagrant-secret
+https://medium.com/@chasinglogic/the-definitive-guide-to-password-store-c337a8f023a1
 
 #### Vagrant Networking
 https://blog.jeffli.me/blog/2017/04/22/vagrant-networking-explained/
