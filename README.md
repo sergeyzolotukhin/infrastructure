@@ -243,6 +243,7 @@ https://github.com/scottslowe/learning-tools/tree/main/vagrant
 https://github.com/hashicorp/vagrant/issues/2292
 https://www.techtarget.com/searchitoperations/tip/Tips-to-launch-VirtualBox-nested-virtualization
 https://github.com/acntech/vagrant-repository
+https://github.com/gosuri/vagrant-env
 
 #### Vagrant Networking
 https://blog.jeffli.me/blog/2017/04/22/vagrant-networking-explained/
