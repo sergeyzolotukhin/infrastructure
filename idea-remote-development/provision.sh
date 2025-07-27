@@ -28,5 +28,3 @@ sudo mkdir -p /var/learn-java-gradle
 sudo git clone https://github.com/sergeyzolotukhin/learn-java-gradle.git /var/learn-java-gradle
 
 echo "Successfully provisioned"
-# pwd
-# /home/vagrant
