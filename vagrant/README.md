@@ -7,3 +7,6 @@ https://stackoverflow.com/questions/14733681/vagrant-d-outside-of-the-home-folde
 
 https://0x63.me/variables-and-comments-in-vagrantfile/
 https://github.com/gosuri/vagrant-env/tree/master
+
+    File.expand_path('~')
+    config.vm.synced_folder File.expand_path('~/.vagrant.d'), "/secrets"
