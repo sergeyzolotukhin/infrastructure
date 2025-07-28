@@ -46,3 +46,5 @@ Gateway link: jetbrains-gateway://connect#idePath=%2Fopt%2Fidea&projectPath=%2Fv
 Join link: tcp://127.0.0.1:5990#jt=8fdbfdc1-5cb2-4908-a548-95f07c90f5a3&p=IU&fp=39FE9E7A96B577F4F9CD94B4FC8C6038FBEB9935EE085E5E36E907A1EF28C19D&cb=251.27812.49&newUi=true&jb=21.0.7b895.130
 Http link: https://code-with-me.jetbrains.com/remoteDev#idePath=%2Fopt%2Fidea&projectPath=%2Fvar%2Flearn-java-gradle&host=192.168.56.2&port=22&user=root&type=ssh&deploy=false&newUi=true
 Gateway link: jetbrains-gateway://connect#idePath=%2Fopt%2Fidea&projectPath=%2Fvar%2Flearn-java-gradle&host=192.168.56.2&port=22&user=root&type=ssh&deploy=false&newUi=true
+
+https://stackoverflow.com/questions/23369917/cleaner-way-to-write-multiple-sed-commands
