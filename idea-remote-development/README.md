@@ -27,6 +27,8 @@ https://www.jetbrains.com/help/idea/remote-development-a.html#use_local_ide
 * run Remote backend
 * activate idea
 
+git clone https://username:token@github.com/username/repo.git
+
 #### Other 
 /var/learn-java-gradle/learn-gradle/custom-plugin/use/build.gradle
 //    id 'ua.in.sz.geadle.java-library-extended' version '1.0.0'
