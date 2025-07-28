@@ -28,6 +28,8 @@ https://www.jetbrains.com/help/idea/remote-development-a.html#use_local_ide
 * activate idea
 
 git clone https://username:token@github.com/username/repo.git
+https://github.com/rofrano/lab-vagrant/blob/master/Vagrantfile
+https://github.com/techiescamp/vagrant-kubeadm-kubernetes/blob/main/Vagrantfile
 
 #### Other 
 /var/learn-java-gradle/learn-gradle/custom-plugin/use/build.gradle
