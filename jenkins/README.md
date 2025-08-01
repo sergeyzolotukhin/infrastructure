@@ -142,8 +142,10 @@ https://www.jenkins.io/blog/2016/10/16/stage-lock-milestone/
 https://www.jenkins.io/doc/book/pipeline/shared-libraries/#defining-custom-steps
 https://codilime.com/blog/code-duplication-in-jenkinsfiles/
 https://www.jenkins.io/doc/pipeline/steps/pipeline-groovy-lib/  - library
+https://plugins.jenkins.io/pipeline-github-lib/ - @Library('github.com/jglick/sample-pipeline-library') _
 @Library
 load
+LibraryIdentifier
 
 #### Questions
 Creating Custom Pipeline Step ?
