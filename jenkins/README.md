@@ -138,3 +138,8 @@ https://plugins.jenkins.io/depgraph-view/
 
 #### Advanced Jenkins Pipeline Patterns
 https://moldstud.com/articles/p-top-5-advanced-jenkins-pipeline-patterns-every-power-user-should-know
+https://www.jenkins.io/blog/2016/10/16/stage-lock-milestone/
+https://www.jenkins.io/doc/book/pipeline/shared-libraries/#defining-custom-steps
+
+#### Questions
+Creating Custom Pipeline Step ?
