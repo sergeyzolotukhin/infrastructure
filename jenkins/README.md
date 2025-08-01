@@ -145,6 +145,7 @@ https://www.jenkins.io/blog/2019/01/08/mpl-modular-pipeline-library/
 https://github.com/halkeye-docker/docker-jenkins/blob/master/jenkins.yaml#L41
 https://bmuschko.com/blog/jenkins-shared-libraries/
 https://www.papiocloud.com/blog/2021-09-jenkins-shared-libraries/
+https://blog.devops.dev/object-oriented-programming-and-unit-tests-with-jenkins-shared-libraries-is-possible-59a0bf593499
 https://www.jenkins.io/doc/pipeline/steps/pipeline-groovy-lib/  - library
 https://plugins.jenkins.io/pipeline-github-lib/ - @Library('github.com/jglick/sample-pipeline-library') _
 @Library
