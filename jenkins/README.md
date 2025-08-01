@@ -140,6 +140,10 @@ https://plugins.jenkins.io/depgraph-view/
 https://moldstud.com/articles/p-top-5-advanced-jenkins-pipeline-patterns-every-power-user-should-know
 https://www.jenkins.io/blog/2016/10/16/stage-lock-milestone/
 https://www.jenkins.io/doc/book/pipeline/shared-libraries/#defining-custom-steps
+https://codilime.com/blog/code-duplication-in-jenkinsfiles/
+https://www.jenkins.io/doc/pipeline/steps/pipeline-groovy-lib/  - library
+@Library
+load
 
 #### Questions
 Creating Custom Pipeline Step ?
