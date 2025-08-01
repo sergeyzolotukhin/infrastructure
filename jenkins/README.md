@@ -141,6 +141,7 @@ https://moldstud.com/articles/p-top-5-advanced-jenkins-pipeline-patterns-every-p
 https://www.jenkins.io/blog/2016/10/16/stage-lock-milestone/
 https://www.jenkins.io/doc/book/pipeline/shared-libraries/#defining-custom-steps
 https://codilime.com/blog/code-duplication-in-jenkinsfiles/
+https://www.jenkins.io/blog/2019/01/08/mpl-modular-pipeline-library/
 https://www.jenkins.io/doc/pipeline/steps/pipeline-groovy-lib/  - library
 https://plugins.jenkins.io/pipeline-github-lib/ - @Library('github.com/jglick/sample-pipeline-library') _
 @Library
