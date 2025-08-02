@@ -36,7 +36,7 @@ https://www.theknowledgeacademy.com/blog/types-of-jenkins-pipeline/
 disadvantage
 * you cannot easily execute the single stages
   https://www.jenkins.io/doc/book/pipeline/running-pipelines/
-  https://stackoverflow.com/questions/38129745/jenkins-build-pipeline-restart-at-stage
+  https://stackoverflow.com/questions/38129745/jenkins-build-pipeline-restart-at-stage - checkpoint
 
 ##### Multiple pipeline jobs
 disadvantage
