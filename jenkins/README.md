@@ -31,6 +31,7 @@ https://blog.thesparktree.com/you-dont-know-jenkins-part-2
 https://www.metamorphant.de/blog/posts/2019-03-11-jenkins-101-downstream-projects/
 https://wiki.jenkins.io/JENKINS/Splitting-a-big-job-into-smaller-jobs.html
 https://www.theknowledgeacademy.com/blog/types-of-jenkins-pipeline/
+https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipelines/cross-team-collaboration
 
 ##### large pipeline job
 disadvantage
