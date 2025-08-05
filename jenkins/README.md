@@ -158,3 +158,5 @@ LibraryIdentifier
 
 #### Questions
 Creating Custom Pipeline Step ?
+
+https://www.jenkins.io/doc/developer/extensions/jenkins-core/#consoleannotatorfactory
