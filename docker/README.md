@@ -48,3 +48,6 @@ https://github.com/docker-exec/bash
 
 #### Back up a volume
 https://docs.docker.com/engine/storage/volumes/#back-up-a-volume
+
+#### Docker Compose --project-name
+https://stackoverflow.com/questions/43957259/run-multiple-docker-compose
