@@ -160,3 +160,5 @@ LibraryIdentifier
 Creating Custom Pipeline Step ?
 
 https://www.jenkins.io/doc/developer/extensions/jenkins-core/#consoleannotatorfactory
+
+https://www.aviator.co/blog/how-to-optimize-jenkins-pipeline-performance/
