@@ -162,3 +162,4 @@ Creating Custom Pipeline Step ?
 https://www.jenkins.io/doc/developer/extensions/jenkins-core/#consoleannotatorfactory
 
 https://www.aviator.co/blog/how-to-optimize-jenkins-pipeline-performance/
+https://subscription.packtpub.com/book/cloud-and-networking/9781838824327/2/ch02lvl1sec16/attaching-ssh-and-inbound-agents
