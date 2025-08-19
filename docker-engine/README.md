@@ -38,5 +38,8 @@ systemd then starts the Docker daemon and hands over the connection, allowing th
 
 https://medium.com/@kiankasad/start-docker-containers-on-demand-with-systemd-socket-activation-548f3b8d2514
 https://medium.com/@123rpv/optimizing-docker-with-systemd-a-comprehensive-approach-6a2b90c5d900
+https://erlangen-sheppy.medium.com/on-demand-activation-of-arbitrary-applications-3b577eb116b6
+https://0pointer.de/blog/projects/socket-activation.html
+
 
 
