@@ -37,4 +37,6 @@ When a connection is made to this socket (e.g., by a Docker client command),
 systemd then starts the Docker daemon and hands over the connection, allowing the daemon to process the request.
 
 https://medium.com/@kiankasad/start-docker-containers-on-demand-with-systemd-socket-activation-548f3b8d2514
+https://medium.com/@123rpv/optimizing-docker-with-systemd-a-comprehensive-approach-6a2b90c5d900
+
 
