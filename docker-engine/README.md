@@ -27,3 +27,14 @@ systemctl edit docker.service
 systemctl --no-pager status docker
 systemctl restart docker
 systemctl stop docker
+
+#### docker socket activation
+
+Docker socket activation refers to the use of systemd's socket activation feature to manage the Docker daemon. 
+Instead of the Docker daemon (dockerd) constantly running and listening for connections, 
+systemd listens on the Docker socket (/var/run/docker.sock). 
+When a connection is made to this socket (e.g., by a Docker client command), 
+systemd then starts the Docker daemon and hands over the connection, allowing the daemon to process the request.
+
+https://medium.com/@kiankasad/start-docker-containers-on-demand-with-systemd-socket-activation-548f3b8d2514
+
