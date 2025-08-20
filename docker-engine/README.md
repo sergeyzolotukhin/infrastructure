@@ -47,3 +47,6 @@ C:/Users/szolotukhin/.vagrant.d/cache/ubuntu/jammy64
 vagrant plugin install vagrant-cachier
 vagrant plugin uninstall vagrant-cachier
 
+https://www.apalrd.net/posts/2024/cluster_debcache/
+
+
