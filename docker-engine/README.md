@@ -43,5 +43,7 @@ https://0pointer.de/blog/projects/socket-activation.html
 
 C:/Users/szolotukhin/.vagrant.d/cache/ubuntu/jammy64
 
-
+#### https://github.com/fgrehm/vagrant-cachier
+vagrant plugin install vagrant-cachier
+vagrant plugin uninstall vagrant-cachier
 

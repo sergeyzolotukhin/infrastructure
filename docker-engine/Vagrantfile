@@ -2,12 +2,6 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-    if Vagrant.has_plugin?("vagrant-cachier")
-        # Configure cached packages to be shared between instances of the same base box.
-        # More info on https://github.com/fgrehm/vagrant-cachier
-        config.cache.scope = :box
-    end
-
     config.vm.define "docker-engine-1" do |d|
         # Ubuntu 20.04.3 LTS - Focal Fossa
         # d.vm.box = "ubuntu/focal64"
