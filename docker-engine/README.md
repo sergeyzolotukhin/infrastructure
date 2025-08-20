@@ -41,5 +41,7 @@ https://medium.com/@123rpv/optimizing-docker-with-systemd-a-comprehensive-approa
 https://erlangen-sheppy.medium.com/on-demand-activation-of-arbitrary-applications-3b577eb116b6
 https://0pointer.de/blog/projects/socket-activation.html
 
+C:/Users/szolotukhin/.vagrant.d/cache/ubuntu/jammy64
+
 
 
