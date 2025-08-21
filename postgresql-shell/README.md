@@ -83,3 +83,5 @@ https://medium.com/swlh/using-bash-for-templating-configuration-files-in-docker-
 
 https://stackoverflow.com/questions/2914220/bash-templating-how-to-build-configuration-files-from-templates-with-bash
 https://www.tutorialspoint.com/sed/sed_loops.htm
+
+https://www.jetbrains.com/help/idea/shebang-scripts.html
