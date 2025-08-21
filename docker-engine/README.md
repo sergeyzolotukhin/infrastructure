@@ -49,4 +49,5 @@ vagrant plugin uninstall vagrant-cachier
 
 https://www.apalrd.net/posts/2024/cluster_debcache/
 
-
+#### Use cloud-init with VirtualBox?
+https://superuser.com/questions/827977/use-cloud-init-with-virtualbox
