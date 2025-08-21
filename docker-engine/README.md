@@ -93,3 +93,5 @@ vagrant suspend
 vagrant resume
 
 2025-08-22 01:08:37 - 2025-08-22 01:09:05 = 28 seconds
+
+https://uk.soringpcrepair.com/what-is-quick-boot-in-bios/
