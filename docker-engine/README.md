@@ -68,3 +68,4 @@ vagrant package --output mybox.box
 
 #### linked clones
 https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration#linked-clones
+https://medium.com/oracledevs/two-birds-with-one-home-cloned-vagrant-multi-machines-2ee5ba75fad8
