@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "time : $(date +"%T")"
+
 echo 'Stop Docker'
 sudo systemctl stop docker.socket
 sudo systemctl stop docker
@@ -12,6 +14,8 @@ echo 'Start Docker'
 sudo systemctl daemon-reload
 sudo systemctl start docker
 sudo systemctl start docker.socket
+
+echo "time : $(date +"%T")"
 
 #echo 'Status Docker'
 #sudo systemctl --no-pager status docker

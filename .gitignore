@@ -47,6 +47,7 @@ venv1/
 #### vagrant
 .vagrant/
 .curl-cache/
+.cache/
 
 #### Security
 #*.ppk

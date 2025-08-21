@@ -8,6 +8,12 @@ Vagrant.configure("2") do |config|
         # Ubuntu 22.04.2 LTS - Jammy Jellyfish
         d.vm.box = "ubuntu/jammy64"
 
+        # Create an apt-cache on host
+        # time with cache: 19:32:55 - 19:33:46 = 49 seconds
+        # time without cache:  19:38:12 - 19:39:19 = 67 seconds
+        # config.vm.synced_folder "./.cache/apt-archives/", "/var/cache/apt/archives/"
+        # config.vm.synced_folder "./.cache/apt-lists/", "/var/lib/apt/lists"
+
         d.vm.provider "virtualbox" do |vb|
             vb.name = "docker-engine-1"
             vb.memory = "4048"
