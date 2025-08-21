@@ -69,3 +69,17 @@ vagrant package --output mybox.box
 #### linked clones
 https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration#linked-clones
 https://medium.com/oracledevs/two-birds-with-one-home-cloned-vagrant-multi-machines-2ee5ba75fad8
+
+#### vagrant up --debug
+https://developer.hashicorp.com/vagrant/docs/other/debugging
+vagrant up --debug 2>&1 | Tee-Object -FilePath ".\vagrant.log"
+vagrant up --debug-timestamp 2>&1 | Tee-Object -FilePath ".\vagrant-timestamp.log"
+
+00:24:59
+
+2025-08-22 00:25:06
+==> docker-engine-1: Booting VM...
+2025-08-22 00:25:45
+==> docker-engine-1: Machine booted and ready!
+
+00:25:49
