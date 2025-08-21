@@ -62,3 +62,6 @@ mount /dev/sdb /mnt
 
 #### ssh 
 https://www.digitalocean.com/community/tutorials/how-to-tune-your-ssh-daemon-configuration-on-a-linux-vps
+
+#### Creating and Sharing Vagrant Boxes
+vagrant package --output mybox.box
