@@ -53,3 +53,6 @@ https://www.apalrd.net/posts/2024/cluster_debcache/
 https://superuser.com/questions/827977/use-cloud-init-with-virtualbox
 
 mount /dev/sdb /mnt
+
+#### ssh 
+https://www.digitalocean.com/community/tutorials/how-to-tune-your-ssh-daemon-configuration-on-a-linux-vps
