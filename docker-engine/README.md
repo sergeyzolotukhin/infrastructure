@@ -95,3 +95,5 @@ vagrant resume
 2025-08-22 01:08:37 - 2025-08-22 01:09:05 = 28 seconds
 
 https://uk.soringpcrepair.com/what-is-quick-boot-in-bios/
+https://www.baeldung.com/linux/boot-faster
+https://medium.com/@therealcomtom/reducing-linux-booting-time-b5d0a061e05a
