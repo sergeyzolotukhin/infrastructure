@@ -6,7 +6,7 @@ sudo systemctl stop docker
 
 echo 'Enable remote access'
 sudo mkdir -p /etc/systemd/system/docker.service.d
-sudo cp /vagrant/etc/systemd/system/docker.service.d/override.conf /etc/systemd/system/docker.service.d/override.conf
+sudo cp /vagrant/provision/etc/systemd/system/docker.service.d/override.conf /etc/systemd/system/docker.service.d/override.conf
 
 echo 'Start Docker'
 sudo systemctl daemon-reload
