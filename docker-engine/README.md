@@ -48,6 +48,12 @@ vagrant plugin install vagrant-cachier
 vagrant plugin uninstall vagrant-cachier
 
 https://www.apalrd.net/posts/2024/cluster_debcache/
+https://www.cyberciti.biz/faq/can-i-delete-var-cache-apt-archives-for-ubuntu-debian-linux/
+
+/etc/apt/apt.conf
+/etc/apt/apt.conf.d/no-cache
+/var/cache/apt/archives
+
 
 #### Use cloud-init with VirtualBox?
 https://superuser.com/questions/827977/use-cloud-init-with-virtualbox
