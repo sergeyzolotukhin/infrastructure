@@ -65,3 +65,6 @@ https://www.digitalocean.com/community/tutorials/how-to-tune-your-ssh-daemon-con
 
 #### Creating and Sharing Vagrant Boxes
 vagrant package --output mybox.box
+
+#### linked clones
+https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration#linked-clones
