@@ -74,6 +74,7 @@ https://medium.com/oracledevs/two-birds-with-one-home-cloned-vagrant-multi-machi
 https://developer.hashicorp.com/vagrant/docs/other/debugging
 vagrant up --debug 2>&1 | Tee-Object -FilePath ".\vagrant.log"
 vagrant up --debug-timestamp 2>&1 | Tee-Object -FilePath ".\vagrant-timestamp.log"
+vagrant resume --debug-timestamp 2>&1 | Tee-Object -FilePath ".\vagrant-resume-timestamp.log"
 
 00:24:59
 
@@ -83,3 +84,12 @@ vagrant up --debug-timestamp 2>&1 | Tee-Object -FilePath ".\vagrant-timestamp.lo
 ==> docker-engine-1: Machine booted and ready!
 
 00:25:49
+2025-08-22 00:24:59 - 2025-08-22 00:25:49 = 40 seconds
+
+#### resume
+
+vagrant up
+vagrant suspend
+vagrant resume
+
+2025-08-22 01:08:37 - 2025-08-22 01:09:05 = 28 seconds
