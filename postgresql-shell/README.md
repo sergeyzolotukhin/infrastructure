@@ -99,3 +99,6 @@ ln -s /vagrant/simple.py /usr/local/bin/simple
 
 #### How to debug Python in IntelliJ IDEA on a remote server?
 https://www.jetbrains.com/help/idea/configuring-python-sdk.html#remote-python-interpreters
+
+#### How to get pg_dump from a Docker container and pg_restore into another in 5 steps?
+https://medium.com/@burakkocakeu/get-pg-dump-from-a-docker-container-and-pg-restore-into-another-in-5-steps-74ca5bf0589c
