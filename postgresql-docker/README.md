@@ -19,3 +19,7 @@ https://stackoverflow.com/questions/55762687/slow-postgresql-startup-in-docker-c
 
 #### Building the perfect data container
 https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df
+
+#### Postgres and pgAdmin4
+https://medium.com/@marvinjungre/get-postgresql-and-pgadmin-4-up-and-running-with-docker-4a8d81048aea
+https://hub.docker.com/r/dpage/pgadmin4/
