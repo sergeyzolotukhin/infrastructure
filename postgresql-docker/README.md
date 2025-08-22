@@ -27,3 +27,7 @@ https://www.pgadmin.org/docs/pgadmin4/development/restore_dialog.html
 
 #### Nginx run shell script
 https://www.baeldung.com/ops/nginx-run-shell-script
+
+#### Swagger UI Docker
+https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/
+https://swagger.io/docs/specification/v2_0/basic-structure/
