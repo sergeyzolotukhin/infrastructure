@@ -23,3 +23,7 @@ https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3
 #### Postgres and pgAdmin4
 https://medium.com/@marvinjungre/get-postgresql-and-pgadmin-4-up-and-running-with-docker-4a8d81048aea
 https://hub.docker.com/r/dpage/pgadmin4/
+https://www.pgadmin.org/docs/pgadmin4/development/restore_dialog.html
+
+#### Nginx run shell script
+https://www.baeldung.com/ops/nginx-run-shell-script
