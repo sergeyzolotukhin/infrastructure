@@ -85,3 +85,11 @@ https://stackoverflow.com/questions/2914220/bash-templating-how-to-build-configu
 https://www.tutorialspoint.com/sed/sed_loops.htm
 
 https://www.jetbrains.com/help/idea/shebang-scripts.html
+https://ignore.pl/2023/03/how_to_generate_files_from_templates_in_shell.html
+
+envsubst
+cat
+sed
+
+python3 Jinja
+https://atufashireen.medium.com/creating-templates-with-jinja-in-python-3ff3b87d6740
