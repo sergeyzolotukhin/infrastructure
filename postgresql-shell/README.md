@@ -96,3 +96,6 @@ https://atufashireen.medium.com/creating-templates-with-jinja-in-python-3ff3b87d
 
 #### How to add a simple script as a command in Linux?
 ln -s /vagrant/simple.py /usr/local/bin/simple
+
+#### How to debug Python in IntelliJ IDEA on a remote server?
+https://www.jetbrains.com/help/idea/configuring-python-sdk.html#remote-python-interpreters
