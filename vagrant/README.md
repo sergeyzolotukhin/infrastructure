@@ -17,3 +17,13 @@ https://stackoverflow.com/questions/29394930/share-a-single-file-in-vagrant
 
 #### Read only -> This sets directory permissions to 555 (r-xr-xr-x) and file permissions to 444 (r--r--r--).
 config.vm.synced_folder "src", "/vagrant_data", mount_options: { "dmode" => "555", "fmode" => "444" }
+
+#### Store Vagrant VM in custom folder
+https://williamdurand.fr/2012/12/06/installing-vagrant-in-a-restricted-environment/#customizing-the-default-directories
+https://stackoverflow.com/questions/36332996/store-vagrant-vm-in-custom-folder
+https://stackoverflow.com/questions/21050496/vagrant-virtualbox-second-disk-path
+
+VBoxManage import .... --disk /path
+the --disk option specifies the target path where the image will be stored
+https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-import.html
+https://www.virtualbox.org/manual/ch08.html
