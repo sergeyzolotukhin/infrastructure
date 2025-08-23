@@ -144,3 +144,22 @@ https://github.com/NginxProxyManager/nginx-proxy-manager/discussions/3332
 https://192.168.56.2/
 
 https://www.baeldung.com/ops/nginx-http-https-domains-redirection
+
+HDD
+F:\VirtualBox VMs
+13:08:56.70 - 13:09:34.06 = 37.36 seconds
+
+SDD
+D:\VirtualBox VMs
+13:13:43.44 - 13:14:16.86 = 33.42 seconds
+13:15:01.12 - 13:15:34.69 = 33.57 seconds
+
+NO GUI + SDD 
+13:18:41.44 - 13:19:10.94 = 29.50 seconds
+13:20:29.98 - 13:20:59.54 = 29.56 seconds
+
+CPU = 8 + NO GUI + SDD
+13:23:25.86 - 13:23:55.31 = 29.45 seconds
+
+CPU = 8 + NO GUI + SDD + 8GB RAM
+13:26:06.68 - 13:26:36.13 = 29.45 seconds
