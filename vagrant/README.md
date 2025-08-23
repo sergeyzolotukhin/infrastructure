@@ -71,6 +71,9 @@ Vagrant.configure("2") do |config|
     end
 end
 
+#### Packer
+https://github.com/game-sales-analytics/vagrant-alpine315-docker/
+
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
 c:\Users\<user>\.m2             10 GB
