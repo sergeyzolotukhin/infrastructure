@@ -27,3 +27,27 @@ VBoxManage import .... --disk /path
 the --disk option specifies the target path where the image will be stored
 https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-import.html
 https://www.virtualbox.org/manual/ch08.html
+
+#### Disk space
+c:\Users\<user>\.gradle         12 GB
+c:\Users\<user>\.m2             10 GB
+c:\Users\<user>\.vagrant.d      5 GB
+
+c:\Users\<user>\Documents       3 GB
+c:\Users\<user>\Downloads       10 GB
+
+c:\Users\<user>\AppData\Local\Google        15 GB
+c:\Users\<user>\AppData\Local\JetBrains     24 GB
+c:\Users\<user>\AppData\Local\Microsoft     1.5 GB
+c:\Users\<user>\AppData\Local\Temp          10 GB
+
+c:\Users\<user>\AppData\Roaming\JetBrains   12 GB
+
+c:\Program Files        6 GB
+c:\Program Files (x86)  5 GB
+c:\ProgramData          5 GB
+c:\soft                 37 GB
+
+c:\WINDOWS          42 GB
+c:\hiberfil.sys     26 GB
+c:\pagefile.sys     19 GB
