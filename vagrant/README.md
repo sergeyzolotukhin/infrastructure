@@ -27,6 +27,30 @@ VBoxManage import .... --disk /path
 the --disk option specifies the target path where the image will be stored
 https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-import.html
 https://www.virtualbox.org/manual/ch08.html
+https://developer.hashicorp.com/vagrant/docs/disks/usage
+https://developer.hashicorp.com/vagrant/docs/disks/configuration
+
+#### You may want to keep your Vagrant boxes in your own repository
+https://dev.to/aciklab/how-to-create-private-vagrant-cloud-on-ubuntu-2004-3p60
+
+####
+To use a local .box file as the source for a Vagrant box, you specify its path in the Vagrantfile using the file:// scheme in the config.vm.box_url setting.
+Here's how to configure your Vagrantfile:
+
+https://developer.hashicorp.com/vagrant/docs/vagrantfile/machine_settings#config-vm-box_url
+
+Vagrant.configure("2") do |config|
+    # Set the name of your box
+    config.vm.box = "my_custom_box"
+    
+    # Specify the local path to your .box file using the file:// scheme
+    # For Linux/macOS:
+    # config.vm.box_url = "file:///path/to/your/my_custom_box.box"
+    
+    # For Windows:
+    # config.vm.box_url = "file:///C:/path/to/your/my_custom_box.box"
+    # Note: Ensure to use forward slashes (/) even on Windows and potentially URL encode special characters.
+end
 
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
