@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # https://www.postgresql.org/docs/current/app-pgrestore.html
 
