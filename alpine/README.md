@@ -145,6 +145,8 @@ https://192.168.56.2/
 
 https://www.baeldung.com/ops/nginx-http-https-domains-redirection
 
+#### Alpine boot time
+
 HDD
 F:\VirtualBox VMs
 13:08:56.70 - 13:09:34.06 = 37.36 seconds
@@ -163,3 +165,8 @@ CPU = 8 + NO GUI + SDD
 
 CPU = 8 + NO GUI + SDD + 8GB RAM
 13:26:06.68 - 13:26:36.13 = 29.45 seconds
+
+vagrant suspend
+vagrant resume
+13:33:28.41 - 13:33:55.12 = 26.71 seconds
+13:35:01.08 - 13:35:27.88 = 26.80 seconds
