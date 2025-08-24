@@ -117,6 +117,9 @@ https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-
 https://docs.docker.com/compose/how-tos/multiple-compose-files/
 https://docs.docker.com/compose/how-tos/multiple-compose-files/include/
 
+#### Set hostname in docker compose
+https://stackoverflow.com/questions/29924843/how-do-i-set-hostname-in-docker-compose
+
 #### Set, use, and manage variables in a Compose file with interpolation
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
