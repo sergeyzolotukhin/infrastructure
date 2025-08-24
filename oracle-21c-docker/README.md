@@ -56,3 +56,5 @@ docker container ls
 docker stop oracle-db
 
 https://medium.com/geekculture/run-oracle-database-21c-in-docker-351049344d0c
+https://docs.oracle.com/en/database/oracle/oracle-database/21/deeck/index.html#GUID-6589D4A1-14F3-42B3-8461-C9A7B840D148
+https://container-registry.oracle.com/ords/f?p=113:4:117212475670227:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3DOXRgzVTrOZ1vHLWAKgpXjsclc40NvrdIWwg1G7D6wnFyggKL7tcMYCwMOnNXptWQnJEKgix2aKaD8hwml_FLg

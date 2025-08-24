@@ -118,3 +118,14 @@ https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-
 #### Set, use, and manage variables in a Compose file with interpolation
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
+
+#### Run Oracle Database in a Docker container
+https://blogs.oracle.com/oraclemagazine/run-oracle-database-19c-in-a-docker-container
+docker login container-registry.oracle.com
+Username: <email address> 
+Password: <Auth Token from https://container-registry.oracle.com>
+
+#### Oracle Data sources
+jdbc:oracle:thin:@192.168.56.2:1521:XE
+user:system
+password:Oracle_123
