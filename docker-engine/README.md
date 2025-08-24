@@ -129,6 +129,7 @@ https://docs.docker.com/reference/compose-file/services/#pull_policy
 
 #### Run Oracle Database in a Docker container
 https://blogs.oracle.com/oraclemagazine/run-oracle-database-19c-in-a-docker-container
+https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance
 docker login container-registry.oracle.com
 Username: <email address> 
 Password: <Auth Token from https://container-registry.oracle.com>
