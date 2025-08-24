@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Docker Image" type="docker-deploy" factoryName="docker-image" folderName="g1" server-name="Docker via TCP">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="nginx:latest" />
+        <option name="command" value="echo 'H1'" />
+        <option name="containerName" value="sz-01" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
