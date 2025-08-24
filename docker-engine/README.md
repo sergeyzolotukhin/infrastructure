@@ -119,6 +119,7 @@ https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
 https://oriolrius.cat/2024/08/29/how-to-manage-environment-variables-for-production-and-development-with-docker-compose/
+https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/#local-env-file-versus-ltproject-directorygt-env-file
 
 #### pull_policy
 https://docs.docker.com/reference/compose-file/services/#pull_policy
