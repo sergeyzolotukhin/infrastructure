@@ -25,7 +25,20 @@ services:
       - oracle-data:/opt/oracle/oradata
       - oracle-backup:/opt/oracle/backup
 
+  mssql-db:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    profiles: ["mssql"]
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=password123sdJwnwlk
+      - MSSQL_PID=Developer
+    ports:
+      - 1433:1433
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
 volumes:
   db:
   oracle-data:
   oracle-backup:
+  sqlserver_data:
