@@ -120,6 +120,11 @@ https://docs.docker.com/compose/how-tos/multiple-compose-files/include/
 #### Set hostname in docker compose
 https://stackoverflow.com/questions/29924843/how-do-i-set-hostname-in-docker-compose
 
+If you do not specify a host port (e.g., - "80"), Docker will automatically assign an available ephemeral port on the host, 
+which you can find using 
+
+    docker compose port <service_name> <container_port>.
+
 #### Set, use, and manage variables in a Compose file with interpolation
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
