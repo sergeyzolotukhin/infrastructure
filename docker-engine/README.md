@@ -118,6 +118,7 @@ https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-
 #### Set, use, and manage variables in a Compose file with interpolation
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
+https://oriolrius.cat/2024/08/29/how-to-manage-environment-variables-for-production-and-development-with-docker-compose/
 
 #### pull_policy
 https://docs.docker.com/reference/compose-file/services/#pull_policy
