@@ -5,10 +5,10 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      PGDATA: /data/postgres
+#      PGDATA: /data/postgres
       POSTGRES_DB: bank
     volumes:
-      - db:/data/postgres
+      - db:/var/lib/postgresql/data
     ports:
       - "5432:5432"
 

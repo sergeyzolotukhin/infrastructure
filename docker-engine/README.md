@@ -106,3 +106,6 @@ docker compose down
 - ??? 
 docker compose run -d db
 https://stackoverflow.com/questions/33715499/what-is-the-difference-between-docker-compose-up-and-docker-compose-start
+
+#### PGDATA
+https://hub.docker.com/_/postgres#pgdata
