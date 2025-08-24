@@ -97,3 +97,11 @@ vagrant resume
 https://uk.soringpcrepair.com/what-is-quick-boot-in-bios/
 https://www.baeldung.com/linux/boot-faster
 https://medium.com/@therealcomtom/reducing-linux-booting-time-b5d0a061e05a
+
+#### docker compose commands
+
+docker compose up -d
+docker compose down
+
+- ??? 
+docker compose run -d db
