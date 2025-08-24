@@ -120,6 +120,7 @@ https://docs.docker.com/compose/how-tos/environment-variables/variable-interpola
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
 https://oriolrius.cat/2024/08/29/how-to-manage-environment-variables-for-production-and-development-with-docker-compose/
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/#local-env-file-versus-ltproject-directorygt-env-file
+https://stackoverflow.com/questions/58047984/why-do-i-need-to-declare-env-file-explicitely-in-docker-compose-yml
 
 #### pull_policy
 https://docs.docker.com/reference/compose-file/services/#pull_policy
