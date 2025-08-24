@@ -15,6 +15,7 @@ services:
   oracle-db:
     container_name: oracle
     image: container-registry.oracle.com/database/express:21.3.0-xe
+    pull_policy: never
     profiles: ["oracle"]
     environment:
       - ORACLE_PWD=Oracle_123

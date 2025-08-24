@@ -6,3 +6,9 @@ https://blog.devops.dev/docker-compose-export-save-images-and-move-to-another-ma
 docker save -o <path for generated tar file> <image name>
 docker load -i <path to image tar file>
 
+docker save -o oracle-database-21.3.0-xe.tar container-registry.oracle.com/database/express:21.3.0-xe
+docker save container-registry.oracle.com/database/express:21.3.0-xe | gzip > oracle-database-21.3.0-xe.tar.gz
+
+docker load -i /vagrant/.images/oracle-database-21.3.0-xe.tar.gz
+
+docker images

@@ -132,3 +132,7 @@ Password: <Auth Token from https://container-registry.oracle.com>
 jdbc:oracle:thin:@192.168.56.2:1521:XE
 user:system
 password:Oracle_123
+
+#### load image Oracle Database
+docker save container-registry.oracle.com/database/express:21.3.0-xe | gzip > oracle-database-21.3.0-xe.tar.gz
+docker load -i /vagrant/.images/oracle-database-21.3.0-xe.tar.gz
