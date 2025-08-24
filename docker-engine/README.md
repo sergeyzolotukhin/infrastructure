@@ -119,6 +119,9 @@ https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
 https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_profiles
 
+#### pull_policy
+https://docs.docker.com/reference/compose-file/services/#pull_policy
+
 #### Run Oracle Database in a Docker container
 https://blogs.oracle.com/oraclemagazine/run-oracle-database-19c-in-a-docker-container
 docker login container-registry.oracle.com
