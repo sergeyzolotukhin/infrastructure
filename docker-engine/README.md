@@ -115,6 +115,7 @@ https://hub.docker.com/_/postgres#pgdata
 #### docker compose profiles
 https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-profiles-69134c6a8d12
 https://docs.docker.com/compose/how-tos/multiple-compose-files/
+https://docs.docker.com/compose/how-tos/multiple-compose-files/include/
 
 #### Set, use, and manage variables in a Compose file with interpolation
 https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/
