@@ -28,5 +28,9 @@ Vagrant.configure("2") do |config|
         d.vm.provision :docker do |dc|
           dc.post_install_provision "shell", path: "provision/docker-remote-access.sh"
         end
+
+        # Run Docker Compose file
+        # d.vm.provision "shell", inline: "docker compose --file /vagrant/docker-compose.yml down"
+        d.vm.provision "shell", inline: "docker compose --file /vagrant/docker-compose.yml up --quiet-pull --detach "
     end
 end
