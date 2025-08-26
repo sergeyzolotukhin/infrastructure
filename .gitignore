@@ -50,6 +50,7 @@ venv1/
 .cache/
 .images/
 .dumps/
+.data/
 
 #### Security
 #*.ppk

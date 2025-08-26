@@ -8,7 +8,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: bank
     volumes:
-      - db:/var/lib/postgresql/data
+      - postgres-data:/var/lib/postgresql/data
       - /vagrant/.dumps:/mnt/.dumps
     ports:
       - "5432:5432"
@@ -39,7 +39,7 @@ services:
       - sqlserver_data:/var/opt/mssql
 
 volumes:
-  db:
+  postgres-data:
   oracle-data:
   oracle-backup:
   sqlserver_data:

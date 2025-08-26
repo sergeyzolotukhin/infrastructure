@@ -111,6 +111,8 @@ https://dev.to/1cadumagalhaes/how-to-setup-a-postgresql-database-with-docker-com
 
 #### PGDATA
 https://hub.docker.com/_/postgres#pgdata
+https://github.com/docker-library/postgres/blob/master/17/trixie/Dockerfile
+https://forums.docker.com/t/data-directory-var-lib-postgresql-data-pgdata-has-wrong-ownership/17963/24
 
 #### docker compose profiles
 https://medium.com/@alexkrenitsky/how-to-use-multiple-docker-compose-files-plus-profiles-69134c6a8d12
