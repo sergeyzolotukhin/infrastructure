@@ -49,6 +49,7 @@ venv1/
 .curl-cache/
 .cache/
 .images/
+.dumps/
 
 #### Security
 #*.ppk

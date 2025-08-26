@@ -150,3 +150,23 @@ password:Oracle_123
 #### load image Oracle Database
 docker save container-registry.oracle.com/database/express:21.3.0-xe | gzip > oracle-database-21.3.0-xe.tar.gz
 docker load -i /vagrant/.images/oracle-database-21.3.0-xe.tar.gz
+
+#### Hot restore a dump inside a container
+
+docker compose up -d
+docker compose down
+
+docker ps
+docker exec -it postgres bash
+
+createdb -U postgres -T template0 DEMO
+pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+time pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+dropdb -U postgres DEMO
+
+docker exec postgres createdb -U postgres -T template0 DEMO
+docker exec postgres pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+docker exec postgres dropdb -U postgres DEMO
+
+docker cp my_database_backup.tar my_postgres_container:/tmp/my_database_backup.tar
+docker exec <container_name> pg_restore -U <username> -d <database_name> <path_to_dump_file_in_container>
