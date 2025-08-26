@@ -176,3 +176,18 @@ docker exec <container_name> pg_restore -U <username> -d <database_name> <path_t
 #### Hot backup a dump inside a container
 
 docker exec postgres bash -c "pg_dump -U postgres -F t DEMO > /mnt/.dumps/DEMO_01.tar"
+
+#### To export a Docker volume to a tar file
+
+docker run --rm -v vagrant_postgres-data:/source -v /vagrant/.dumps:/target alpine time tar -czf /target/FS_BACKUP_DEMO_02.tar.gz -C /source . 
+
+docker run --rm -it --volumes-from postgres -v /vagrant/.dumps:/target alpine tar -czf /target/FS_BACKUP_DEMO_02.tar.gz -C /var/lib/postgresql/data .
+
+https://www.gnu.org/software/tar/manual/html_section/All-Options.html#g_t_002d_002ddirectory
+--create -c
+--gzip -z
+--verbose -v
+--file -f
+--directory -C When this option is specified, tar will change its current directory to dir before performing any operations.
+
+time tar -czf /target/FS_BACKUP_DEMO_02.tar.gz -C /var/lib/postgresql/data .
