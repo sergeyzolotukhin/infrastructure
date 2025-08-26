@@ -223,3 +223,6 @@ cp -a . /to
 took: real    0m 11.36s
 
 https://medium.com/@shreehari9481/boost-postgresql-export-and-import-with-parallelism-30fb20e665dd
+
+#### Executing Multiple Commands in Docker Compose
+https://www.baeldung.com/ops/docker-compose-multiple-commands
