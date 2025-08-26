@@ -175,7 +175,8 @@ docker exec <container_name> pg_restore -U <username> -d <database_name> <path_t
 
 #### Hot backup a dump inside a container
 
-docker exec postgres bash -c "pg_dump -U postgres -F t DEMO > /mnt/.dumps/DEMO_01.tar"
+time docker exec postgres bash -c "pg_dump -U postgres -F t DEMO > /mnt/.dumps/DEMO_01.tar"
+real    0m3.112s
 
 #### To export a Docker volume to a tar file
 
@@ -204,6 +205,7 @@ docker container run --rm -it -v vagrant_postgres-data:/from -v vagrant_postgres
 docker container run --rm -v vagrant_postgres-data:/from -v vagrant_postgres-data_02:/to alpine sh -c "cd /from ; time cp -a . /to"
 docker container run --rm -v vagrant_postgres-data:/from -v vagrant_postgres-data_03:/to alpine sh -c "cd /from ; time cp -a . /to"
 took: real    0m 17.40s
+took: real    0m 13.72s
 
 https://www.man7.org/linux/man-pages/man1/cp.1.html
 -a
