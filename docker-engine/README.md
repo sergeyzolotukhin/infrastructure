@@ -170,3 +170,7 @@ docker exec postgres dropdb -U postgres DEMO
 
 docker cp my_database_backup.tar my_postgres_container:/tmp/my_database_backup.tar
 docker exec <container_name> pg_restore -U <username> -d <database_name> <path_to_dump_file_in_container>
+
+#### Hot backup a dump inside a container
+
+docker exec postgres bash -c "pg_dump -U postgres -F t DEMO > /mnt/.dumps/DEMO_01.tar"
