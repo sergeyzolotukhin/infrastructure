@@ -188,6 +188,7 @@ https://www.gnu.org/software/tar/manual/html_section/All-Options.html#g_t_002d_0
 --gzip -z
 --verbose -v
 --file -f
---directory -C When this option is specified, tar will change its current directory to dir before performing any operations.
+--directory -C When this option is specified, tar will change its current directory to dir 
+    before performing any operations.
 
 time tar -czf /target/FS_BACKUP_DEMO_02.tar.gz -C /var/lib/postgresql/data .
