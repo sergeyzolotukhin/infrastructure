@@ -1,4 +1,10 @@
 services:
+  wellcome:
+    image: alpine
+    command: sh -c "echo "You are in the wellcome container""
+#    tty: true
+#    stdin_open: true
+
   postgres-db:
     container_name: postgres
     image: postgres
