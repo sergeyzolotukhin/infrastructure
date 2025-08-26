@@ -221,3 +221,5 @@ https://www.man7.org/linux/man-pages/man1/cp.1.html
 cp -a . /to
 
 took: real    0m 11.36s
+
+https://medium.com/@shreehari9481/boost-postgresql-export-and-import-with-parallelism-30fb20e665dd
