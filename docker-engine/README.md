@@ -226,3 +226,7 @@ https://medium.com/@shreehari9481/boost-postgresql-export-and-import-with-parall
 
 #### Executing Multiple Commands in Docker Compose
 https://www.baeldung.com/ops/docker-compose-multiple-commands
+
+#### Interactive shell using docker-compose
+https://stackoverflow.com/questions/36249744/interactive-shell-using-docker-compose
+https://www.baeldung.com/ops/docker-compose-interactive-shell#interactive-shell-in-docker
