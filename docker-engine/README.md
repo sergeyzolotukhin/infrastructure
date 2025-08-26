@@ -167,8 +167,10 @@ time pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
 dropdb -U postgres DEMO
 
 docker exec postgres createdb -U postgres -T template0 DEMO
-docker exec postgres pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+time docker exec postgres pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
 docker exec postgres dropdb -U postgres DEMO
+
+real    0m26.978s
 
 docker cp my_database_backup.tar my_postgres_container:/tmp/my_database_backup.tar
 docker exec <container_name> pg_restore -U <username> -d <database_name> <path_to_dump_file_in_container>
