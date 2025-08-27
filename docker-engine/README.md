@@ -237,7 +237,13 @@ https://gist.github.com/waylan/4080362
 
 development environment
 
-ln -s /vagrant/dev-env.sh /usr/local/bin/dev-env
+ln -s /vagrant/sh/dev-env.sh /usr/local/bin/dev-env
 alias de='dev-env'
+rm /usr/local/bin/dev-env
 
 alias 
+
+#### Bash Script - Relative paths
+https://medium.com/@Aenon/bash-location-of-current-script-76db7fd2e388
+https://www.baeldung.com/linux/bash-get-location-within-script
+https://www.baeldung.com/linux/readlink-tutorial

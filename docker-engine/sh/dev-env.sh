@@ -1,5 +1,14 @@
 #!/bin/bash
 
+DE_HOME=$(dirname $(readlink -f ${BASH_SOURCE[0]}))
+
+echo "---> $DE_HOME"
+
+if [ ! -L /usr/local/bin/dev-env ]; then
+  ln -s $DE_HOME/dev-env.sh /usr/local/bin/dev-env
+  echo "Create link "
+fi
+
 ProgName=$(basename $0)
 
 usage ()
