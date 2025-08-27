@@ -231,3 +231,6 @@ https://www.baeldung.com/ops/docker-compose-multiple-commands
 https://stackoverflow.com/questions/36249744/interactive-shell-using-docker-compose
 https://www.baeldung.com/ops/docker-compose-interactive-shell#interactive-shell-in-docker
 https://betterstack.com/community/questions/question-interactive-shell-using-docker-compose/
+
+#### Bash Script - Command Substitution
+https://gist.github.com/waylan/4080362
