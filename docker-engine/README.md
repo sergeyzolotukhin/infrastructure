@@ -234,3 +234,5 @@ https://betterstack.com/community/questions/question-interactive-shell-using-doc
 
 #### Bash Script - Command Substitution
 https://gist.github.com/waylan/4080362
+
+development environment
