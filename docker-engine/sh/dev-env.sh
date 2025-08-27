@@ -4,29 +4,29 @@ ProgName=$(basename $0)
 
 usage ()
 {
-  echo "Usage: $ProgName <subcommand> [OPTION]... COMMAND"
+  echo "Usage: de <subcommand> [OPTION]... COMMAND"
   echo "Manage a virtual development environment"
   echo ""
   echo "Commands:"
-  echo "  up      Build, create, start to containers"
-  echo "  down    Stop and remove containers, networks and volumes"
+  echo "  up        Build, create, start to containers"
+  echo "  down      Stop and remove containers"
+  echo "  dump      Extract a database into a archive file"
+  echo "  restore   Restore a database from an archive file"
 }
 
-sub_bar(){
-    echo "Running 'bar' command."
+up(){
+    echo "Running 'up' command."
 }
 
-sub_baz(){
-    echo "Running 'baz' command."
-    echo "First arg is '$1'."
-    echo "Second arg is '$2'."
+down(){
+    echo "Running 'down' command."
 }
 
 subcommand=$1
 case $subcommand in
-    "" | "-h" | "--help")
-        usage
-        ;;
+    "" | "-h" | "--help")   usage ;;
+    "up")                   up ;;
+    "down")                 down ;;
     *)
         shift
         sub_${subcommand} $@
