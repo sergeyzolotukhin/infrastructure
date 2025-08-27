@@ -8,8 +8,8 @@ usage ()
   echo "Manage a virtual development environment"
   echo ""
   echo "Commands:"
-  echo "  up      Build, create, start to containers for set of services of the project"
-  echo "  down    Stop and remove containers, networks and volumes for set of services of the project"
+  echo "  up      Build, create, start to containers"
+  echo "  down    Stop and remove containers, networks and volumes"
 }
 
 sub_bar(){
