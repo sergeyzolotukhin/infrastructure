@@ -236,3 +236,8 @@ https://betterstack.com/community/questions/question-interactive-shell-using-doc
 https://gist.github.com/waylan/4080362
 
 development environment
+
+ln -s /vagrant/dev-env.sh /usr/local/bin/dev-env
+alias de='dev-env'
+
+alias 
