@@ -40,7 +40,7 @@ restore(){
     bash -c "createdb --username=postgres --template=template0 DEMO"
 
   docker exec postgres \
-    bash -c "pg_restore --username=postgres --no-password --dbname=DEMO -1 /mnt/.dumps/demo_medium.tar"
+    bash -c "pg_restore --username=postgres --no-password --dbname=DEMO --single-transaction /mnt/.dumps/demo_medium.tar"
 }
 
 subcommand=$1
