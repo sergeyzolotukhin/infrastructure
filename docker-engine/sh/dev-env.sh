@@ -28,9 +28,15 @@ down(){
       down
 }
 
+dump(){
+  TIMESTAMP=$(date +"%Y-%m-%d-%H.%M.%S")
+  docker exec postgres bash -c "pg_dump -U postgres -F t DEMO > /mnt/.dumps/${TIMESTAMP}_DEMO.tar"
+}
+
 subcommand=$1
 case $subcommand in
     "up")                   up ;;
     "down")                 down ;;
+    "dump")                 dump ;;
     *)   usage ;;
 esac
