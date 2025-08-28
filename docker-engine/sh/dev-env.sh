@@ -2,8 +2,7 @@
 
 ProgName=$(basename $0)
 
-usage ()
-{
+usage(){
   echo "Usage: de <subcommand> [OPTION]... COMMAND"
   echo "Manage a virtual development environment"
   echo ""
@@ -15,11 +14,18 @@ usage ()
 }
 
 up(){
-    echo "Running 'up' command."
+    docker compose \
+      --file "$DE_HOME/docker/docker-compose.yml" \
+      --env-file "$DE_HOME/docker/.env" \
+      up \
+      --detach
 }
 
 down(){
-    echo "Running 'down' command."
+    docker compose \
+      --file "$DE_HOME/docker/docker-compose.yml" \
+      --env-file "$DE_HOME/docker/.env" \
+      down
 }
 
 subcommand=$1
