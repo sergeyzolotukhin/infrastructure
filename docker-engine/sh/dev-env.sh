@@ -30,7 +30,8 @@ down(){
 
 dump(){
   TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
-  docker exec postgres bash -c "pg_dump --username=postgres --format=tar DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.tar"
+  docker exec postgres \
+    bash -c "pg_dump --username=postgres --format=tar DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.tar"
 }
 
 subcommand=$1
