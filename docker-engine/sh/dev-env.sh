@@ -28,8 +28,12 @@ down(){
 
 dump(){
   TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
+
   docker exec postgres \
     bash -c "pg_dump --username=postgres --format=tar DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.tar"
+
+#  docker exec postgres \
+#      bash -c "pg_dump --username=postgres --format=custom DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.dump"
 }
 
 restore(){
@@ -40,7 +44,10 @@ restore(){
     bash -c "createdb --username=postgres --template=template0 DEMO"
 
   docker exec postgres \
-    bash -c "pg_restore --username=postgres --no-password --dbname=DEMO --single-transaction /mnt/.dumps/demo_medium.tar"
+    bash -c "time pg_restore --username=postgres --no-password --dbname=DEMO --single-transaction /mnt/.dumps/2025-08-28-20-14-12-DEMO.tar"
+
+#  docker exec postgres \
+#    bash -c "time pg_restore --username=postgres --no-password --dbname=DEMO --jobs=4 /mnt/.dumps/2025-08-28-20-11-16-DEMO.dump"
 }
 
 subcommand=$1
