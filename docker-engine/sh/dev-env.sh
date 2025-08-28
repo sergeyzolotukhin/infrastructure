@@ -33,7 +33,14 @@ dump(){
 }
 
 restore(){
-  echo "todo: "
+  docker exec postgres \
+    bash -c "dropdb --username=postgres DEMO"
+
+  docker exec postgres \
+    bash -c "createdb --username=postgres --template=template0 DEMO"
+
+  docker exec postgres \
+    bash -c "pg_restore --username=postgres --no-password --dbname=DEMO -1 /mnt/.dumps/demo_medium.tar"
 }
 
 subcommand=$1
