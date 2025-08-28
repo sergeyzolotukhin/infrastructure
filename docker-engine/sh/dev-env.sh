@@ -34,10 +34,15 @@ dump(){
     bash -c "pg_dump --username=postgres --format=tar DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.tar"
 }
 
+restore(){
+  echo "todo: "
+}
+
 subcommand=$1
 case $subcommand in
     "up")                   up ;;
     "down")                 down ;;
     "dump")                 dump ;;
+    "restore")              restore ;;
     *)   usage ;;
 esac
