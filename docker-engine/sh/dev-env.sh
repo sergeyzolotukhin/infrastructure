@@ -1,7 +1,5 @@
 #!/bin/bash
 
-ProgName=$(basename $0)
-
 usage(){
   echo "Usage: de <subcommand> [OPTION]... COMMAND"
   echo "Manage a virtual development environment"
@@ -14,18 +12,18 @@ usage(){
 }
 
 up(){
-    docker compose \
+  docker compose \
       --file "$DE_HOME/docker/docker-compose.yml" \
       --env-file "$DE_HOME/docker/.env" \
-      up \
+    up \
       --detach
 }
 
 down(){
-    docker compose \
+  docker compose \
       --file "$DE_HOME/docker/docker-compose.yml" \
       --env-file "$DE_HOME/docker/.env" \
-      down
+    down
 }
 
 dump(){
