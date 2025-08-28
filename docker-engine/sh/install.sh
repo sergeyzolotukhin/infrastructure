@@ -17,12 +17,3 @@ if [ "$(type -t de)" != 'alias' ]; then
     echo "alias de='dev-env'" >> ~/.bashrc
   fi
 fi
-
-# debug
-
-# reload bashrc
-# . ~/.bashrc
-
-# other
-# echo "---> $DE_HOME"
-# cat ~/.bashrc
