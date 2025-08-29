@@ -20,4 +20,17 @@ pam_tally2
 pam_pwhistory
 pam_pwquality
 
+pam_deny
+pam_permit
+pam_passwd_auth
+pam_succeed_if
+pam_lastlog
+
+---
+https://docs.oracle.com/cd/E19253-01/816-4557/pam-15/index.html
+auth     
+account  
+password
+session
+
 > sudo chage

@@ -254,3 +254,6 @@ https://dev.to/rahulnegi/automate-your-ssh-logins-with-this-bat-script-for-your-
 https://mac-blog.org.ua/docker-nginx-shell-script/
 https://www.baeldung.com/ops/nginx-run-shell-script
 
+#### IntelliJ IDEA - How to add custom action to IntelliJ IDEA
+https://stackoverflow.com/questions/62128025/how-to-add-custom-action-to-intellij-idea
+
