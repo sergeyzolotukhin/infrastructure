@@ -46,8 +46,9 @@ https://www.linkedin.com/pulse/how-implement-oracle-materialized-view-fast-refre
 
 https://danischnider.wordpress.com/2019/02/18/materialized-view-refresh-for-dummies/
 
+#### How to set simple password
 sudo passwd root
-qsxdr123
+    qsxdr123
 
 login.defs
     PASS_MIN_LEN	1
