@@ -51,6 +51,7 @@ venv1/
 .images/
 .dumps/
 .data/
+.temp/
 
 #### Security
 #*.ppk
@@ -81,3 +82,4 @@ library/lib-antlr/src/main/gen/
 /docker-portainer/data/
 /docker-drone-ci/drone/
 /docker-drone-ci/secret.txt
+
