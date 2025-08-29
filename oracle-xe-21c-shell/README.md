@@ -48,3 +48,6 @@ https://danischnider.wordpress.com/2019/02/18/materialized-view-refresh-for-dumm
 
 sudo passwd root
 qsxdr123
+
+login.defs
+    PASS_MIN_LEN	1
