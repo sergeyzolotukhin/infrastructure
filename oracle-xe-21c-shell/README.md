@@ -46,5 +46,5 @@ https://www.linkedin.com/pulse/how-implement-oracle-materialized-view-fast-refre
 
 https://danischnider.wordpress.com/2019/02/18/materialized-view-refresh-for-dummies/
 
-sudo passwd
+sudo passwd root
 qsxdr123
