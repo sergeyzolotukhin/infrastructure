@@ -51,3 +51,5 @@ qsxdr123
 
 login.defs
     PASS_MIN_LEN	1
+pwquality.conf
+    minlen = 1
