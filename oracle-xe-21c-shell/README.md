@@ -45,3 +45,6 @@ https://medium.com/@prasadyejarla/materialized-views-in-oracle-6ed8aa5a63ad
 https://www.linkedin.com/pulse/how-implement-oracle-materialized-view-fast-refresh-method-shaikh-xkqyc/
 
 https://danischnider.wordpress.com/2019/02/18/materialized-view-refresh-for-dummies/
+
+sudo passwd
+qsxdr123
