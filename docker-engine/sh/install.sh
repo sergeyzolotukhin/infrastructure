@@ -2,8 +2,8 @@
 
 # create home env variable
 DE_HOME=$(dirname $(dirname $(readlink -f ${BASH_SOURCE[0]})))
-if ! grep -q "^export DE_HOME=" ~/.bashrc; then
-  echo -e "export DE_HOME=$DE_HOME" >> ~/.bashrc
+if ! grep -q "^DE_HOME=" /etc/environment; then
+  echo -e "DE_HOME=$DE_HOME" >> /etc/environment
 fi
 
 # add a script as a command
