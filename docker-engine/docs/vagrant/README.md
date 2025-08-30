@@ -51,3 +51,17 @@ https://developer.hashicorp.com/vagrant/docs/vagrantfile/ssh_settings
 https://stackoverflow.com/questions/2232/how-to-call-shell-commands-from-ruby
 
 vagrant ssh-config
+
+```shell
+@echo off
+set "KNOWN_HOSTS_PATH=%USERPROFILE%\.ssh\known_hosts"
+set "TARGET_HOST=your_server_hostname_or_ip"
+
+echo Scanning host key for %TARGET_HOST%...
+ssh-keyscan -H %TARGET_HOST% >> "%KNOWN_HOSTS_PATH%"
+
+echo Host key for %TARGET_HOST% added to %KNOWN_HOSTS_PATH%.
+pause
+```
+
+ssh-keyscan -H 192.168.56.2
