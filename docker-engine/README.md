@@ -3,7 +3,7 @@
 vagrant up
 ```
 
-- Run a command in the environment.
+- Run a Docker containers
 ```shell
 ssh root@192.168.56.2 dev-env up
 ```
