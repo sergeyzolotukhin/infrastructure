@@ -10,6 +10,11 @@ vagrant up
 ssh root@192.168.56.2 dev-env up
 ```
 
+- Stop a Docker containers
+```shell
+ssh root@192.168.56.2 dev-env down
+```
+
 - Stop the environment.
 ```shell
 vagrant suspend  
