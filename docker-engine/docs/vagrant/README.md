@@ -39,3 +39,6 @@ https://www.cyberciti.biz/faq/can-i-delete-var-cache-apt-archives-for-ubuntu-deb
 /etc/apt/apt.conf
 /etc/apt/apt.conf.d/no-cache
 /var/cache/apt/archives
+
+#### Docker Compose
+https://github.com/leighmcculloch/vagrant-docker-compose
