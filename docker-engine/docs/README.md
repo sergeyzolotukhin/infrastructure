@@ -1,15 +1,14 @@
-#### How to run a dev environment?
-
+- run an environment
 ```shell
 vagrant up
 ```
 
-#### How to connect to a dev environment?
+- Run a command in the environment.
 ```shell
 ssh root@192.168.56.2 echo "hello"
 ```
 
-#### How to suspend a dev environment?
+- Stop the environment.
 ```shell
-vagrant suspend 
+vagrant suspend  
 ```
