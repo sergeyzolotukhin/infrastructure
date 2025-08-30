@@ -16,7 +16,8 @@ up(){
       --file "$DE_HOME/docker/docker-compose.yml" \
       --env-file "$DE_HOME/docker/.env" \
     up \
-      --detach
+      --detach \
+      --quiet-pull
 }
 
 down(){

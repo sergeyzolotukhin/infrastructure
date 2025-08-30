@@ -13,3 +13,5 @@ Add correct host key in C:\\Users\\<user>/.ssh/known_hosts to get rid of this me
 Offending ED25519 key in C:\\Users\\<user>/.ssh/known_hosts:4
 Host key for 192.168.56.2 has changed and you have requested strict checking.
 Host key verification failed.
+
+ssh-keygen -R 192.168.56.2
