@@ -17,3 +17,8 @@ ssh-keygen -R 192.168.56.2
 #### How to get the Host Key of a remote server ?
 https://serverfault.com/questions/132970/can-i-automatically-add-a-new-host-to-known-hosts
 ssh-keyscan 192.168.56.2 2>/dev/null
+
+https://developer.hashicorp.com/vagrant/docs/vagrantfile/ssh_settings
+
+#### SSH config file location on Windows
+https://superuser.com/questions/1537763/location-of-openssh-configuration-file-on-windows
