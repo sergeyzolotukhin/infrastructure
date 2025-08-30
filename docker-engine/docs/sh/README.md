@@ -20,3 +20,11 @@ https://www.baeldung.com/linux/readlink-tutorial
 https://mac-blog.org.ua/docker-nginx-shell-script/
 https://www.baeldung.com/ops/nginx-run-shell-script
 
+#### To find the "max" file name prefix
+find /vagrant/.dumps -type f -name "[0-9][0-9]_*.dump" -exec basename {} \; | sed -E 's/^(..).*$/\1/' | sort -n | tail -1
+
+#### New file prefix - (max + 1)
+max_prefix=$(find /vagrant/.dumps -type f -name "[0-9][0-9]_*.dump" -exec basename {} \; | sed -E 's/^(..).*$/\1/' | sort -n | tail -1)
+next_prefix=$(expr $max_prefix + 1)
+new_file_prefix=$(printf "%02d\n" "$next_prefix")
+echo $max_prefix $next_prefix $new_file_prefix
