@@ -11,3 +11,4 @@ https://medium.com/oracledevs/two-birds-with-one-home-cloned-vagrant-multi-machi
 
 #### Documentation
 https://dev.to/mochafreddo/how-to-manage-documentation-in-a-github-repository-a-guide-for-junior-developers-pgo
+https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
