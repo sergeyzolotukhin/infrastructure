@@ -268,6 +268,9 @@ select name from v$controlfile;
 select name from v$datafile;
 select member from v$logfile;
 
+select name from v$tempfile;
+select value  from v$parameter where name='spfile';
+
 https://oracledbwr.com/database-cold-backup-script/
 https://forums.oracle.com/ords/apexds/post/steps-for-cold-backup-4899
 https://learnomate.org/database-cloning-using-cold-backup/
