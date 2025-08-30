@@ -258,3 +258,18 @@ https://www.baeldung.com/ops/nginx-run-shell-script
 https://stackoverflow.com/questions/62128025/how-to-add-custom-action-to-intellij-idea
 https://plugins.jetbrains.com/docs/intellij/creating-actions-tutorial.html
 
+#### Oracle Database - Cold Backup
+Now copy database files such as to a backup device 
+- data files
+- control files 
+- redo log files
+
+select name from v$controlfile;
+select name from v$datafile;
+select member from v$logfile;
+
+https://oracledbwr.com/database-cold-backup-script/
+https://forums.oracle.com/ords/apexds/post/steps-for-cold-backup-4899
+https://learnomate.org/database-cloning-using-cold-backup/
+https://oraclelearning.wordpress.com/2012/07/18/oracle-database-cold-backup-script/
+https://support.dbagenesis.com/oracle-database/oracle-database-cold-backup-recovery
