@@ -22,3 +22,12 @@ https://developer.hashicorp.com/vagrant/docs/vagrantfile/ssh_settings
 
 #### SSH config file location on Windows
 https://superuser.com/questions/1537763/location-of-openssh-configuration-file-on-windows
+
+#### Other
+https://www.baeldung.com/linux/public-key-known_hosts
+
+ssh-keygen -R 192.168.56.2
+ssh -o StrictHostKeyChecking=accept-new -q root@r192.168.56.2 exit
+
+https://unix.stackexchange.com/questions/377491/vagrant-ssh-doesnt-display-command-prompt
+https://medium.com/@abassam912/how-32-bit-powershell-broke-my-ssh-setup-and-how-i-fixed-it-ab417c815aa7
