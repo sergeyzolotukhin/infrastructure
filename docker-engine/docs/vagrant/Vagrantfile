@@ -1,0 +1,50 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+    config.vm.define "docker-engine-1" do |d|
+        # Ubuntu 20.04.3 LTS - Focal Fossa
+        # d.vm.box = "ubuntu/focal64"
+        # Ubuntu 22.04.2 LTS - Jammy Jellyfish
+        d.vm.box = "ubuntu/jammy64"
+
+        # Create an apt-cache on host
+        # time with cache: 19:32:55 - 19:33:46 = 49 seconds
+        # time without cache:  19:38:12 - 19:39:19 = 67 seconds
+        # config.vm.synced_folder "./.cache/apt-archives/", "/var/cache/apt/archives/"
+        # config.vm.synced_folder "./.cache/apt-lists/", "/var/lib/apt/lists"
+
+        d.vm.provider "virtualbox" do |vb|
+            vb.name = "docker-engine-1"
+            vb.memory = "4048"
+            vb.gui = true
+        end
+
+        d.vm.network :private_network, ip: "192.168.56.2"
+
+        d.vm.provision "shell", path: "provision/root-login-enable.sh"
+
+        # Install Docker Engine / Docker Compose plugin
+        # d.vm.provision :docker do |dc|
+        #   dc.post_install_provision "shell", path: "provision/docker-remote-access.sh"
+        # end
+
+        # Run Docker Compose file
+        # d.vm.provision "shell", inline: "docker compose --file /vagrant/docker-compose.yml down"
+        # d.vm.provision "shell", inline: "docker compose --file /vagrant/docker-compose.yml up --quiet-pull --detach "
+        # d.vm.provision "shell", inline: "/vagrant/sh/install.sh"
+    end
+
+    # config.trigger.after :up do |trigger|
+    config.trigger.after :provision  do |trigger|
+      # trigger.info = "Machine is up and running!"
+      # trigger.run = {inline: "ssh-keygen -R 192.168.56.2" }
+      # trigger.run = {inline: "$PSVersionTable" }
+      # trigger.run = {inline: "powershell.exe -Command 'ssh -o StrictHostKeyChecking=accept-new -q root@192.168.56.2 exit'" }
+      # trigger.run = {inline: "powershell.exe -Command 'get-command ssh.exe'" }
+      trigger.run = {inline: "$Env:PATH" }
+      # trigger.run = {inline: "[Environment]::Is64BitProcess" }
+      # Or to run a remote command on the guest:
+      # trigger.run_remote = {inline: "echo 'Hello from after up trigger on the guest!'" }
+    end
+end
