@@ -13,3 +13,7 @@ ssh root@192.168.56.2
 ```
 
 ssh -p 2222 root@localhost
+
+
+#### ~/.bashrc
+https://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment
