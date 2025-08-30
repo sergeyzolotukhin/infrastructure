@@ -8,12 +8,12 @@ ssh-keygen
 c:\Users\<username>\.ssh
 cat /vagrant/provision/ssh/id_ed25519.pub >> ~/.ssh/authorized_keys
 
-```shell
-ssh root@192.168.56.2
-```
-
-ssh -p 2222 root@localhost
-
-
 #### ~/.bashrc
 https://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment
+
+#### How to remove a host from known_hosts
+ssh-keygen -R 192.168.56.2
+
+#### How to get the Host Key of a remote server ?
+https://serverfault.com/questions/132970/can-i-automatically-add-a-new-host-to-known-hosts
+ssh-keyscan 192.168.56.2 2>/dev/null
