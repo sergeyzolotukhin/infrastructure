@@ -42,3 +42,7 @@ https://www.cyberciti.biz/faq/can-i-delete-var-cache-apt-archives-for-ubuntu-deb
 
 #### Docker Compose
 https://github.com/leighmcculloch/vagrant-docker-compose
+
+####
+vagrant_root = File.dirname(File.expand_path(__FILE__))
+client_vagrantfile2 = File.expand_path('../vagrant/Vagrantfile.client2', __FILE__)
