@@ -8,8 +8,8 @@ vagrant up
 ```shell
 ssh root@192.168.56.2 echo "hello"
 ```
-#### How to suspend a dev environment?
 
+#### How to suspend a dev environment?
 ```shell
 vagrant suspend 
 ```
