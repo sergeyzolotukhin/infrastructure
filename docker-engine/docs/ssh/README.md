@@ -31,3 +31,4 @@ ssh -o StrictHostKeyChecking=accept-new -q root@r192.168.56.2 exit
 
 https://unix.stackexchange.com/questions/377491/vagrant-ssh-doesnt-display-command-prompt
 https://medium.com/@abassam912/how-32-bit-powershell-broke-my-ssh-setup-and-how-i-fixed-it-ab417c815aa7
+https://serverfault.com/questions/506864/turn-off-strict-checking-of-ssh-keys
