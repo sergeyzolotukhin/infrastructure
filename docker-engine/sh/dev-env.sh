@@ -64,17 +64,19 @@ dump(){
 }
 
 restore(){
-  docker exec postgres \
-    bash -c "dropdb --username=postgres DEMO"
+  DIRPATH=$1
+  DIRNAME=$(basename "$DIRPATH")
 
-  docker exec postgres \
-    bash -c "createdb --username=postgres --template=template0 DEMO"
+  for DUMPPATH in $(find $DIRPATH -type f -name "*.dump")
+  do
+    DATABASE_NAME=$(basename "$DUMPPATH" .dump)
+    echo "Restore $DIRNAME/$DATABASE_NAME.dump"
 
-  docker exec postgres \
-    bash -c "time pg_restore --username=postgres --no-password --dbname=DEMO --single-transaction /mnt/.dumps/2025-08-28-20-14-12-DEMO.tar"
-
-#  docker exec postgres \
-#    bash -c "time pg_restore --username=postgres --no-password --dbname=DEMO --jobs=4 /mnt/.dumps/2025-08-28-20-11-16-DEMO.dump"
+    docker exec postgres \
+      bash -c "dropdb --username=postgres $DATABASE_NAME && \
+               createdb --username=postgres --template=template0 $DATABASE_NAME && \
+               pg_restore --username=postgres --no-password --dbname=$DATABASE_NAME /mnt/.dumps/$DIRNAME/$DATABASE_NAME.dump"
+  done
 }
 
 subcommand=$1
@@ -82,6 +84,6 @@ case $subcommand in
     "up")                   up ;;
     "down")                 down ;;
     "dump")                 shift ; dump "$@" ;;
-    "restore")              restore ;;
+    "restore")              shift ; restore "$@" ;;
     *)   usage ;;
 esac
