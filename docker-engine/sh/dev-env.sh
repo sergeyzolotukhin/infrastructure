@@ -29,26 +29,23 @@ down(){
 
 dump(){
   TIMESTAMP=$(date +"%m.%d-%H.%M")
+
   DIRNAME=$1
-  DIRNAME_FULL=$1
   if [[ -z "$DIRNAME" ]]; then
-    MAX_PREFIX=$( find /vagrant/.dumps -type d -name "[0-9][0-9]-*" -exec basename {} \; | \
+    MAX_PREFIX=$( find $DE_HOME/.dumps -type d -name "[0-9][0-9]-*" -exec basename {} \; | \
       sed -E 's/^(..).*$/\1/' | \
       sort -n | \
       tail -1 \
     )
     NEXT_PREFIX=$(printf "%02d\n" $(expr $MAX_PREFIX + 1))
     DIRNAME="$NEXT_PREFIX-dump-$TIMESTAMP"
-    DIRNAME_FULL="$DE_HOME/.dumps/$DIRNAME"
   fi
 
-  if [ -d "$DIRNAME_FULL" ]; then
-      echo "remove directory: $DIRNAME_FULL"
-      rm -rf "$DIRNAME_FULL"
+  DIRPATH="$DE_HOME/.dumps/$DIRNAME"
+  if [ -d "$DIRPATH" ]; then
+      rm --force --recursive "$DIRPATH"
   fi
-
-  echo "created directory: $DIRNAME_FULL"
-  mkdir -p "$DIRNAME_FULL"
+  mkdir --parents "$DIRPATH"
 
   DATABASE_NAMES=$(docker exec postgres \
     bash -c "psql --username=postgres --tuples-only --command=\"\
@@ -60,14 +57,9 @@ dump(){
 
   for DATABASE_NAME in $DATABASE_NAMES
   do
-    FILENAME="/mnt/.dumps/$DIRNAME/$DATABASE_NAME.dump"
-    echo "Dumping database [$DATABASE_NAME] to file $FILENAME"
-
+    echo "Dump \"$DATABASE_NAME\" database at $DIRNAME"
     docker exec postgres \
-      bash -c "mkdir -p /mnt/.dumps/$DIRNAME"
-
-    docker exec postgres \
-      bash -c "pg_dump --username=postgres --format=custom $DATABASE_NAME > $FILENAME"
+      bash -c "pg_dump --username=postgres --format=custom $DATABASE_NAME > /mnt/.dumps/$DIRNAME/$DATABASE_NAME.dump"
   done
 }
 
