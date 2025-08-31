@@ -28,13 +28,47 @@ down(){
 }
 
 dump(){
-  TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
+  TIMESTAMP=$(date +"%m.%d-%H.%M")
+  DIRNAME=$1
+  DIRNAME_FULL=$1
+  if [[ -z "$DIRNAME" ]]; then
+    MAX_PREFIX=$( find /vagrant/.dumps -type d -name "[0-9][0-9]-*" -exec basename {} \; | \
+      sed -E 's/^(..).*$/\1/' | \
+      sort -n | \
+      tail -1 \
+    )
+    NEXT_PREFIX=$(printf "%02d\n" $(expr $MAX_PREFIX + 1))
+    DIRNAME="$NEXT_PREFIX-dump-$TIMESTAMP"
+    DIRNAME_FULL="$DE_HOME/.dumps/$DIRNAME"
+  fi
 
-  docker exec postgres \
-    bash -c "pg_dump --username=postgres --format=tar DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.tar"
+  if [ -d "$DIRNAME_FULL" ]; then
+      echo "remove directory: $DIRNAME_FULL"
+      rm -rf "$DIRNAME_FULL"
+  fi
 
-#  docker exec postgres \
-#      bash -c "pg_dump --username=postgres --format=custom DEMO > /mnt/.dumps/${TIMESTAMP}-DEMO.dump"
+  echo "created directory: $DIRNAME_FULL"
+  mkdir -p "$DIRNAME_FULL"
+
+  DATABASE_NAMES=$(docker exec postgres \
+    bash -c "psql --username=postgres --tuples-only --command=\"\
+      SELECT datname
+      FROM pg_database
+      WHERE datistemplate = FALSE
+      AND datname NOT IN ('postgres', 'bank')\"\
+    ")
+
+  for DATABASE_NAME in $DATABASE_NAMES
+  do
+    FILENAME="/mnt/.dumps/$DIRNAME/$DATABASE_NAME.dump"
+    echo "Dumping database [$DATABASE_NAME] to file $FILENAME"
+
+    docker exec postgres \
+      bash -c "mkdir -p /mnt/.dumps/$DIRNAME"
+
+    docker exec postgres \
+      bash -c "pg_dump --username=postgres --format=custom $DATABASE_NAME > $FILENAME"
+  done
 }
 
 restore(){
@@ -55,7 +89,7 @@ subcommand=$1
 case $subcommand in
     "up")                   up ;;
     "down")                 down ;;
-    "dump")                 dump ;;
+    "dump")                 shift ; dump "$@" ;;
     "restore")              restore ;;
     *)   usage ;;
 esac
