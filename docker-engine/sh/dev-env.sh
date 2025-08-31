@@ -55,7 +55,7 @@ dump(){
       SELECT datname
       FROM pg_database
       WHERE datistemplate = FALSE
-      AND datname NOT IN ('postgres', 'bank')\"\
+        AND datname NOT IN ('postgres', 'bank')\"\
     ")
 
   for DATABASE_NAME in $DATABASE_NAMES
