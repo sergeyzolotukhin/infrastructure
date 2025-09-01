@@ -11,6 +11,7 @@ if [ $? != 0 ] ; then
 fi
 
 eval set -- "${ARGS}"
+#echo "args: $ARGS"
 
 INTERACTIVE=0
 
