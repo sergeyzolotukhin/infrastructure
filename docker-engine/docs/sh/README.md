@@ -13,4 +13,16 @@ https://mac-blog.org.ua/docker-nginx-shell-script/
 https://www.baeldung.com/ops/nginx-run-shell-script
 
 #### Parse shell script options 
---, --) https://superuser.com/questions/1346403/what-does-mean-in-bashs-case-struture 
+--, --) 
+https://superuser.com/questions/1346403/what-does-mean-in-bashs-case-struture
+
+getopts - Parsing Short Command-Line Options in Bash
+getopt - Parsing Short/Long Command-Line Options in Bash
+https://www.baeldung.com/linux/bash-parse-command-line-arguments
+
+getopt
+https://man7.org/linux/man-pages/man1/getopt.1.html
+https://davetang.org/muse/2023/01/31/bash-script-that-accepts-short-long-and-positional-arguments/
+https://medium.com/@steelcityamir/parse-command-line-arguments-using-getopt-24a90b5b317d
+
+https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
