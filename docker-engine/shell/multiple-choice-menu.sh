@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# https://www.baeldung.com/linux/check-bash-array-contains-value
+
 names=('01-dump-08.31-12.51' '14-dump-08.31-12.51' '15-dump-08.31-12.52' 'quit')
 selected=()
 CONTINUE=true
