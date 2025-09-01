@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Option strings
-SHORT=vf:
-LONG=verbose,file:
+SHORT=i
+LONG=interactive
 
 # read the options
 ARGS=$(getopt --options $SHORT --long $LONG --name "$0" -- "$@")
@@ -12,21 +12,19 @@ fi
 
 eval set -- "${ARGS}"
 
+INTERACTIVE=0
+
 while :
 do
   case $1 in
-    -v | --verbose)   VERBOSE=1   ; shift   ;;
-    -f | --file)      FILE=$2     ; shift 2 ;;
+    -i | --interactive)   INTERACTIVE=1   ; shift   ;;
     # -- means the end of the arguments; drop this, and break out of the while loop
     --) shift; break ;;
-#    *) >&2 echo "Internal error!" ; exit 1 ;;
   esac
 done
 
-echo "verbose   : $VERBOSE"
-echo "file      : $FILE"
-
-echo "Parameters remaining are: $@"
+echo "interactive   : $INTERACTIVE"
+echo "file: $1"
 
 exit 0
 
