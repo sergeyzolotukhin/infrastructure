@@ -33,12 +33,8 @@ C:/Users/szolotukhin/.vagrant.d/cache/ubuntu/jammy64
 
 #### docker compose commands
 
-docker compose up -d
-docker compose down
-
-- ???
-  docker compose run -d db
-  https://stackoverflow.com/questions/33715499/what-is-the-difference-between-docker-compose-up-and-docker-compose-start
+docker compose run -d db
+https://stackoverflow.com/questions/33715499/what-is-the-difference-between-docker-compose-up-and-docker-compose-start
 
 https://dev.to/1cadumagalhaes/how-to-setup-a-postgresql-database-with-docker-compose-1j57
 
