@@ -1,14 +1,12 @@
 #!/bin/bash
 
-names=(Donald Alan Brian quit)
+names=('01-dump-08.31-12.51' '14-dump-08.31-12.51' '15-dump-08.31-12.52' 'quit')
 selected=()
 CONTINUE=true
 
-PS3='Name? You can select multiple space separated options: '
+PS3='Select databases: '
 while $CONTINUE; do
   select name in "${names[@]}" ; do
-    echo "[$name]"
-
     case $name in
       "quit") CONTINUE=false ; break ;;
       *) selected+=("$name") ;;
@@ -16,4 +14,4 @@ while $CONTINUE; do
   done
 done
 
-echo "Selected: ${selected[@]}"
+echo "Selected databases: ${selected[@]}"
