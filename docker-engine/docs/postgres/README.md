@@ -67,4 +67,6 @@ cp -a . /to
 
 took: real    0m 11.36s
 
+#### Incremental backup
+https://stackoverflow.com/questions/5529603/best-method-for-postgresql-incremental-backup
 
