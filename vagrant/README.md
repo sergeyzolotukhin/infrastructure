@@ -74,6 +74,17 @@ end
 #### Packer
 https://github.com/game-sales-analytics/vagrant-alpine315-docker/
 
+#### To destroy all Vagrant virtual machines
+
+vagrant global-status
+
+vagrant destroy 2ec473d --force
+vagrant destroy f678115 --force
+vagrant destroy bb7d24e --force
+vagrant destroy 6a5255a --force
+
+vagrant global-status --prune
+
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
 c:\Users\<user>\.m2             10 GB
