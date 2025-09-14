@@ -84,6 +84,12 @@ vagrant destroy bb7d24e --force
 vagrant destroy 6a5255a --force
 
 vagrant global-status --prune
+rm -rf .vagrant
+
+#### Removing Vagrant boxes (optional):
+
+vagrant box list
+vagrant box remove <box-name>
 
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
