@@ -79,6 +79,7 @@ library/lib-antlr/src/main/gen/
 #### Gitea
 /docker-engine/gitea/
 /postgresql-shell/demo-medium.sql
+/postgresql-shell/demo-small.sql
 /docker-portainer/data/
 /docker-drone-ci/drone/
 /docker-drone-ci/secret.txt
