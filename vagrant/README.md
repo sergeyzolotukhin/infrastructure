@@ -86,6 +86,9 @@ vagrant destroy 6a5255a --force
 vagrant global-status --prune
 rm -rf .vagrant
 
+vagrant plugin expunge --reinstall
+vagrant box update
+
 #### Removing Vagrant boxes (optional):
 
 vagrant box list
