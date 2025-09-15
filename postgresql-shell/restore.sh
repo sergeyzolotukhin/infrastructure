@@ -15,6 +15,7 @@ createdb -U postgres -T template0 demo
 
 echo 'Restore databases 01'
 pg_restore -U postgres -w -d demo -1 demo_medium.tar
+#pg_restore -U postgres -w -d demo -1 demo-small.tar
 
 #echo $SECONDS
 echo 'Successfully'

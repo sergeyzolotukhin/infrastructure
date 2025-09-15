@@ -12,5 +12,6 @@ export PGPASSWORD=postgres
 
 echo 'Dump databases'
 pg_dump -U postgres -F t demo > demo_medium.tar
+#pg_dump -U postgres -F t demo > demo-small.tar
 
 echo 'Successfully'
