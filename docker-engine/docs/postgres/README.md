@@ -1,24 +1,39 @@
 #### Hot restore a dump inside a container
 
-docker compose up -d
-docker compose down
+<details>
+    <summary>Hot restore a dump inside a container</summary>
 
-docker ps
-docker exec -it postgres bash
+```shell
+  docker compose up -d
+  docker compose down
 
-createdb -U postgres -T template0 DEMO
-pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
-time pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
-dropdb -U postgres DEMO
+  docker ps
+  docker exec -it postgres bash
+```
 
-docker exec postgres createdb -U postgres -T template0 DEMO
-time docker exec postgres pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
-docker exec postgres dropdb -U postgres DEMO
+```shell
+  createdb -U postgres -T template0 DEMO
+  pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+  time pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+  dropdb -U postgres DEMO
+```
 
-real    0m26.978s
+```shell
+  docker exec postgres createdb -U postgres -T template0 DEMO
+  time docker exec postgres pg_restore -U postgres -w -d DEMO -1 /mnt/.dumps/demo_medium.tar
+  docker exec postgres dropdb -U postgres DEMO
+```
 
-docker cp my_database_backup.tar my_postgres_container:/tmp/my_database_backup.tar
-docker exec <container_name> pg_restore -U <username> -d <database_name> <path_to_dump_file_in_container>
+<font color="green"> 
+    real    0m26.978s
+</font>
+
+
+```shell
+  docker cp my_database_backup.tar my_postgres_container:/tmp/my_database_backup.tar
+  docker exec <container_name> pg_restore -U <username> -d <database_name> <path_to_dump_file_in_container>  
+```
+</details>
 
 #### Hot backup a dump inside a container
 
@@ -76,5 +91,4 @@ pg_combinebackup
 https://hub.docker.com/_/postgres#pgdata
 https://github.com/docker-library/postgres/blob/master/17/trixie/Dockerfile
 https://forums.docker.com/t/data-directory-var-lib-postgresql-data-pgdata-has-wrong-ownership/17963/24
-
 
