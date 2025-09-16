@@ -24,10 +24,7 @@
   docker exec postgres dropdb -U postgres DEMO
 ```
 
-<font color="green"> 
-    real    0m26.978s
-</font>
-
+real    0m26.978s
 
 ```shell
   docker cp my_database_backup.tar my_postgres_container:/tmp/my_database_backup.tar
