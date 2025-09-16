@@ -72,4 +72,9 @@ https://stackoverflow.com/questions/5529603/best-method-for-postgresql-increment
 pg_basebackup
 pg_combinebackup 
 
+#### PGDATA
+https://hub.docker.com/_/postgres#pgdata
+https://github.com/docker-library/postgres/blob/master/17/trixie/Dockerfile
+https://forums.docker.com/t/data-directory-var-lib-postgresql-data-pgdata-has-wrong-ownership/17963/24
+
 

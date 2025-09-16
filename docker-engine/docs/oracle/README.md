@@ -33,11 +33,6 @@ password:Oracle_123
 docker save container-registry.oracle.com/database/express:21.3.0-xe | gzip > oracle-database-21.3.0-xe.tar.gz
 docker load -i /vagrant/.images/oracle-database-21.3.0-xe.tar.gz
 
-#### PGDATA
-https://hub.docker.com/_/postgres#pgdata
-https://github.com/docker-library/postgres/blob/master/17/trixie/Dockerfile
-https://forums.docker.com/t/data-directory-var-lib-postgresql-data-pgdata-has-wrong-ownership/17963/24
-
 #### Oracle 12c dicker images
 https://hub.docker.com/r/konnecteam/docker-oracle-12c/
 https://hub.docker.com/r/onknows/oracle-database
