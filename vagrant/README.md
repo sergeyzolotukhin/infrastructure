@@ -15,6 +15,8 @@ https://stackoverflow.com/questions/29394930/share-a-single-file-in-vagrant
     
     config.vm.synced_folder "host/folder/", "box/folder/", type: "rsync", rsync__args: ["--include=file.conf"]
 
+https://developer.hashicorp.com/vagrant/docs/vagrantfile#load-order-and-merging
+
 #### Read only -> This sets directory permissions to 555 (r-xr-xr-x) and file permissions to 444 (r--r--r--).
 config.vm.synced_folder "src", "/vagrant_data", mount_options: { "dmode" => "555", "fmode" => "444" }
 
@@ -70,6 +72,14 @@ Vagrant.configure("2") do |config|
         vb.customize ["modifyvm", :id, "--cpus", "2"]
     end
 end
+
+#### Multi-Machine
+https://developer.hashicorp.com/vagrant/docs/multi-machine#autostart-machines
+
+#### Starting in Ubuntu 24.04, Ubuntu no longer produces Vagrant images
+https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890
+https://documentation.ubuntu.com/public-images/public-images-how-to/build-vagrant-with-bartender/
+
 
 #### Packer
 https://github.com/game-sales-analytics/vagrant-alpine315-docker/
