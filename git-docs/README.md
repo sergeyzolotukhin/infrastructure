@@ -1,0 +1,2 @@
+.git/config
+https://git-scm.com/docs/git-config#Documentation/git-config.txt-branchsort
