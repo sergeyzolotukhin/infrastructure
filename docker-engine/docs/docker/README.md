@@ -86,3 +86,11 @@ docker save mcr.microsoft.com/mssql/server:2025-latest | gzip > mssql-server-202
 docker load -i /vagrant/.images/oracle-database-21.3.0-xe.tar.gz
 
 docker images
+
+#### Docker Compose Config
+https://docs.docker.com/reference/compose-file/services/#configs
+https://stackoverflow.com/questions/72768759/docker-volumes-vs-configs/72773298
+https://docs.docker.com/engine/swarm/configs/
+
+Configs were added for Swarm Mode.
+
