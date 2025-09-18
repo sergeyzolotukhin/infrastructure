@@ -37,4 +37,10 @@ https://192.168.56.2/
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04#how-do-i-secure-nginx-with-ssl
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-load-balancing-with-ssl-termination
+
+#### LDAP Auth
+https://www.f5.com/company/blog/nginx/nginx-plus-authenticate-users
+https://medium.com/@amrutha_20595/setting-up-openldap-server-with-docker-d38781c259b2
+https://medium.com/@devripper133127/setting-up-openldap-and-phpldapadmin-with-docker-compose-cf2336590989
 
