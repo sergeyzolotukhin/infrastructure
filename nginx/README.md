@@ -38,6 +38,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-bloc
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04#how-do-i-secure-nginx-with-ssl
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-load-balancing-with-ssl-termination
+https://medium.com/@mtourne/how-to-use-nginx-for-ssl-termination-for-any-domain-dc2e2c630058
 
 #### LDAP Auth
 https://www.f5.com/company/blog/nginx/nginx-plus-authenticate-users
