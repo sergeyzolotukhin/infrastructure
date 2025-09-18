@@ -34,4 +34,5 @@ https://kevalnagda.github.io/configure-nginx-and-keycloak-to-enable-sso-for-prox
 #### SSL
 https://192.168.56.2/
 
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04#how-do-i-secure-nginx-with-ssl
