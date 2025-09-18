@@ -16,10 +16,11 @@ https://stackoverflow.com/questions/38813399/cache-a-static-file-in-memory-forev
 ##### Install NGINX 
 https://phoenixnap.com/kb/install-nginx-ubuntu-22-04
 
+https://antonlytvynov.medium.com/nginx-sites-available-sites-enabled-3bd025bc4d25
+
 
 #### How to disable SSL verification for proxied host ?
 https://github.com/NginxProxyManager/nginx-proxy-manager/discussions/3332
-https://192.168.56.2/
 
 https://www.baeldung.com/ops/nginx-http-https-domains-redirection
 
@@ -29,3 +30,8 @@ https://docs.nginx.com/nginx/deployment-guides/single-sign-on/keycloak/
 https://medium.com/@sergey.dudik/nginx-and-keycloak-a-perfect-pair-for-gateway-security-41a801e741f9
 https://github.com/flavienbwk/nginx-keycloak
 https://kevalnagda.github.io/configure-nginx-and-keycloak-to-enable-sso-for-proxied-applications
+
+#### SSL
+https://192.168.56.2/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04#how-do-i-secure-nginx-with-ssl
