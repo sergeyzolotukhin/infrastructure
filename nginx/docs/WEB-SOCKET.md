@@ -7,3 +7,6 @@ https://www.f5.com/company/blog/nginx/websocket-nginx
 https://www.baeldung.com/debug-websockets
 
 https://www.javacodegeeks.com/2013/11/building-and-testing-a-websocket-server-with-undertow.html
+
+#### SSO
+https://joeeey.com/blog/selfhosting-sso-with-nginx-oauth2-proxy-part-2/
