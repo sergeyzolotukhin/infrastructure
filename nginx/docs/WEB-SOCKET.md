@@ -10,3 +10,5 @@ https://www.javacodegeeks.com/2013/11/building-and-testing-a-websocket-server-wi
 
 #### SSO
 https://joeeey.com/blog/selfhosting-sso-with-nginx-oauth2-proxy-part-2/
+https://medium.com/@sergey.dudik/nginx-and-keycloak-a-perfect-pair-for-gateway-security-41a801e741f9
+https://github.com/flavienbwk/nginx-keycloak
