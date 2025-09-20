@@ -104,6 +104,9 @@ vagrant box update
 vagrant box list
 vagrant box remove <box-name>
 
+#### DNS 
+https://stackoverflow.com/questions/20681190/can-multiple-vagrant-vms-communicate-by-vm-hostname
+
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
 c:\Users\<user>\.m2             10 GB
