@@ -97,4 +97,7 @@ Configs were added for Swarm Mode.
 root@ubuntu-jammy:/vagrant# docker --version
 Docker version 28.4.0, build d8eb465
 
+#### Docker CLI
+https://download.docker.com/win/static/stable/x86_64/
+https://www.sysdig.com/learn-cloud-native/what-is-docker-cli
 
