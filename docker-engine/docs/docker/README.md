@@ -94,3 +94,7 @@ https://docs.docker.com/engine/swarm/configs/
 
 Configs were added for Swarm Mode.
 
+root@ubuntu-jammy:/vagrant# docker --version
+Docker version 28.4.0, build d8eb465
+
+
