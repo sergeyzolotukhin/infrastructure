@@ -51,3 +51,5 @@ https://docs.docker.com/engine/storage/volumes/#back-up-a-volume
 
 #### Docker Compose --project-name
 https://stackoverflow.com/questions/43957259/run-multiple-docker-compose
+
+https://www.red-gate.com/simple-talk/devops/containers-and-virtualization/docker-logging-guide-part-2-advanced-concepts-best-practices/
