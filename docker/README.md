@@ -40,6 +40,8 @@ https://spacelift.io/blog/docker-entrypoint-vs-cmd
 https://dev.to/idsulik/managing-container-lifecycles-with-docker-compose-lifecycle-hooks-mjg
 https://docs.docker.com/compose/how-tos/lifecycle/
 
+https://dev.to/ebrahimmfadae/docker-compose-setup-scripts-3mah
+
 #### generic/rhel8
 https://portal.cloud.hashicorp.com/vagrant/discover/generic/rhel8
 
