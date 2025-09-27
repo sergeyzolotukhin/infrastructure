@@ -108,6 +108,9 @@ vagrant box remove <box-name>
 https://stackoverflow.com/questions/20681190/can-multiple-vagrant-vms-communicate-by-vm-hostname
 https://stackoverflow.com/questions/32396831/what-the-difference-between-vagrant-hostsupdater-and-vagrant-hostmanager
 
+#### plugin
+https://moldstud.com/articles/p-essential-vagrant-plugins-which-ones-are-worth-your-time
+
 #### custom task
 https://friendsofvagrant.github.io/v1/docs/rake.html
 
