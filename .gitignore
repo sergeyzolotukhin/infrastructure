@@ -52,6 +52,7 @@ venv1/
 .dumps/
 .data/
 .temp/
+.portainer/
 
 #### Security
 #*.ppk
