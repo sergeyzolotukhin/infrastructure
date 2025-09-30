@@ -53,6 +53,7 @@ venv1/
 .data/
 .temp/
 .portainer/
+.gitea/
 
 #### Security
 #*.ppk
