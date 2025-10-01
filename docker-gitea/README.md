@@ -29,3 +29,6 @@ https://stackoverflow.com/questions/71482461/setup-gitea-initial-configuration
 https://docs.gitea.com/administration/command-line
 https://github.com/roles-ansible/ansible_role_gitea/blob/main/tasks/local_git_users.yml
 https://gitea.com/gitea/tea
+
+#### Mirroring With Gitea
+https://docs.gitea.com/1.18/advanced/repo-mirror#pulling-from-a-remote-repository
