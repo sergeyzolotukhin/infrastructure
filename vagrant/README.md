@@ -116,6 +116,7 @@ https://friendsofvagrant.github.io/v1/docs/rake.html
 
 #### private vagrant box repository
 https://softwaretester.info/create-private-vagrant-box-repository/
+https://github.com/StephenSorriaux/vagrant-registry
 
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
