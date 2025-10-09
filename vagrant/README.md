@@ -114,6 +114,9 @@ https://moldstud.com/articles/p-essential-vagrant-plugins-which-ones-are-worth-y
 #### custom task
 https://friendsofvagrant.github.io/v1/docs/rake.html
 
+#### private vagrant box repository
+https://softwaretester.info/create-private-vagrant-box-repository/
+
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
 c:\Users\<user>\.m2             10 GB
