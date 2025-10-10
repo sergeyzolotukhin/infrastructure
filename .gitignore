@@ -86,3 +86,4 @@ library/lib-antlr/src/main/gen/
 /docker-drone-ci/drone/
 /docker-drone-ci/secret.txt
 
+/nginx/var/www/html/

@@ -48,3 +48,6 @@ https://medium.com/@devripper133127/setting-up-openldap-and-phpldapadmin-with-do
 #### swagger-ui
 https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/
 
+/var/www/html
+
+curl -o swagger.json https://petstore.swagger.io/v2/swagger.json
