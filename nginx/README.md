@@ -51,3 +51,6 @@ https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/
 /var/www/html
 
 curl -o swagger.json https://petstore.swagger.io/v2/swagger.json
+
+sudo systemctl reload nginx
+sudo systemctl restart nginx
