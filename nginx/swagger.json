@@ -5,7 +5,7 @@
     "version": "1.0.7",
     "title": "Swagger Petstore",
   },
-  "host": "petstore.swagger.io",
+  "host": "192.168.56.2",
   "basePath": "/v2",
   "tags": [
     {
