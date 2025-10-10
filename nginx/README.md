@@ -55,6 +55,8 @@ curl -o swagger.json https://petstore.swagger.io/v2/swagger.json
 sudo systemctl reload nginx
 sudo systemctl restart nginx
 
+https://www.f5.com/company/blog/nginx/maximizing-python-performance-with-nginx-parti-web-serving-and-caching
+
 #### FastCGI Approach With fcgiwrap
 https://www.baeldung.com/ops/nginx-run-shell-script#fastcgi-approach-withfcgiwrap
 https://medium.com/dajngo/python-cgi-on-nginx-f50cff3be780
