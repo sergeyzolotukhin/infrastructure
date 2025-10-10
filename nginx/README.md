@@ -54,3 +54,7 @@ curl -o swagger.json https://petstore.swagger.io/v2/swagger.json
 
 sudo systemctl reload nginx
 sudo systemctl restart nginx
+
+#### FastCGI Approach With fcgiwrap
+https://www.baeldung.com/ops/nginx-run-shell-script#fastcgi-approach-withfcgiwrap
+
