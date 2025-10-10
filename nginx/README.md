@@ -57,4 +57,5 @@ sudo systemctl restart nginx
 
 #### FastCGI Approach With fcgiwrap
 https://www.baeldung.com/ops/nginx-run-shell-script#fastcgi-approach-withfcgiwrap
+https://medium.com/dajngo/python-cgi-on-nginx-f50cff3be780
 
