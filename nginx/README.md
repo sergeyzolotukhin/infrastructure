@@ -59,7 +59,9 @@ https://www.f5.com/company/blog/nginx/maximizing-python-performance-with-nginx-p
 
 #### FastCGI Approach With fcgiwrap
 https://www.baeldung.com/ops/nginx-run-shell-script#fastcgi-approach-withfcgiwrap
+
+#### Python CGI
 https://medium.com/dajngo/python-cgi-on-nginx-f50cff3be780
 https://blog.teamleadnet.com/2025/03/bringing-python-command-line-scripts-to.html
-
+https://github.com/thibaudanthoine/python-fastcgi-nginx-configuration/tree/master
 
