@@ -1,0 +1,5 @@
+.dumps/
+.gitea/
+.images/
+.vagrant/
+.portainer/

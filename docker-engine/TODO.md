@@ -20,3 +20,9 @@ root
 admin1234
 
 docker exec --user 1000 gitea gitea admin user create --admin --username root --password admin1234 --email root@example.com
+
+#### Run from Windows
+docker -H tcp://192.168.56.2:2375 build .
+docker build .
+
+https://docs.docker.com/reference/cli/docker/context/create/
