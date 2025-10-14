@@ -29,3 +29,8 @@ https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments
 
 #### Favor Config Files over Env Vars
 https://medium.com/israeli-tech-radar/favor-config-files-over-env-vars-d9189d53c4b8
+
+#### How to read a .properties file (shell script)
+https://stackoverflow.com/questions/28830225/how-to-read-a-properties-file-which-contains-keys-that-have-a-period-character
+https://man7.org/linux/man-pages/man1/read.1p.html
+
