@@ -26,3 +26,5 @@ docker -H tcp://192.168.56.2:2375 build .
 docker build .
 
 https://docs.docker.com/reference/cli/docker/context/create/
+https://docs.docker.com/engine/manage-resources/contexts/
+https://medium.com/@rajaravivarman/extending-docker-using-docker-context-to-manage-remote-containers-66b8abc5d245
