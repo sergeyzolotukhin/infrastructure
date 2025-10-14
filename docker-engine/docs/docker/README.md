@@ -101,3 +101,12 @@ Docker version 28.4.0, build d8eb465
 https://download.docker.com/win/static/stable/x86_64/
 https://www.sysdig.com/learn-cloud-native/what-is-docker-cli
 
+#### Docker CLI Client Configuration (config.json):
+
+Location: The config.json file is typically located in your user's home directory, under ~/.docker/config.json.
+Contents: This file can contain settings such as:
+    auths: Stores authentication information for various Docker registries (e.g., Docker Hub, private registries). This information is often managed by a credential helper.
+    HttpHeaders: Allows you to add custom HTTP headers to requests made by the CLI.
+    proxies: To configure proxy settings for the Docker client.
+
+https://docs.docker.com/reference/cli/docker/#docker-cli-configuration-file-configjson-properties
