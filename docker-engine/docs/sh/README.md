@@ -26,3 +26,6 @@ https://davetang.org/muse/2023/01/31/bash-script-that-accepts-short-long-and-pos
 https://medium.com/@steelcityamir/parse-command-line-arguments-using-getopt-24a90b5b317d
 
 https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
+
+#### Favor Config Files over Env Vars
+https://medium.com/israeli-tech-radar/favor-config-files-over-env-vars-d9189d53c4b8
