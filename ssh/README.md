@@ -11,3 +11,4 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-u
 
 https://askubuntu.com/questions/45075/how-do-i-route-my-internet-through-a-ssh-tunnel
 https://www.baeldung.com/linux/ssh-tunnel-access-web-pages
+https://www.digitalocean.com/community/tutorials/ssh-port-forwarding
