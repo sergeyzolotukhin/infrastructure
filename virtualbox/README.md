@@ -13,6 +13,9 @@ https://martincarstenbach.com/2020/05/05/versioning-for-your-local-vagrant-boxes
 https://www.virtualbox.org/manual/ch06.html
 https://www.nakivo.com/blog/virtualbox-network-setting-guide/
 
+https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/networking
+https://github.com/hashicorp/vagrant/issues/11316
+
 VBoxManage list vms
 VBoxManage showvminfo "apache2-1" --machinereadable
 VBoxManage startvm "apache2-1"
