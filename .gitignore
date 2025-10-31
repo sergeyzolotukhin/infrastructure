@@ -87,3 +87,4 @@ library/lib-antlr/src/main/gen/
 /docker-drone-ci/secret.txt
 
 /nginx/var/www/html/
+/linux/*.pdf
