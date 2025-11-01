@@ -83,6 +83,7 @@ https://documentation.ubuntu.com/public-images/public-images-how-to/build-vagran
 
 #### Packer
 https://github.com/game-sales-analytics/vagrant-alpine315-docker/
+https://kappataumu.com/articles/creating-an-Ubuntu-VM-with-packer.html
 
 #### To destroy all Vagrant virtual machines
 
