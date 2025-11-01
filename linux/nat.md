@@ -9,3 +9,8 @@ https://kbespalov.medium.com/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0
 https://dev.to/krjakbrjak/setting-up-vm-networking-on-linux-bridges-taps-and-more-2bbc
 https://superuser.com/questions/1781039/setting-up-simple-isolated-virtual-network-for-testing
 https://linuxconfig.org/configuring-virtual-network-interfaces-in-linux
+
+#### Deep dive into Docker Overlay Networks : Part 1
+https://rebirth.devoteam.com/2017/04/25/deep-dive-into-docker-overlay-networks-part-1/
+https://bunny.net/academy/computing/what-is-docker-networking/
+https://medium.com/@augustineozor/understanding-docker-bridge-network-6e499da50f65
