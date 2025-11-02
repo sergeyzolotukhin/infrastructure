@@ -14,3 +14,4 @@ https://linuxconfig.org/configuring-virtual-network-interfaces-in-linux
 https://rebirth.devoteam.com/2017/04/25/deep-dive-into-docker-overlay-networks-part-1/
 https://bunny.net/academy/computing/what-is-docker-networking/
 https://medium.com/@augustineozor/understanding-docker-bridge-network-6e499da50f65
+https://leftasexercise.com/2020/01/17/virtual-networking-labs-building-a-virtual-firewall-and-router-with-linux-namespaces/
