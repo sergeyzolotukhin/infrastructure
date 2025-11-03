@@ -22,6 +22,8 @@ https://thinkpalm.com/blogs/how-linux-kernel-handles-network-packets/
 https://medium.com/@dipakkrdas/netfilter-and-iptables-f8a946bb83af
 https://thermalcircle.de/doku.php?id=blog:linux:nftables_packet_flow_netfilter_hooks_detail
 
+https://thermalcircle.de/doku.php?id=blog:linux:routing_decisions_in_the_linux_kernel_1_lookup_packet_flow
+
 * Netfilter - is the framework within the Linux kernel that performs packet filtering
 
 * Iptables - is a command-line user-space tool used to configure those Netfilter rules
