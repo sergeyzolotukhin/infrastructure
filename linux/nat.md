@@ -18,3 +18,13 @@ https://leftasexercise.com/2020/01/17/virtual-networking-labs-building-a-virtual
 
 https://maxnilz.com/docs/004-network/006-linux-rx/
 https://thinkpalm.com/blogs/how-linux-kernel-handles-network-packets/
+
+https://thermalcircle.de/doku.php?id=blog:linux:nftables_packet_flow_netfilter_hooks_detail
+
+* Netfilter - is the framework within the Linux kernel that performs packet filtering
+
+* Iptables - is a command-line user-space tool used to configure those Netfilter rules
+* Nftables - Debian, Ubuntu (20.10+), Fedora, and RHEL 8+
+
+* ufw - Ubuntu and Debian-based systems.
+* firewalld - Red Hat-based systems (e.g., CentOS, Fedora)
