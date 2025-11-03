@@ -19,6 +19,7 @@ https://leftasexercise.com/2020/01/17/virtual-networking-labs-building-a-virtual
 https://maxnilz.com/docs/004-network/006-linux-rx/
 https://thinkpalm.com/blogs/how-linux-kernel-handles-network-packets/
 
+https://medium.com/@dipakkrdas/netfilter-and-iptables-f8a946bb83af
 https://thermalcircle.de/doku.php?id=blog:linux:nftables_packet_flow_netfilter_hooks_detail
 
 * Netfilter - is the framework within the Linux kernel that performs packet filtering
