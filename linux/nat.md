@@ -23,6 +23,7 @@ https://medium.com/@dipakkrdas/netfilter-and-iptables-f8a946bb83af
 https://thermalcircle.de/doku.php?id=blog:linux:nftables_packet_flow_netfilter_hooks_detail
 
 https://thermalcircle.de/doku.php?id=blog:linux:routing_decisions_in_the_linux_kernel_1_lookup_packet_flow
+https://blog.sdn.clinic/2025/01/linux-routing-fundamentals/
 
 * Netfilter - is the framework within the Linux kernel that performs packet filtering
 
