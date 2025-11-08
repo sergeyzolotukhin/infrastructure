@@ -5,3 +5,6 @@ https://phoenixnap.com/kb/install-kubernetes-on-ubuntu
 
 https://bell-sw.com/blog/how-to-deploy-spring-boot-application-on-kubernetes/
 https://www.bytebase.com/blog/top-open-source-kubernetes-dashboard/
+
+https://medium.com/google-cloud/understanding-the-container-storage-interface-csi-ddbeb966a3b
+https://www.baeldung.com/linux/docker-mount-nfs-shares
