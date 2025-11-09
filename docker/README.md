@@ -58,3 +58,7 @@ https://www.red-gate.com/simple-talk/devops/containers-and-virtualization/docker
 
 #### How to Run a Script After a Docker Compose Container Starts
 https://www.baeldung.com/ops/docker-compose-run-script-on-start#using-command-with-exec
+
+#### Mastering Docker Restart Policies: A Comprehensive Guide
+https://mohit8830.medium.com/mastering-docker-restart-policies-a-comprehensive-guide-ade2260e7e2c
+
