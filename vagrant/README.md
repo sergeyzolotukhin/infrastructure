@@ -126,6 +126,8 @@ https://hollo.me/devops/self-hosted-vagrant-cloud.html
 https://www.digitalocean.com/community/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one
 https://developer.hashicorp.com/packer/integrations/hashicorp/vagrant/latest/components/builder/vagrant
 
+https://developer.hashicorp.com/vagrant/docs/cli/cloud
+
 #### Disk space
 c:\Users\<user>\.gradle         12 GB
 c:\Users\<user>\.m2             10 GB
