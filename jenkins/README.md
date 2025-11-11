@@ -139,6 +139,7 @@ https://github.com/jenkinsci/ssh-agents-plugin/blob/main/doc/CONFIGURE.md
 https://plugins.jenkins.io/pipeline-graph-view/
 https://plugins.jenkins.io/embeddable-build-status/
 https://plugins.jenkins.io/depgraph-view/
+https://github.com/jenkinsci/view-job-filters-plugin/tree/master
 
 #### Advanced Jenkins Pipeline Patterns
 https://moldstud.com/articles/p-top-5-advanced-jenkins-pipeline-patterns-every-power-user-should-know
