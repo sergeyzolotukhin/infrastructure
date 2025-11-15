@@ -8,3 +8,5 @@ https://www.bytebase.com/blog/top-open-source-kubernetes-dashboard/
 
 https://medium.com/google-cloud/understanding-the-container-storage-interface-csi-ddbeb966a3b
 https://www.baeldung.com/linux/docker-mount-nfs-shares
+
+https://medium.com/devopsturkiye/how-to-add-a-worker-node-to-k8s-cluster-via-self-signed-certificate-1fe27a7b52a9

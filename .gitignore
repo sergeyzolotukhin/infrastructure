@@ -89,3 +89,4 @@ library/lib-antlr/src/main/gen/
 /nginx/var/www/html/
 /linux/*.pdf
 /docker/*.pdf
+/kubernetes/*.pdf
