@@ -12,3 +12,6 @@ wsl --status
 wsl --list --running
 
 https://learn.microsoft.com/en-us/windows/wsl/basic-commands
+
+#### Setting up multiple WSL distribution instances
+https://endjin.com/blog/2021/11/setting-up-multiple-wsl-distribution-instances
