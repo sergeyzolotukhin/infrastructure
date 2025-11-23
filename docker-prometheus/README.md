@@ -20,3 +20,5 @@ https://prometheus.io/docs/prometheus/latest/installation/
 https://hub.docker.com/r/prom/prometheus/
 
 https://github.com/rvva/nginx-prometheus-grafana/blob/main/docker-compose.yml
+
+https://notes.kodekloud.com/docs/Prometheus-Certified-Associate-PCA/Push-Gateway/Pushing-Metrics
