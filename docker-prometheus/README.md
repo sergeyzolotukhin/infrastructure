@@ -5,6 +5,14 @@ http://192.168.56.2:9090/
 ssh root@192.168.56.2
 ```
 
+vagrant up
+
+cd /vagrant/docker/
+docker compose up --detach
+docker compose down
+
+vagrant halt
+
 #### URLs
 
 https://spacelift.io/blog/prometheus-docker-compose
