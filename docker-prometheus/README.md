@@ -24,3 +24,5 @@ https://github.com/rvva/nginx-prometheus-grafana/blob/main/docker-compose.yml
 https://notes.kodekloud.com/docs/Prometheus-Certified-Associate-PCA/Push-Gateway/Pushing-Metrics
 https://www.ksolves.com/blog/big-data/how-prometheus-scraping-works
 
+https://www.youtube.com/watch?v=OxZmn4svOyA&list=PLyBW7UHmEXgylLwxdVbrBQJ-fJ_jMvh8h&index=2
+
