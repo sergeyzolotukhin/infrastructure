@@ -26,3 +26,4 @@ https://www.ksolves.com/blog/big-data/how-prometheus-scraping-works
 
 https://www.youtube.com/watch?v=OxZmn4svOyA&list=PLyBW7UHmEXgylLwxdVbrBQJ-fJ_jMvh8h&index=2
 
+https://medium.com/@hasbiachraf/spring-boot-actuator-with-prometheus-and-grafana-320a55237ee6
