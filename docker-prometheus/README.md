@@ -28,3 +28,7 @@ https://www.youtube.com/watch?v=OxZmn4svOyA&list=PLyBW7UHmEXgylLwxdVbrBQJ-fJ_jMv
 
 #### Spring Boot Actuator with Prometheus and Grafana
 https://medium.com/@hasbiachraf/spring-boot-actuator-with-prometheus-and-grafana-320a55237ee6
+
+#### Boot time is slow
+vagrant up --debug-timestamp 2>&1 | Tee-Object -FilePath ".\vagrant-timestamp.log"
+journalctl -b --no-pager > boot_logs_timestamp.txt
