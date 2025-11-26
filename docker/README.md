@@ -62,3 +62,6 @@ https://www.baeldung.com/ops/docker-compose-run-script-on-start#using-command-wi
 #### Mastering Docker Restart Policies: A Comprehensive Guide
 https://mohit8830.medium.com/mastering-docker-restart-policies-a-comprehensive-guide-ade2260e7e2c
 
+#### Logs
+https://stackoverflow.com/questions/33017329/where-is-a-log-file-with-logs-from-a-container
+
