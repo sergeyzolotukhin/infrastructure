@@ -20,5 +20,6 @@ vagrant up
 cd /vagrant/docker/
 docker compose up --detach
 docker compose down
+exit
 
 vagrant halt
