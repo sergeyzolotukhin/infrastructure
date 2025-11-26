@@ -19,3 +19,7 @@ Docs
 2) [elastic.co/products](https://www.elastic.co/products)
 3) [kibana-server-properties](https://www.elastic.co/guide/en/kibana/current/kibana-server-properties.html)
 4) [configuration-filebeat-option](https://www.elastic.co/guide/en/beats/filebeat/current/configuration-filebeat-options.html)
+
+URLs
+----
+https://betterstack.com/community/comparisons/elk-stack-alternatives/
