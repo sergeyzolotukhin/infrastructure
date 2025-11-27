@@ -28,3 +28,7 @@ vagrant halt
 https://grafana.com/docs/loki/latest/setup/install/docker/#install-with-docker-compose
 
 http://192.168.56.2:3000/
+
+#### URLs
+https://medium.com/@dev.daoudhussain/monitoring-with-grafana-promtail-and-loki-a-complete-guide-7a3284ca6fdc
+https://medium.com/@stepanvrany/grafana-promtail-as-simple-push-gateway-for-logs-8367fd23991d
