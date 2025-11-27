@@ -27,3 +27,5 @@ https://betterstack.com/community/comparisons/elk-stack-alternatives/
 - Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 https://github.com/grafana/loki
 https://www.baeldung.com/spring-boot-loki-grafana-logging
+
+wget https://raw.githubusercontent.com/grafana/loki/v3.4.1/production/docker-compose.yaml -O docker-compose.yaml

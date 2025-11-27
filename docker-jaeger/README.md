@@ -23,3 +23,9 @@ docker compose down
 exit
 
 vagrant halt
+
+#### Grafana Loki
+https://grafana.com/docs/loki/latest/setup/install/docker/#install-with-docker-compose
+
+http://192.168.56.2:3100/
+http://192.168.56.2:3000/
