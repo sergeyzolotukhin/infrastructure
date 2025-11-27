@@ -35,3 +35,4 @@ https://medium.com/@dev.daoudhussain/monitoring-with-grafana-promtail-and-loki-a
 https://medium.com/@stepanvrany/grafana-promtail-as-simple-push-gateway-for-logs-8367fd23991d
 
 https://plugins.jetbrains.com/plugin/21675-logconsole
+https://medium.com/@AlexanderObregon/the-mechanics-of-logging-in-spring-boot-7e4b743626fd
