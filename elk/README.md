@@ -23,3 +23,6 @@ Docs
 URLs
 ----
 https://betterstack.com/community/comparisons/elk-stack-alternatives/
+
+- Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+  https://github.com/grafana/loki
