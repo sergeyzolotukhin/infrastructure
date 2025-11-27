@@ -18,6 +18,7 @@ ssh root@192.168.56.2
 vagrant up
 
 cd /vagrant/docker/
+cd /vagrant/docker-loki
 docker compose up --detach
 docker compose down
 exit
