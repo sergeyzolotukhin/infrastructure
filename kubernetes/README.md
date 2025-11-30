@@ -24,3 +24,5 @@ ssh root@192.168.56.2
 ```
 
 vagrant status
+
+ssh -vvv root@192.168.56.2
