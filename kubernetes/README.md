@@ -11,5 +11,7 @@ Role: To act as a node-level manager that ensures the desired state of the Pods 
 
 ### How to Setup Kubernetes Cluster on Vagrant VMs
 https://phoenixnap.com/kb/install-kubernetes-on-ubuntu
+https://www.cherryservers.com/blog/install-kubernetes-ubuntu
+
 https://devopscube.com/kubernetes-cluster-vagrant/
 https://github.com/techiescamp/vagrant-kubeadm-kubernetes?ref=devopscube.com
