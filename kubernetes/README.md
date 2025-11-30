@@ -15,3 +15,10 @@ https://www.cherryservers.com/blog/install-kubernetes-ubuntu
 
 https://devopscube.com/kubernetes-cluster-vagrant/
 https://github.com/techiescamp/vagrant-kubeadm-kubernetes?ref=devopscube.com
+
+#### Support commands
+
+- SSH to the environment
+```shell
+ssh root@192.168.56.2
+```

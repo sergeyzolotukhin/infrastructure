@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # boxes at https://vagrantcloud.com/search.
+  # https://documentation.ubuntu.com/project/release-team/list-of-releases/
+  # Ubuntu 24.04.3 LTS - Noble Numbat
+  # Ubuntu 25.04 - Plucky Puffin
+  config.vm.box = "bento/ubuntu-25.04"
+  # Ubuntu 25.10 - Questing Quokka
+
+  config.vm.define "kubernetes-master-1" do |d|
+    d.vm.provider "virtualbox" do |vb|
+      vb.name = "kubernetes-master-01"
+      vb.memory = "4048"
+      vb.gui = false
+      # https://www.baeldung.com/linux/vboxvga-vmsvga-vboxsvga-virtualbox
+      # https://superuser.com/questions/712351/ubuntu-virtualbox-stuck-at-initializing-screen
+      vb.customize ["modifyvm", :id, "--graphicscontroller", "VBoxVGA"]
+      vb.customize ["modifyvm", :id, "--vram", "128"]
+    end
+
+    d.vm.network :private_network, ip: "192.168.56.2"
+    d.vm.provision "shell", path: "provision/root-login-enable.sh"
+  end
+
+end

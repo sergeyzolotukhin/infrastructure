@@ -90,3 +90,4 @@ library/lib-antlr/src/main/gen/
 /linux/*.pdf
 /docker/*.pdf
 /kubernetes/*.pdf
+/kubernetes/docs/*.pdf
