@@ -22,3 +22,5 @@ https://github.com/techiescamp/vagrant-kubeadm-kubernetes?ref=devopscube.com
 ```shell
 ssh root@192.168.56.2
 ```
+
+vagrant status
