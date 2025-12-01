@@ -1,36 +1,129 @@
-#### Core Skills
+#### SKILLS
 
-* Tools and Technologies:
+##### Tools and Technologies
 
-Microservices, RESTfull, UML
-Docker, Docker compose
-React, Redux, HTML, CSS, JavaScript,
-Spring (boot, could, mvc, REST, security, data, orm and so on)
-ORM - Hibernate
-PostgreSQL, MSSQL, Oracle database, Liquibase, SQL, PL/SQL, TSQL, PL/pgSQL
-Java 8-21 (JAX-RS, JAX-WS, JAXB, JPA, JMS, OSGi, concurrency, multithreading, streams, collections),
-Testcontainers, REST Assured, AssertJ, JUnit, Mockito, JMeter
-Git
-Gradle, Maven
-Jenkins, TeamCity, GitHave Actions, Nexus, Ansible, VMWare vSphere, Vagrant
-Tomcat, WildFly, Jetty, Weblogic, Netty
-Linux (Nginx, Apache HTTP, TCP/IP, UDP, HTTP/HTTPS, Shell scripts)
+VMWare ESXi (Intermediate, 2 y 2 years ago)
+Java 8 (Advanced, 9+ y 3 years ago)
+Netty (Intermediate, 2 y 3 years ago)
+Shell Scripting (Intermediate, 7 y 6 years ago)
+Apache VFS (Intermediate, 6 y 7 years ago)
+Apache Subversion (SVN) (Intermediate, 3 y 10 years ago)
+Oracle SQL*Loader (Intermediate, 5 y 10+ years ago)
+Apache Maven (Expert, 9+ y )
+Git (Expert, 9+ y )
+Liquibase (Expert, 9+ y )
+Java (Advanced, 9+ y )
+Java Collections API (Advanced, 9+ y )
+Linux (Advanced, 9+ y )
+PL/SQL (Advanced, 9+ y )
+Spring ORM (Advanced, 9+ y )
+SQL (Advanced, 9+ y )
+Bash Shell (Intermediate, 9+ y )
+Hibernate (Intermediate, 9+ y )
+JDBC (Intermediate, 9+ y )
+Microsoft Windows (Intermediate, 9+ y )
+Oracle Database (Intermediate, 9+ y )
+Spring Framework (Intermediate, 9 y )
+Java Stream API (Advanced, 8 y )
+JUnit (Intermediate, 8 y )
+Assembler (Advanced, 7 y )
+Jenkins (Advanced, 7 y )
+Spring MVC (Advanced, 7 y )
+Spring Security (Advanced, 7 y )
+Apache Tomcat (Intermediate, 7 y )
+Concurrency (Intermediate, 7 y )
+Hibernate Envers (Intermediate, 7 y )
+Java Message Service (JMS) (Intermediate, 7 y )
+JAX-WS (Intermediate, 7 y )
+JAXB (Intermediate, 7 y )
+Multithreading (Intermediate, 7 y )
+Nginx (Intermediate, 7 y )
+PostgreSQL (Intermediate, 7 y )
+Spring Data (Intermediate, 7 y )
+WildFly (Intermediate, 7 y )
+Google Web Toolkit (GWT) (Advanced, 6 y )
+Spring Boot (Advanced, 6 y )
+TeamCity (Advanced, 6 y )
+Ehcache (Intermediate, 6 y )
+HTTP (Hypertext Transfer Protocol) (Intermediate, 6 y )
+Mockito (Intermediate, 6 y )
+UNIX (Intermediate, 6 y )
+Docker (Advanced, 5 y )
+Docker Compose (Advanced, 5 y )
+Grade (Advanced, 5 y )
+JasperReports (Advanced, 5 y )
+Felix (Intermediate, 5 y )
+Hypertext Transfer Protocol Secure (HTTPS) (Intermediate, 5 y )
+REST (Representational state transfer) (Intermediate, 5 y )
+Atlassian Jira (Novice, 5 y )
+Open Service Gateway initiative (OSGi) (Advanced, 4 y )
+Apache POI (Intermediate, 4 y )
+Gradle (Intermediate, 4 y )
+Guava (Intermediate, 4 y )
+JavaScript (Intermediate, 4 y )
+Log4j (Intermediate, 4 y )
+Logback (Intermediate, 4 y )
+Visual FoxPro (Intermediate, 4 y )
+H2 Database (Intermediate, 3 y )
+HTML (Intermediate, 3 y )
+Java Persistence API (JPA) (Intermediate, 3 y )
+Java Servlets (Intermediate, 3 y )
+Jetty (Intermediate, 3 y )
+Joda Time (Intermediate, 3 y )
+jQuery (Intermediate, 3 y )
+Microsoft SQL Server (Intermediate, 3 y )
+Spring Cloud (Intermediate, 3 y )
+Cascading Style Sheets (CSS) (Novice, 3 y )
+Oracle Weblogic Server (Novice, 3 y )
+Redux (Novice, 3 y )
+Ansible (Intermediate, 2 y )
+C Programming Language (Intermediate, 2 y )
+Microservices (Intermediate, 2 y )
+TCP/IP (Intermediate, 2 y )
+utPLSQL (Intermediate, 2 y )
+Java Management Extensions (Novice, 2 y )
+PowerMock (Novice, 2 y )
+React (Novice, 2 y )
+C++ (Intermediate, 1 y )
+Apache HTTP Server (Novice, 1 y )
+Apache JMeter (JMeter) (Novice, 1 y )
+Apache WEB Server (Novice, 1 y )
+JGroups (Novice, 1 y )
+AWS (Basic, <1 y )
+Kubernetes (Basic, <1 y )
+Apache Kafka (, )
+Apache Spark (, )
+Big Data (, )
+Hadoop (, )
+Microsoft Azure Cloud Platform (, )
+Web Services (, )
 
----
-Atlassian Jira, Confluence
+##### Interpersonal and People Management
 
-* Interpersonal and People Management:
+Communication Skills (, )
 
-Communication Skills
+##### Analytical Skills and Methodologies
 
-* Analytical Skills and Methodologies:
-  Scrum framework,
-  Non-functional Requirements (NFR),
-  Software Architecture,
-  Software Development Life Cycle (SDLC),
-  System Design
+Scrum framework (Advanced, 9+ y )
+Non-functional Requirements (NFR) (Intermediate, 5 y )
+Software Architecture (Intermediate, 2 y )
+Velocity (Intermediate, 2 y )
 
-* Consulting Skills:
-  Design Patterns, DevOps Fundamentals
+##### Project Management (Novice, )
 
-* Other:
+Software Development Life Cycle (SDLC) (, )
+System Design (, )
+
+##### Consulting Skills
+
+Design Patterns (Intermediate, 2 y )
+DevOps Fundamentals (, )
+
+##### Other
+
+OSGi (Intermediate, 4 y 6 years ago)
+RESTful API Modeling Language (Intermediate, 3 y 7 years ago)
+Oracle SQL (Advanced, 9+ y )
+JAX-RS (Intermediate, 7 y )
+Sonar (Intermediate, 2 y )
+Unified Modeling Language Diagrams (UML Diagrams) (, )
