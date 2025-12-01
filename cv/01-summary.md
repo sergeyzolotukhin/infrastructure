@@ -20,5 +20,7 @@ As a result, I got a lot of expirences with corresponding tools (Jenkins, GitHab
 I love to follow best practices, patterns and architecture styles, includes OOP SOLID, GOF, GRASP, EIP, Clean Code, DDD, CQRS, Microservice and so on.
 I like XP practices, including TDD and BDD.
 But I strictly trust the following phrase "the best code is a code that is not written".
+Also, I am a strictly goal-oriented guy, I complitly dis-agree with overengineering
+without strictly justifications form a bussiness point of view or from a technical point of view.  
 
 As a hobby, I like to play with cloud technologies, includes Kubernetes, Aws EC2, S3, VPC, ECS and so on.  
