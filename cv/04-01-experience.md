@@ -18,8 +18,7 @@ Responsibilities:
 
 Analyzed and clarified business requirements in collaboration with stakeholders
 Created implementation guidelines and technical specifications for new features
-Implemented requested functionality according to project requirements and coding
-standards
+Implemented requested functionality according to project requirements and coding standards
 Conducted code reviews to improve code quality, maintainability, and team consistency
 
 Technology and Skills:

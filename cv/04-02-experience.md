@@ -9,20 +9,13 @@ Customer: Deutsche Bank
 
 Responsibilities:
 
-- Technical Led a cross-functional development team of 4 engineers, providing technical
-  guidance, mentorship, and performance feedback
-- Optimized and streamlined development processes, reducing delivery time and improving
-  team productivity
-- Analyzed business and technical requirements to define clear development scope and
-  priorities
-- Designed scalable and maintainable application architecture, ensuring alignment with best
-  practices and system constraints
-- Created detailed implementation guidelines for new features to support consistent and high-
-  quality development
-- Oversaw and contributed to feature implementation, ensuring timely delivery and adherence
-  to technical standards
-- Established and enforced a robust code review process, improving code quality and reducing
-  defects across the team
+- Technical Led a cross-functional development team of 4 engineers, providing technical guidance, mentorship, and performance feedback
+- Optimized and streamlined development processes, reducing delivery time and improving team productivity
+- Analyzed business and technical requirements to define clear development scope and priorities
+- Designed scalable and maintainable application architecture, ensuring alignment with best practices and system constraints
+- Created detailed implementation guidelines for new features to support consistent and high quality development
+- Oversaw and contributed to feature implementation, ensuring timely delivery and adherence to technical standards
+- Established and enforced a robust code review process, improving code quality and reducing defects across the team
 
 Technology and Skills:
 
