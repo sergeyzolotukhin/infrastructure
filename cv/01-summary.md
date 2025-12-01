@@ -1,26 +1,28 @@
 #### Summary
 
-Experienced Software engineer with over 19 years of experience
-in software development includes defining requirements, designing the architecture, writing code,
-testing, deployment and maintenance.
+Experienced software engineer with over 19 years of experience in software development, including
+defining requirements, designing architecture, writing code, testing, deployment, and maintenance.
+During this time, I have worked with a range of programming languages (Java, Groovy, C++, PL/SQL,
+JavaScript, shell scripts, and others), frameworks, and techniques. However, my main expertise
+remains within the Java ecosystem (microservices, Spring Boot, Hibernate, and so on) with a significant
+portion of my career dedicated to the banking and energy sectors.
 
-During this time, I have engaged with a number of different programming languages (Java, Groovy, C++, PL/SQL, JavaScript, Shell scripts, and so on),
-frameworks, and techniques, however, my main expertise remains in the Java language ecosystem (Microservices, Spring Boot, Hibernate and so on).
-Also, I have a deep practical experience working with SQL databases (PostgreSQL, Oracle, MS SQL).
+I also have deep practical experience working with SQL databases (PostgreSQL, Oracle, MS SQL). I have
+strong knowledge and hands-on experience with Linux-based operating systems and containerization
+technologies such as Docker and Docker Compose (cgroups, namespaces). I also have some practical
+experience in front-end development using technologies like React/Redux, WebSockets, HTML, CSS,
+and JavaScript. I have been fortunate to work on a variety of projects, from small startups to large
+multi-team systems, collaborating with colleagues from different countries.
 
-Also, I have deep Knowledge and practical experience with Linux-based operating systems and containerization technologies like Docker, Docker Compose (Cgroups, Namespaces)
-Also, I have small practical experience with front-end development using technologies like React/Redux, Websockets, HTML, CSS, and JavaScript.
+On most projects I worked on, we were responsible for DevOps activities, including provisioning and
+deploying to production environments. As a result, I gained extensive experience with related tools
+(Jenkins, GitHub Actions, Ansible, shell scripting, Liquibase, Prometheus, Grafana, and so on).
 
-I was lucky to work on a variety of projects, starting from small startups and up to big multiteam projects.
-I have communicated and worked with colleagues from different countries.
+I follow best practices, patterns, and architectural styles, including OOP, SOLID, GoF, GRASP, EIP, Clean
+Code, DDD, CQRS, microservices, and others. I also value XP practices, including TDD and BDD. At the
+same time, I strongly believe in the principle: “the best code is the code that is not written.” I am highly
+goal-oriented and focused on delivering business value, and I strongly disagree with overengineering
+without clear business or technical justification.
 
-On most of the projects where I was worked, we was responsible to DevOps activity and provisioning and deployment to production environments.
-As a result, I got a lot of expirences with corresponding tools (Jenkins, GitHab Actions, Ansible, Shell script, Liquibase, Prometheus, Grafana and so on).
-
-I love to follow best practices, patterns and architecture styles, includes OOP SOLID, GOF, GRASP, EIP, Clean Code, DDD, CQRS, Microservice and so on.
-I like XP practices, including TDD and BDD.
-But I strictly trust the following phrase "the best code is a code that is not written".
-Also, I am a strictly goal-oriented guy (business value), 
-I completely disagree with overengineering without a business or a technical justifications.
-
-As a hobby, I like to play with cloud technologies, includes Kubernetes, Aws EC2, S3, VPC, ECS and so on.  
+As a hobby, I enjoy experimenting with cloud technologies, including Kubernetes, AWS EC2, S3, VPC,
+ECS, and others.
