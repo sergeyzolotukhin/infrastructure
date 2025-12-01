@@ -5,6 +5,7 @@ GOAPP for Deutsche bank.
 Developed for Deutsche client the bank-wide governance framework which ensures clear,
 transparent and fully aligned job/position descriptions, shows reporting lines and escalations as
 well as the structure and operations of bank's boards / committees.
+
 Customer: Deutsche Bank
 
 Responsibilities:

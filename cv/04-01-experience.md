@@ -12,6 +12,7 @@ for the Hellenic Electricity Transmission System. The mission of the Company is 
 control, maintenance and development of the national transmission system of Greece to ensure
 the reliable and efficient electricity supply, as well as the operation of the electricity market
 following the principles of transparency and equality.
+
 Customer: General Electric
 
 Responsibilities:
