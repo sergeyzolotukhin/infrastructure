@@ -17,7 +17,8 @@ I have communicated and worked with colleagues from differnt countries.
 On most of the projects where I was worked, we was responsible to DevOps activity and provisioning and deployment to production environments. 
 As result, I got a lot of expirences with corresponding tools (Jenkins, GitHab Actions, Ansible, Shell script, Liquibase, Prometheus, Grafana and so on). 
 
-I love to follow a best practices, patterns and architecture styles includes GOF, GRASP, EIP, Clean Code, DDD, CQRS, Microservice and so on. 
+I love to follow a best practices, patterns and architecture styles includes OOP SOLID, GOF, GRASP, EIP, Clean Code, DDD, CQRS, Microservice and so on.
+I like a XP practices includes TDD and BDD.
 But I strictly trust at the following phrase "the best code is a code that is not written".
 
 As a hobby, I like to play with the cloud technologies includes Kubernetes, Aws EC2, S3, VPC, ECS and so on.  

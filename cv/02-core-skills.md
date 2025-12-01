@@ -2,104 +2,22 @@
 
 * Tools and Technologies:
 
-Apache Subversion (SVN),
-Jasper,
-Jasper Studio,
-Spring Batch,
-Spring MVC,
-Apache VFS,
-HSQLDB,
-Oracle SQL*Loader,
-Java,
-PL/SQL,
-SQL,
-Google Guava,
-Hibernate,
-Java Collections API,
-JDBC,
-Microsoft Windows,
-Nexus Repository,
-REST (Representational state transfer),
-Spring Data,
-Spring Framework,
-JUnit,
-Linux,
-Assembler,
-Apache Tomcat,
-Spring ORM,
-Apache Maven,
-Google Web Toolkit (GWT),
-Liquibase,
-Ehcache,
-Git,
-HTTP (Hypertext Transfer Protocol),
-JavaScript,
-Mockito,
-UNIX,
-JasperReports,
-Felix,
-HTML,
-Hypertext Transfer Protocol Secure (HTTPS),
-Spring Security,
-Atlassian Jira,
-Open Service Gateway initiative (OSGi),
-Apache Camel,
-Apache CXF,
-Apache POI,
-Drools Rules,
-Flowable,
-Gradle,
-Guava,
-Guava Cache,
-Hamcrest,
-HornetQ JMS,
-Jackson,
-Java API for RESTful Web Services (JAX-RS),
-JAX-WS,
-JAXB,
-jBPM,
-Log4j,
-Logback,
-PostgreSQL,
-Quartz Scheduler,
-Selenium,
-Spring Boot,
-TeamCity,
-Visual FoxPro,
-WildFly,
-Cascading Style Sheets (CSS),
-H2 Database,
-Java Persistence API (JPA),
-Java Servlets,
-Jetty,
-Joda Time,
-jQuery,
-Microsoft SQL Server,
-Oracle Weblogic Server,
-Redux,
-Bash Shell,
-C Programming Language,
-TCP/IP,
-utPLSQL,
-Java Management Extensions,
-PowerMock,
-React,
-C++,
-Docker,
-Apache HTTP Server,
-Apache JMeter (JMeter),
-Apache WEB Server,
-JGroups,
-Ansible,
-Apache Kafka,
-Apache Spark,
-AWS,
-Big Data,
-Hadoop,
-Kubernetes,
-Microservices,
-Microsoft Azure Cloud Platform,
-Web Services
+Microservices, RESTfull, UML
+Docker, Docker compose
+React, Redux, HTML, CSS, JavaScript,
+Spring (boot, could, mvc, REST, security, data, orm and so on)
+ORM - Hibernate
+PostgreSQL, MSSQL, Oracle database, Liquibase, SQL, PL/SQL, TSQL, PL/pgSQL
+Java 8-21 (JAX-RS, JAX-WS, JAXB, JPA, JMS, OSGi, concurrency, multithreading, streams, collections),
+Testcontainers, REST Assured, AssertJ, JUnit, Mockito, JMeter
+Git
+Gradle, Maven
+Jenkins, TeamCity, GitHave Actions, Nexus, Ansible, VMWare vSphere, Vagrant
+Tomcat, WildFly, Jetty, Weblogic, Netty
+Linux (Nginx, Apache HTTP, TCP/IP, UDP, HTTP/HTTPS, Shell scripts)
+
+---
+Atlassian Jira, Confluence
 
 * Interpersonal and People Management:
 
@@ -118,6 +36,3 @@ Communication Skills
   Design Patterns, DevOps Fundamentals
 
 * Other:
-  Oracle SQL,
-  Sonar,
-  Unified Modeling Language Diagrams (UML Diagrams)
