@@ -25,8 +25,6 @@ Communication Skills
 
 * Analytical Skills and Methodologies:
   Scrum framework,
-  Velocity,
-  Project Management,
   Non-functional Requirements (NFR),
   Software Architecture,
   Software Development Life Cycle (SDLC),
