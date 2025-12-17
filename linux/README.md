@@ -34,3 +34,8 @@ password
 session
 
 > sudo chage
+
+#### IPVS (IP Virtual Server)
+IPVS (IP Virtual Server) is built on top of the Netfilter and implements transport-layer load balancing as part of the Linux kernel.
+https://dev.to/douglasmakey/how-to-setup-simple-load-balancing-with-ipvs-demo-with-docker-4j1d 
+
